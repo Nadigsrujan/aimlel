@@ -1,0 +1,6 @@
+{
+  "repo": "pytest-dev/pytest",
+  "revision": "a7b2446ee41a7298d3a0bc22c52f3b8bacae1566",
+  "split": "train",
+  "url": "https://github.com/pytest-dev/pytest.git"
+}

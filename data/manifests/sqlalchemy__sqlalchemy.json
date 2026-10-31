@@ -1,0 +1,6 @@
+{
+  "repo": "sqlalchemy/sqlalchemy",
+  "revision": "2d8e64920e61872d40ccf8430d289ab1cb4688b5",
+  "split": "validation",
+  "url": "https://github.com/sqlalchemy/sqlalchemy.git"
+}

@@ -1,0 +1,1 @@
+{"train":["pallets/flask","psf/requests","pytest-dev/pytest","sphinx-doc/sphinx","pydantic/pydantic","encode/httpx","pallets/werkzeug"],"validation":["fastapi/fastapi","sqlalchemy/sqlalchemy"],"test":["sympy/sympy","scikit-learn/scikit-learn","django/django"]}

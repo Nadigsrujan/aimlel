@@ -1,0 +1,137 @@
+{
+  "development_commits": 6,
+  "epochs": 10,
+  "limitations": [
+    "Structural features only",
+    "Single training project",
+    "No model selection or calibration",
+    "No held-out evaluation",
+    "Exact static imports only",
+    "Not the complete heterogeneous model"
+  ],
+  "losses": [
+    1.3368500421444576,
+    1.265145483116309,
+    1.1375843261679013,
+    1.0526378477613132,
+    1.0171706949671109,
+    0.9846254164973894,
+    0.9619496489564577,
+    0.9582123632232348,
+    0.917041669289271,
+    0.9346017390489578
+  ],
+  "results": [
+    {
+      "commit": "8b4fd5d18611e63080b826ecfefe8659dba7d2e4",
+      "distance": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "gnn": {
+        "map_at_10": 0.16666666666666666,
+        "mrr_at_10": 0.16666666666666666,
+        "recall_at_10": 1.0
+      },
+      "xgboost": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      }
+    },
+    {
+      "commit": "de8429ffda8cfb54db175529e2bae72a24e1fa7e",
+      "distance": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "gnn": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "xgboost": {
+        "map_at_10": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "recall_at_10": 1.0
+      }
+    },
+    {
+      "commit": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+      "distance": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "gnn": {
+        "map_at_10": 1.0,
+        "mrr_at_10": 1.0,
+        "recall_at_10": 1.0
+      },
+      "xgboost": {
+        "map_at_10": 0.5,
+        "mrr_at_10": 0.5,
+        "recall_at_10": 1.0
+      }
+    },
+    {
+      "commit": "89992954ec71b594b1b911f98977cdc8ad46a057",
+      "distance": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "gnn": {
+        "map_at_10": 1.0,
+        "mrr_at_10": 1.0,
+        "recall_at_10": 1.0
+      },
+      "xgboost": {
+        "map_at_10": 0.25,
+        "mrr_at_10": 0.25,
+        "recall_at_10": 1.0
+      }
+    },
+    {
+      "commit": "7689f98403e2c0b0bc8d1031e60f8cff2620e86a",
+      "distance": {
+        "map_at_10": 0.018518518518518517,
+        "mrr_at_10": 0.1111111111111111,
+        "recall_at_10": 0.16666666666666666
+      },
+      "gnn": {
+        "map_at_10": 0.2698412698412698,
+        "mrr_at_10": 1.0,
+        "recall_at_10": 0.5
+      },
+      "xgboost": {
+        "map_at_10": 0.20833333333333334,
+        "mrr_at_10": 1.0,
+        "recall_at_10": 0.3333333333333333
+      }
+    },
+    {
+      "commit": "329c32b916938d33fec41f40eb7ed854bf0b3e2b",
+      "distance": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "gnn": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      },
+      "xgboost": {
+        "map_at_10": 0.0,
+        "mrr_at_10": 0,
+        "recall_at_10": 0.0
+      }
+    }
+  ],
+  "seed": 17,
+  "status": "pilot-only",
+  "train_commits": 24
+}

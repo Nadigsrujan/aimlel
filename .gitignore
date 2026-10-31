@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.env
+data/raw/**
+data/interim/**
+data/processed/**
+data/deleted/**
+artifacts/models/**
+frontend/node_modules/
+frontend/dist/
+artifacts/jobs/
+!**/.gitkeep

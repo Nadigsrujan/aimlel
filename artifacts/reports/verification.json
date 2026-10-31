@@ -1,0 +1,110 @@
+[
+  {
+    "repo": "pallets/flask",
+    "split": "train",
+    "status": "verified",
+    "queries": 2588,
+    "nodes": 1705,
+    "parse_failures": 0,
+    "commits": 3829
+  },
+  {
+    "repo": "psf/requests",
+    "split": "train",
+    "status": "verified",
+    "queries": 2068,
+    "nodes": 844,
+    "parse_failures": 0,
+    "commits": 4884
+  },
+  {
+    "repo": "pytest-dev/pytest",
+    "split": "train",
+    "status": "verified",
+    "queries": 16141,
+    "nodes": 7663,
+    "parse_failures": 0,
+    "commits": 13255
+  },
+  {
+    "repo": "sphinx-doc/sphinx",
+    "split": "train",
+    "status": "verified",
+    "queries": 18560,
+    "nodes": 9331,
+    "parse_failures": 0,
+    "commits": 16626
+  },
+  {
+    "repo": "pydantic/pydantic",
+    "split": "train",
+    "status": "verified",
+    "queries": 10086,
+    "nodes": 14887,
+    "parse_failures": 0,
+    "commits": 5848
+  },
+  {
+    "repo": "encode/httpx",
+    "split": "train",
+    "status": "verified",
+    "queries": 2689,
+    "nodes": 1301,
+    "parse_failures": 0,
+    "commits": 1482
+  },
+  {
+    "repo": "pallets/werkzeug",
+    "split": "train",
+    "status": "verified",
+    "queries": 5409,
+    "nodes": 2635,
+    "parse_failures": 0,
+    "commits": 4539
+  },
+  {
+    "repo": "fastapi/fastapi",
+    "split": "validation",
+    "status": "verified",
+    "queries": 2198,
+    "nodes": 8314,
+    "parse_failures": 0,
+    "commits": 7940
+  },
+  {
+    "repo": "sqlalchemy/sqlalchemy",
+    "split": "validation",
+    "status": "verified",
+    "queries": 34943,
+    "nodes": 41740,
+    "parse_failures": 2,
+    "commits": 15591
+  },
+  {
+    "repo": "sympy/sympy",
+    "split": "test",
+    "status": "verified",
+    "queries": 65012,
+    "nodes": 42402,
+    "parse_failures": 0,
+    "commits": 50898
+  },
+  {
+    "repo": "scikit-learn/scikit-learn",
+    "split": "test",
+    "status": "verified",
+    "queries": 35349,
+    "nodes": 14059,
+    "parse_failures": 0,
+    "commits": 31133
+  },
+  {
+    "repo": "django/django",
+    "split": "test",
+    "status": "verified",
+    "queries": 48495,
+    "nodes": 47030,
+    "parse_failures": 1,
+    "commits": 34484
+  }
+]

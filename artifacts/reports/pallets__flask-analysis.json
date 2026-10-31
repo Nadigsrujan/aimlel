@@ -1,0 +1,859 @@
+{
+  "candidates": [
+    {
+      "distance": 4,
+      "path": "examples/apishowcase/apishowcase.py",
+      "score": 0.2
+    },
+    {
+      "distance": 4,
+      "path": "flask.py",
+      "score": 0.2
+    }
+  ],
+  "graph": {
+    "edges": [
+      {
+        "relation": "CONTAINS",
+        "source": "examples/apishowcase/apishowcase.py",
+        "target": "examples/apishowcase/apishowcase.py::index@10"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/apishowcase/apishowcase.py",
+        "target": "examples/apishowcase/apishowcase.py::hello_user@16"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/apishowcase/apishowcase.py",
+        "target": "examples/apishowcase/apishowcase.py::hello@24"
+      },
+      {
+        "line": 1,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/apishowcase/apishowcase.py",
+        "target": "flask"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::connect_db@24"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::init_db@29"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::query_db@37"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::get_user_id@45"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::format_datetime@52"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::gravatar_url@57"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::before_request@64"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::after_request@75"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::timeline@82"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::public_timeline@97"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::user_timeline@105"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::follow_user@124"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::unfollow_user@138"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::add_message@152"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::login@165"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::register@185"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "examples/minitwit/minitwit.py::logout@213"
+      },
+      {
+        "line": 2,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "__future__"
+      },
+      {
+        "line": 3,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "re"
+      },
+      {
+        "line": 4,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "time"
+      },
+      {
+        "line": 5,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "sqlite3"
+      },
+      {
+        "line": 6,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "hashlib"
+      },
+      {
+        "line": 7,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "datetime"
+      },
+      {
+        "line": 8,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "contextlib"
+      },
+      {
+        "line": 9,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "examples/minitwit/minitwit.py",
+        "target": "flask"
+      },
+      {
+        "line": 12,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "import os"
+      },
+      {
+        "line": 13,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "import sys"
+      },
+      {
+        "line": 14,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "import pkg_resources"
+      },
+      {
+        "line": 15,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from threading import local"
+      },
+      {
+        "line": 16,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from jinja2 import Environment, PackageLoader"
+      },
+      {
+        "line": 17,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug import Request, Response, LocalStack, LocalProxy"
+      },
+      {
+        "line": 18,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug.routing import Map, Rule"
+      },
+      {
+        "line": 19,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug.exceptions import HTTPException, InternalServerError"
+      },
+      {
+        "line": 20,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug.contrib.securecookie import SecureCookie"
+      },
+      {
+        "line": 24,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from simplejson import loads as load_json, dumps as dump_json"
+      },
+      {
+        "line": 27,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from json import loads as load_json, dumps as dump_json"
+      },
+      {
+        "line": 33,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug import abort, redirect, secure_filename, cached_property, \\\n     html, import_string, generate_password_hash, check_password_hash"
+      },
+      {
+        "line": 35,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from jinja2 import Markup, escape"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::FlaskRequest@38"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::FlaskRequest@38",
+        "target": "flask.py::FlaskRequest@38::__init__@43"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::FlaskResponse@49"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::_RequestGlobals@57"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::_RequestContext@61"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::_RequestContext@61",
+        "target": "flask.py::_RequestContext@61::__init__@68"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::url_for@77"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::jsonified@86"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::flash@92"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::get_flashed_messages@100"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::render_template@112"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::render_template_string@119"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py",
+        "target": "flask.py::Flask@126"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::__init__@158"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::create_jinja_loader@181"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::run@189"
+      },
+      {
+        "line": 191,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug import run_simple"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::test@203"
+      },
+      {
+        "line": 205,
+        "relation": "IMPORTS",
+        "resolution": "statement_text",
+        "source": "flask.py",
+        "target": "from werkzeug import Client"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::open_resource@208"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::open_session@212"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::save_session@221"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::route@226"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126::route@226",
+        "target": "flask.py::Flask@126::route@226::decorator@234"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::errorhandler@242"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126::errorhandler@242",
+        "target": "flask.py::Flask@126::errorhandler@242::decorator@250"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::request_init@255"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::request_shutdown@260"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::match_request@265"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::dispatch_request@274"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::make_response@294"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::preprocess_request@306"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::process_response@318"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::wsgi_app@329"
+      },
+      {
+        "relation": "CONTAINS",
+        "source": "flask.py::Flask@126",
+        "target": "flask.py::Flask@126::__call__@346"
+      },
+      {
+        "line": 1,
+        "relation": "IMPORTS",
+        "resolution": "module_name",
+        "source": "setup.py",
+        "target": "setuptools"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "examples/apishowcase/apishowcase.py",
+        "kind": "file",
+        "path": "examples/apishowcase/apishowcase.py"
+      },
+      {
+        "end": 12,
+        "id": "examples/apishowcase/apishowcase.py::index@10",
+        "kind": "function",
+        "path": "examples/apishowcase/apishowcase.py",
+        "start": 10
+      },
+      {
+        "end": 20,
+        "id": "examples/apishowcase/apishowcase.py::hello_user@16",
+        "kind": "function",
+        "path": "examples/apishowcase/apishowcase.py",
+        "start": 16
+      },
+      {
+        "end": 26,
+        "id": "examples/apishowcase/apishowcase.py::hello@24",
+        "kind": "function",
+        "path": "examples/apishowcase/apishowcase.py",
+        "start": 24
+      },
+      {
+        "id": "examples/minitwit/minitwit.py",
+        "kind": "file",
+        "path": "examples/minitwit/minitwit.py"
+      },
+      {
+        "end": 26,
+        "id": "examples/minitwit/minitwit.py::connect_db@24",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 24
+      },
+      {
+        "end": 34,
+        "id": "examples/minitwit/minitwit.py::init_db@29",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 29
+      },
+      {
+        "end": 42,
+        "id": "examples/minitwit/minitwit.py::query_db@37",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 37
+      },
+      {
+        "end": 49,
+        "id": "examples/minitwit/minitwit.py::get_user_id@45",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 45
+      },
+      {
+        "end": 54,
+        "id": "examples/minitwit/minitwit.py::format_datetime@52",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 52
+      },
+      {
+        "end": 60,
+        "id": "examples/minitwit/minitwit.py::gravatar_url@57",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 57
+      },
+      {
+        "end": 71,
+        "id": "examples/minitwit/minitwit.py::before_request@64",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 64
+      },
+      {
+        "end": 78,
+        "id": "examples/minitwit/minitwit.py::after_request@75",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 75
+      },
+      {
+        "end": 93,
+        "id": "examples/minitwit/minitwit.py::timeline@82",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 82
+      },
+      {
+        "end": 101,
+        "id": "examples/minitwit/minitwit.py::public_timeline@97",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 97
+      },
+      {
+        "end": 120,
+        "id": "examples/minitwit/minitwit.py::user_timeline@105",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 105
+      },
+      {
+        "end": 134,
+        "id": "examples/minitwit/minitwit.py::follow_user@124",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 124
+      },
+      {
+        "end": 148,
+        "id": "examples/minitwit/minitwit.py::unfollow_user@138",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 138
+      },
+      {
+        "end": 161,
+        "id": "examples/minitwit/minitwit.py::add_message@152",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 152
+      },
+      {
+        "end": 181,
+        "id": "examples/minitwit/minitwit.py::login@165",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 165
+      },
+      {
+        "end": 209,
+        "id": "examples/minitwit/minitwit.py::register@185",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 185
+      },
+      {
+        "end": 216,
+        "id": "examples/minitwit/minitwit.py::logout@213",
+        "kind": "function",
+        "path": "examples/minitwit/minitwit.py",
+        "start": 213
+      },
+      {
+        "id": "flask.py",
+        "kind": "file",
+        "path": "flask.py"
+      },
+      {
+        "end": 46,
+        "id": "flask.py::FlaskRequest@38",
+        "kind": "class",
+        "path": "flask.py",
+        "start": 38
+      },
+      {
+        "end": 46,
+        "id": "flask.py::FlaskRequest@38::__init__@43",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 43
+      },
+      {
+        "end": 54,
+        "id": "flask.py::FlaskResponse@49",
+        "kind": "class",
+        "path": "flask.py",
+        "start": 49
+      },
+      {
+        "end": 58,
+        "id": "flask.py::_RequestGlobals@57",
+        "kind": "class",
+        "path": "flask.py",
+        "start": 57
+      },
+      {
+        "end": 74,
+        "id": "flask.py::_RequestContext@61",
+        "kind": "class",
+        "path": "flask.py",
+        "start": 61
+      },
+      {
+        "end": 74,
+        "id": "flask.py::_RequestContext@61::__init__@68",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 68
+      },
+      {
+        "end": 83,
+        "id": "flask.py::url_for@77",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 77
+      },
+      {
+        "end": 89,
+        "id": "flask.py::jsonified@86",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 86
+      },
+      {
+        "end": 97,
+        "id": "flask.py::flash@92",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 92
+      },
+      {
+        "end": 109,
+        "id": "flask.py::get_flashed_messages@100",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 100
+      },
+      {
+        "end": 116,
+        "id": "flask.py::render_template@112",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 112
+      },
+      {
+        "end": 123,
+        "id": "flask.py::render_template_string@119",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 119
+      },
+      {
+        "end": 348,
+        "id": "flask.py::Flask@126",
+        "kind": "class",
+        "path": "flask.py",
+        "start": 126
+      },
+      {
+        "end": 179,
+        "id": "flask.py::Flask@126::__init__@158",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 158
+      },
+      {
+        "end": 187,
+        "id": "flask.py::Flask@126::create_jinja_loader@181",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 181
+      },
+      {
+        "end": 200,
+        "id": "flask.py::Flask@126::run@189",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 189
+      },
+      {
+        "end": 206,
+        "id": "flask.py::Flask@126::test@203",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 203
+      },
+      {
+        "end": 210,
+        "id": "flask.py::Flask@126::open_resource@208",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 208
+      },
+      {
+        "end": 219,
+        "id": "flask.py::Flask@126::open_session@212",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 212
+      },
+      {
+        "end": 224,
+        "id": "flask.py::Flask@126::save_session@221",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 221
+      },
+      {
+        "end": 240,
+        "id": "flask.py::Flask@126::route@226",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 226
+      },
+      {
+        "end": 239,
+        "id": "flask.py::Flask@126::route@226::decorator@234",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 234
+      },
+      {
+        "end": 253,
+        "id": "flask.py::Flask@126::errorhandler@242",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 242
+      },
+      {
+        "end": 252,
+        "id": "flask.py::Flask@126::errorhandler@242::decorator@250",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 250
+      },
+      {
+        "end": 258,
+        "id": "flask.py::Flask@126::request_init@255",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 255
+      },
+      {
+        "end": 263,
+        "id": "flask.py::Flask@126::request_shutdown@260",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 260
+      },
+      {
+        "end": 272,
+        "id": "flask.py::Flask@126::match_request@265",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 265
+      },
+      {
+        "end": 292,
+        "id": "flask.py::Flask@126::dispatch_request@274",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 274
+      },
+      {
+        "end": 304,
+        "id": "flask.py::Flask@126::make_response@294",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 294
+      },
+      {
+        "end": 316,
+        "id": "flask.py::Flask@126::preprocess_request@306",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 306
+      },
+      {
+        "end": 327,
+        "id": "flask.py::Flask@126::process_response@318",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 318
+      },
+      {
+        "end": 344,
+        "id": "flask.py::Flask@126::wsgi_app@329",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 329
+      },
+      {
+        "end": 348,
+        "id": "flask.py::Flask@126::__call__@346",
+        "kind": "function",
+        "path": "flask.py",
+        "start": 346
+      },
+      {
+        "id": "setup.py",
+        "kind": "file",
+        "path": "setup.py"
+      }
+    ]
+  },
+  "graph_revision": "b15ad394279fc3b7f998fa56857f334a7c0156f6",
+  "parse_failures": [],
+  "ranker": "path-distance-v1",
+  "repo": "pallets/flask",
+  "schema_version": 1,
+  "score_is_probability": false,
+  "seed": "examples/minitwit/minitwit.py",
+  "target_commit": "4ec7d2a0d8eac4f915dc0d38a886cd57045bb0c4"
+}

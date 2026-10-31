@@ -1,0 +1,6 @@
+{
+  "repo": "django/django",
+  "revision": "3bdcd29a61be034b9c9a1cea744371c12339c48e",
+  "split": "test",
+  "url": "https://github.com/django/django.git"
+}
