@@ -18,3 +18,12 @@ class ImportTests(unittest.TestCase):
         graph = {'nodes': [{'kind': 'file', 'path': 'pkg/a.py'}],
                  'edges': [{'source': 'pkg/a.py', 'target': '...other', 'relation': 'IMPORTS'}]}
         self.assertEqual(resolve_imports(graph)[0], [])
+    def test_src_layout_and_ambiguous_modules(self):
+        graph = {'nodes': [{'kind':'file', 'path':p} for p in ['tests/test_a.py', 'src/pkg/a.py']],
+                 'edges': [{'source':'tests/test_a.py', 'target':'pkg.a', 'relation':'IMPORTS'}]}
+        resolved, unresolved = resolve_imports(graph)
+        self.assertEqual(resolved[0]['target'], 'src/pkg/a.py')
+        graph['nodes'].append({'kind':'file', 'path':'pkg/a.py'})
+        resolved, unresolved = resolve_imports(graph)
+        self.assertEqual(resolved, [])
+        self.assertEqual(len(unresolved), 1)

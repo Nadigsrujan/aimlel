@@ -19,3 +19,18 @@ class ContractTests(unittest.TestCase):
         self.assertEqual(changed_entities(graph, 'a.py', 3, 1), ['f'])
         self.assertEqual(changed_entities(graph, 'a.py', 9, 1), ['a.py'])
         self.assertEqual(changed_entities(graph, 'a.py', 3, 0), ['a.py'])
+from contracts import entity_records, provenance
+
+
+class RevisionContractTests(unittest.TestCase):
+    def test_line_shift_and_duplicate_symbols(self):
+        graph = {'nodes': [{'id': 'a.py::f@2', 'path': 'a.py', 'kind': 'function'},
+                           {'id': 'a.py::f@7', 'path': 'a.py', 'kind': 'function'}]}
+        rows = entity_records(graph, 'a/b', 'revision')
+        self.assertNotEqual(rows[0]['id'], rows[1]['id'])
+        graph['nodes'][0]['id'] = 'a.py::f@3'
+        self.assertEqual(rows[0]['id'], entity_records(graph, 'a/b', 'revision')[0]['id'])
+
+    def test_configuration_digest_is_order_independent(self):
+        self.assertEqual(provenance({}, {'a':1, 'b':2}, '1', '1'),
+                         provenance({}, {'b':2, 'a':1}, '1', '1'))

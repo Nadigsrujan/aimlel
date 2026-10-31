@@ -1,0 +1,710 @@
+{
+  "calibration_fit": {
+    "average_precision": 0.026180986501967162,
+    "brier": 0.002352344315768368,
+    "pairs": 3776
+  },
+  "comparison": {
+    "cochange-v1": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.05,
+        "mrr": 0.5,
+        "mrr_at_10": 0.5,
+        "ndcg_at_10": 0.13886244387355454,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.1,
+        "recall_at_5": 0.1,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.0013227513227513227,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.0,
+        "mrr": 0.05263157894736842,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.0625,
+        "mrr": 0.25,
+        "mrr_at_10": 0.25,
+        "ndcg_at_10": 0.16812753627111746,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.25,
+        "recall_at_5": 0.25,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "combined-v1": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.2,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 0.3589542101716347,
+        "precision_at_5": 0.4,
+        "recall_at_10": 0.2,
+        "recall_at_5": 0.2,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.006993006993006993,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.0,
+        "mrr": 0.003937007874015748,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.0625,
+        "mrr": 0.25,
+        "mrr_at_10": 0.25,
+        "ndcg_at_10": 0.16812753627111746,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.25,
+        "recall_at_5": 0.25,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "heterogeneous": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.0,
+        "mrr": 0.038461538461538464,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.002890173410404624,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.1,
+        "mrr": 0.2,
+        "mrr_at_10": 0.2,
+        "ndcg_at_10": 0.23719771276929622,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.5,
+        "recall_at_5": 0.5,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.0625,
+        "mrr": 0.25,
+        "mrr_at_10": 0.25,
+        "ndcg_at_10": 0.16812753627111746,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.25,
+        "recall_at_5": 0.25,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "imports-v1": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.1,
+        "mrr": 0.5,
+        "mrr_at_10": 0.5,
+        "ndcg_at_10": 0.23365080824310533,
+        "precision_at_5": 0.4,
+        "recall_at_10": 0.2,
+        "recall_at_5": 0.2,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.002145922746781116,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.0,
+        "mrr": 0.0022988505747126436,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.125,
+        "mrr": 0.5,
+        "mrr_at_10": 0.5,
+        "ndcg_at_10": 0.24630238874073,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.25,
+        "recall_at_5": 0.25,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "path-distance-v1": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.05,
+        "mrr": 0.5,
+        "mrr_at_10": 0.5,
+        "ndcg_at_10": 0.13886244387355454,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.1,
+        "recall_at_5": 0.1,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.007874015748031496,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.0,
+        "mrr": 0.0024937655860349127,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.0,
+        "mrr": 0.012658227848101266,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "popularity-v1": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.11666666666666665,
+        "mrr": 0.5,
+        "mrr_at_10": 0.5,
+        "ndcg_at_10": 0.2489083270225946,
+        "precision_at_5": 0.4,
+        "recall_at_10": 0.2,
+        "recall_at_5": 0.2,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.0010976948408342481,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.0,
+        "mrr": 0.005952380952380952,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.25,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 0.3903800499921017,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.25,
+        "recall_at_5": 0.25,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "random-v1": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.0,
+        "mrr": 0.0136986301369863,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.0008503401360544217,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.1,
+        "mrr": 0.2,
+        "mrr_at_10": 0.2,
+        "ndcg_at_10": 0.23719771276929622,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.5,
+        "recall_at_5": 0.5,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.0,
+        "mrr": 0.005050505050505051,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "xgboost": [
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "map_at_10": 0.05,
+        "mrr": 0.5,
+        "mrr_at_10": 0.5,
+        "ndcg_at_10": 0.13886244387355454,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.1,
+        "recall_at_5": 0.1,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "map_at_10": 0.0,
+        "mrr": 0.001098901098901099,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "map_at_10": 0.1,
+        "mrr": 0.2,
+        "mrr_at_10": 0.2,
+        "ndcg_at_10": 0.23719771276929622,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.5,
+        "recall_at_5": 0.5,
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "candidate_ceiling": 1.0,
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "map_at_10": 0.0,
+        "mrr": 0.006134969325153374,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ]
+  },
+  "failures": [],
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.1817965337208338,
+      "validation_macro_recall_at_5": 0.1875
+    },
+    {
+      "epoch": 2,
+      "loss": 1.1234878182411194,
+      "validation_macro_recall_at_5": 0.0875
+    },
+    {
+      "epoch": 3,
+      "loss": 1.0473297800336565,
+      "validation_macro_recall_at_5": 0.1125
+    },
+    {
+      "epoch": 4,
+      "loss": 0.9462227991649083,
+      "validation_macro_recall_at_5": 0.1125
+    },
+    {
+      "epoch": 5,
+      "loss": 0.8961953580379486,
+      "validation_macro_recall_at_5": 0.0625
+    },
+    {
+      "epoch": 6,
+      "loss": 0.873903591292245,
+      "validation_macro_recall_at_5": 0.1125
+    }
+  ],
+  "macro_recall_at_5": {
+    "cochange-v1": 0.0875,
+    "combined-v1": 0.1125,
+    "heterogeneous": 0.1875,
+    "imports-v1": 0.1125,
+    "path-distance-v1": 0.025,
+    "popularity-v1": 0.1125,
+    "random-v1": 0.125,
+    "xgboost": 0.15
+  },
+  "metadata": {
+    "calibration_queries": [
+      {
+        "commit": "e42ac0a13459086f42d96eab13748303bcfa78e7",
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "commit": "f02ef4900bacc28942a051b95b9719c5002a7858",
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "commit": "735a63081348ac9df0605359ee01e15911102923",
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "commit": "bbf3c354ea3eb1b7c1c7539fdd81b9498de115a5",
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "config": {
+      "candidate_policy": "all-eligible-files-excluding-seed-v1",
+      "commits_per_training_repo": 5,
+      "commits_per_validation_repo": 4,
+      "epochs": 20,
+      "learning_rate": 0.003,
+      "limitations": [
+        "Bounded development sample",
+        "Pretrained embeddings not yet included in learned inputs",
+        "File-level labels only"
+      ],
+      "negative_limit": 128,
+      "patience": 5,
+      "seed": 17,
+      "selection_metric": "macro_recall_at_5",
+      "version": "typed-structural-history-v1"
+    },
+    "feature_names": [
+      "directory_proximity",
+      "structural_proximity",
+      "cochange_jaccard",
+      "past_change_count_log",
+      "past_cochange_count_log",
+      "recency"
+    ],
+    "provenance": {
+      "configuration_sha256": "f790316b6730d1be95298a67b6b00529bf3a853bad63a56ff42fccf86e40a4cb",
+      "feature_version": "structural-history-v3",
+      "manifest_sha256": "51be77fc195ac28a0d8e6f33fb14c3e13998fa94f2eace905a062de19cd6fc89",
+      "parser_version": "4",
+      "random_seed": 17,
+      "schema_version": 1
+    },
+    "relations": [
+      "contains",
+      "contained_by",
+      "imports",
+      "imported_by",
+      "tests",
+      "tested_by",
+      "cochange"
+    ],
+    "selection_queries": [
+      {
+        "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+        "repo": "sqlalchemy/sqlalchemy"
+      },
+      {
+        "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+        "repo": "sqlalchemy/sqlalchemy"
+      }
+    ],
+    "train_queries": [
+      {
+        "commit": "80960fa31918d7663c3f4c3ad61661cf0e80628f",
+        "repo": "encode/httpx",
+        "seed": "httpx/_api.py"
+      },
+      {
+        "commit": "4189b7f051c6c51ce74c3bee1a5f269f9c50c6b2",
+        "repo": "encode/httpx",
+        "seed": "httpx/_client.py"
+      },
+      {
+        "commit": "364697efcafe39290358745da8be451a40a3eab2",
+        "repo": "encode/httpx",
+        "seed": "httpx/_exceptions.py"
+      },
+      {
+        "commit": "b55d4635701d9dc22928ee647880c76b078ba3f2",
+        "repo": "encode/httpx",
+        "seed": "tests/client/test_auth.py"
+      },
+      {
+        "commit": "ae1b9f66238f75ced3ced5e4485408435de10768",
+        "repo": "encode/httpx",
+        "seed": "httpx/__init__.py"
+      },
+      {
+        "commit": "de8429ffda8cfb54db175529e2bae72a24e1fa7e",
+        "repo": "pallets/flask",
+        "seed": "src/flask/testing.py"
+      },
+      {
+        "commit": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+        "repo": "pallets/flask",
+        "seed": "src/flask/app.py"
+      },
+      {
+        "commit": "89992954ec71b594b1b911f98977cdc8ad46a057",
+        "repo": "pallets/flask",
+        "seed": "src/flask/sansio/scaffold.py"
+      },
+      {
+        "commit": "7689f98403e2c0b0bc8d1031e60f8cff2620e86a",
+        "repo": "pallets/flask",
+        "seed": "src/flask/cli.py"
+      },
+      {
+        "commit": "329c32b916938d33fec41f40eb7ed854bf0b3e2b",
+        "repo": "pallets/flask",
+        "seed": "src/flask/app.py"
+      },
+      {
+        "commit": "21b45dbd33501e9dc576292f7ff1afe3e1559a97",
+        "repo": "pallets/werkzeug",
+        "seed": "src/werkzeug/wrappers/response.py"
+      },
+      {
+        "commit": "5b68c736ff07163c84454d305d67d9e1f473481f",
+        "repo": "pallets/werkzeug",
+        "seed": "src/werkzeug/wrappers/response.py"
+      },
+      {
+        "commit": "6c4c680f5392342a68065114987f39160388064c",
+        "repo": "pallets/werkzeug",
+        "seed": "src/werkzeug/exceptions.py"
+      },
+      {
+        "commit": "5cc9af729ff838790b6729c5d6a23a37345165a7",
+        "repo": "pallets/werkzeug",
+        "seed": "src/werkzeug/routing/exceptions.py"
+      },
+      {
+        "commit": "c2bc20f67343e8997c6582c57a0cc6c5f4f45556",
+        "repo": "pallets/werkzeug",
+        "seed": "src/werkzeug/debug/__init__.py"
+      },
+      {
+        "commit": "84d10f0be83e8f6aeca8a05230c52216431c4d0b",
+        "repo": "psf/requests",
+        "seed": "src/requests/_types.py"
+      },
+      {
+        "commit": "e50e5945294f79ee9ab4ec69de24d14f9b26a7ae",
+        "repo": "psf/requests",
+        "seed": "src/requests/__init__.py"
+      },
+      {
+        "commit": "661970d171d9c3e12e4c789c4768db647d8c4da0",
+        "repo": "psf/requests",
+        "seed": "src/requests/__init__.py"
+      },
+      {
+        "commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+        "repo": "psf/requests",
+        "seed": "src/requests/models.py"
+      },
+      {
+        "commit": "6f66281a1d6326b1b9c4ac09ca30de0fc4e6ef43",
+        "repo": "psf/requests",
+        "seed": "src/requests/_types.py"
+      },
+      {
+        "commit": "2483fc1cda169e3ed3c8b10ffdd9f724b63247c7",
+        "repo": "pydantic/pydantic",
+        "seed": "pydantic/v1/dataclasses.py"
+      },
+      {
+        "commit": "43e992d405df3cdab633e2af182d2e6b6d12f6a2",
+        "repo": "pydantic/pydantic",
+        "seed": "pydantic/main.py"
+      },
+      {
+        "commit": "577e542aa361eb4fb6ea43671b0f7c5ae713fd1b",
+        "repo": "pydantic/pydantic",
+        "seed": "pydantic/_internal/_mock_val_ser.py"
+      },
+      {
+        "commit": "2a62f7a904734206cb029b94e25b9b968158aa63",
+        "repo": "pydantic/pydantic",
+        "seed": "pydantic/_internal/_generate_schema.py"
+      },
+      {
+        "commit": "27caa1e4dea73c6cd50e48cbbba315d817c1cf0a",
+        "repo": "pydantic/pydantic",
+        "seed": "pydantic/json_schema.py"
+      },
+      {
+        "commit": "6e6c9964d267233f12654bf0d799a40503a22c0e",
+        "repo": "pytest-dev/pytest",
+        "seed": "src/_pytest/_io/pprint.py"
+      },
+      {
+        "commit": "1a82d3d1be4012ff5836bba307240ab9cdf0caa8",
+        "repo": "pytest-dev/pytest",
+        "seed": "src/_pytest/tmpdir.py"
+      },
+      {
+        "commit": "ead31721f3a48e0e51a9f0f7c661b77a93386e62",
+        "repo": "pytest-dev/pytest",
+        "seed": "src/_pytest/tmpdir.py"
+      },
+      {
+        "commit": "bd10be732c8496218d30f9ef4c4c42e2bb2e734c",
+        "repo": "pytest-dev/pytest",
+        "seed": "src/_pytest/tmpdir.py"
+      },
+      {
+        "commit": "9a84fda2ab8710a3d34bca145464c4c70b40768d",
+        "repo": "pytest-dev/pytest",
+        "seed": "src/_pytest/tmpdir.py"
+      },
+      {
+        "commit": "a4c976d17985f55a223d5b4b6bf2d0373a9797a7",
+        "repo": "sphinx-doc/sphinx",
+        "seed": "sphinx/ext/autodoc/_dynamic/_loader.py"
+      },
+      {
+        "commit": "412cebf1660c54966245a88269516e54d0a85c37",
+        "repo": "sphinx-doc/sphinx",
+        "seed": "sphinx/builders/_epub_base.py"
+      },
+      {
+        "commit": "a341795e990fb11d2558fb80abf453cdac912c1d",
+        "repo": "sphinx-doc/sphinx",
+        "seed": "tests/test_transforms/test_transforms_post_transforms.py"
+      },
+      {
+        "commit": "a74616a89c342ae0bded4145a16ba50a74ec698c",
+        "repo": "sphinx-doc/sphinx",
+        "seed": "sphinx/_cli/__init__.py"
+      },
+      {
+        "commit": "035a07c32c3241fd3356f4d827800c1f88525272",
+        "repo": "sphinx-doc/sphinx",
+        "seed": "sphinx/roles.py"
+      }
+    ]
+  },
+  "status": "development; not frozen for final testing"
+}

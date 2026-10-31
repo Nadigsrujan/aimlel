@@ -1,0 +1,8 @@
+{
+  "model": "microsoft/codebert-base",
+  "revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "pooling": "attention-mask-mean",
+  "max_tokens": 256,
+  "batch_size": 4,
+  "feature_version": "codebert-file-v1"
+}

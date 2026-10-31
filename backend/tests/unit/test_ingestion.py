@@ -1,13 +1,12 @@
-import importlib.util
+import sys
 from pathlib import Path
 import unittest
 import tempfile
 import subprocess
 import json
 
-spec = importlib.util.spec_from_file_location("ingest", Path(__file__).resolve().parents[3] / "scripts/ingest.py")
-ingest = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(ingest)
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'backend/src'))
+from neural_cartographer.ingest import pipeline as ingest
 
 
 class IngestionTests(unittest.TestCase):

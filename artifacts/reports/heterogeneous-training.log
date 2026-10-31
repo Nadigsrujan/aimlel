@@ -1,0 +1,28 @@
+Preparing encode/httpx
+Preparing fastapi/fastapi
+Preparing pallets/flask
+Preparing pallets/werkzeug
+Preparing psf/requests
+Preparing pydantic/pydantic
+Preparing pytest-dev/pytest
+Preparing sphinx-doc/sphinx
+Preparing sqlalchemy/sqlalchemy
+{'epoch': 1, 'loss': 1.1817965337208338, 'validation_macro_recall_at_5': 0.1875}
+{'epoch': 2, 'loss': 1.1234878182411194, 'validation_macro_recall_at_5': 0.0875}
+{'epoch': 3, 'loss': 1.0473297800336565, 'validation_macro_recall_at_5': 0.1125}
+{'epoch': 4, 'loss': 0.9462227991649083, 'validation_macro_recall_at_5': 0.1125}
+{'epoch': 5, 'loss': 0.8961953580379486, 'validation_macro_recall_at_5': 0.0625}
+{'epoch': 6, 'loss': 0.873903591292245, 'validation_macro_recall_at_5': 0.1125}
+{
+  "status": "development; not frozen for final testing",
+  "macro_recall_at_5": {
+    "heterogeneous": 0.1875,
+    "xgboost": 0.15,
+    "path-distance-v1": 0.025,
+    "random-v1": 0.125,
+    "popularity-v1": 0.1125,
+    "imports-v1": 0.1125,
+    "cochange-v1": 0.0875,
+    "combined-v1": 0.1125
+  }
+}

@@ -1,12 +1,31 @@
+# Byte-compiled / optimized / Python
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & local configuration
 .venv/
 .env
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+
+# Data directories
 data/raw/**
 data/interim/**
 data/processed/**
 data/deleted/**
+
+# Artifacts, models & encoder caches
 artifacts/models/**
+artifacts/encoders/**
+artifacts/jobs/**
+
+# Frontend dependencies & build output
 frontend/node_modules/
 frontend/dist/
-artifacts/jobs/
+
+# Preserve directory structure via .gitkeep
 !**/.gitkeep
