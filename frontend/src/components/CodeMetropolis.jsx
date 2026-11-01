@@ -148,14 +148,12 @@ function SymbolWindows({ rows, onSelect, onSelectEntity }) {
     () =>
       rows
         .flatMap((r) =>
-          r.symbols
-            .slice(0, 24)
-            .map((s, i) => ({
-              ...s,
-              x: r.x + 0.58,
-              y: ((i + 1) / (Math.min(24, r.symbols.length) + 1)) * r.height,
-              z: r.z,
-            })),
+          r.symbols.slice(0, 24).map((s, i) => ({
+            ...s,
+            x: r.x + 0.58,
+            y: ((i + 1) / (Math.min(24, r.symbols.length) + 1)) * r.height,
+            z: r.z,
+          })),
         )
         .slice(0, 5000),
     [rows],
@@ -239,9 +237,12 @@ function Camera({ rows, selected, focus, cameraBus }) {
       controls.removeEventListener("change", changed);
     };
   }, [controls, cameraBus, camera, invalidate]);
+  const previousSelection = useRef(selected);
   useEffect(() => {
+    const changed = previousSelection.current !== selected;
+    previousSelection.current = selected;
     const r = rows.find((r) => r.path === selected);
-    if (r && focus) {
+    if (r && (focus || changed)) {
       camera.position.set(r.x + 14, 18, r.z + 20);
       camera.lookAt(r.x, 0, r.z);
       if (controls) {
@@ -250,7 +251,7 @@ function Camera({ rows, selected, focus, cameraBus }) {
       }
       invalidate();
     }
-  }, [focus]);
+  }, [focus, selected]);
   return null;
 }
 function Scene({
@@ -404,6 +405,9 @@ export class CanvasBoundary extends React.Component {
   static getDerivedStateFromError() {
     return { failed: true };
   }
+  componentDidCatch() {
+    this.props.onFailure?.();
+  }
   render() {
     return this.state.failed ? (
       <p role="alert">3D unavailable. Use the accessible entity table below.</p>
@@ -498,6 +502,7 @@ export default function CodeMetropolis({
         </div>
       </div>
       <p className="result-note">
+        {graph.slice && "Saved historical graph slice (up to 500 entities) · "}
         {graph.repo} · {graph.revision.slice(0, 12)} · {rows.length} files ·
         Height:{" "}
         {mode === "terrain"
@@ -506,7 +511,7 @@ export default function CodeMetropolis({
         · Cyan selection / green tests / amber predictions
       </p>
       {view === "3d" && supported ? (
-        <CanvasBoundary>
+        <CanvasBoundary onFailure={() => setView("table")}>
           <div className="city-canvas">
             <Canvas
               frameloop="demand"

@@ -60,7 +60,7 @@ def main():
         ("scripts", ["*.py"]),
         ("frontend/src", ["*.jsx", "*.js", "*.css"]),
         ("frontend/dist", ["*"]),
-        ("frontend/public", ["*.json"]),
+        ("frontend/public", ["*.json", "*.html"]),
         ("configs", ["*.json"]),
         ("docs", ["*.md"]),
         ("data/manifests", ["*.json"]),
@@ -83,6 +83,7 @@ def main():
     files.update(ROOT.glob("requirements*.txt"))
     for name in (
         "README.md",
+        "START_NEURAL_CARTOGRAPHER.cmd",
         ".env.example",
         "NEURAL_CARTOGRAPHER_MASTER_CODING_AGENT_PROMPT.md",
         "NEURAL_CARTOGRAPHER_VISUALIZATION_PROMPTS.md",

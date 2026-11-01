@@ -278,14 +278,26 @@ function App() {
           <span>
             Workspace <span className="slash">/</span>{" "}
             {tab === "observatory"
-              ? "Command Deck"
+              ? "Observatory"
               : tab === "research"
                 ? "Model lab"
                 : tab === "connect"
                   ? "Connect repository"
                   : "Impact explorer"}
           </span>
-          <span className="local-badge">● LOCAL WORKSPACE</span>
+          <div className="topbar-actions">
+            <a
+              href="/assets/evaluator-guide.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Evaluator guide ↗
+            </a>
+            <a href="/assets/run-server.html" target="_blank" rel="noreferrer">
+              Run the server ↗
+            </a>
+            <span className="local-badge">● LOCAL WORKSPACE</span>
+          </div>
         </div>
         <header className={tab === "observatory" ? "observatory-intro" : ""}>
           <div>

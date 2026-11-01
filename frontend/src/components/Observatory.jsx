@@ -1,3 +1,4 @@
+import { displaySnapshot } from "../graph/snapshot.js";
 import RankFlow from "./RankFlow.jsx";
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { api } from "../api/client.js";
@@ -10,30 +11,6 @@ import {
 import CodeMetropolis from "./CodeMetropolis.jsx";
 import SymbolSource from "./SymbolSource.jsx";
 import ImpactResults from "./ImpactResults.jsx";
-function savedGraph(result, fallback) {
-  if (!result || result.graph_revision === fallback.revision) return fallback;
-  const nodes = result.entities || [],
-    ids = new Map(nodes.map((n) => [n.legacy_id, n.id]));
-  return {
-    repo: result.repo,
-    revision: result.graph_revision,
-    nodes,
-    edges: result.graph.edges
-      .filter((e) => ids.has(e.source) && ids.has(e.target))
-      .map((e) => ({
-        ...e,
-        source: ids.get(e.source),
-        target: ids.get(e.target),
-      })),
-    quality: {
-      entities: nodes.length,
-      unresolved_edges:
-        result.relation_resolution?.calls -
-          result.relation_resolution?.resolved_calls || 0,
-    },
-    slice: true,
-  };
-}
 const pages = [
   "Command Deck",
   "Code Metropolis",
@@ -51,6 +28,8 @@ export default function Observatory({ repo, onJobs, onResearch }) {
     [query, setQuery] = useState(""),
     [seeds, setSeeds] = useState([]),
     [run, setRun] = useState(null),
+    [activeSeed, setActiveSeed] = useState(0),
+    [historicalGraph, setHistoricalGraph] = useState(null),
     [saved, setSaved] = useState([]),
     [history, setHistory] = useState([]),
     [events, setEvents] = useState([]),
@@ -80,9 +59,17 @@ export default function Observatory({ repo, onJobs, onResearch }) {
     const id = ++generation.current;
     setGraph(null);
     setRun(null);
+    setActiveSeed(0);
+    setHistoricalGraph(null);
+    setComparison(null);
+    setHistory([]);
+    cameraBus.state = null;
     setBusy(false);
     setEntity("");
     setSeeds([]);
+    setName("Change rehearsal");
+    setQuery("");
+    setDiff("");
     setSelected("");
     setTarget("");
     setError("");
@@ -132,23 +119,29 @@ export default function Observatory({ repo, onJobs, onResearch }) {
     setReading(null);
     setReadingBusy(false);
     setOutcome(null);
-  }, [selected, run?.id]);
-  async function forecast(e) {
+  }, [selected, run?.id, activeSeed, provider, style]);
+  async function forecast(e, selectedOnly = false) {
     e?.preventDefault();
     const id = ++generation.current;
-    if (!seeds.length) setSeeds([selected]);
+    const requestedSeeds = selectedOnly
+      ? [selected]
+      : seeds.length
+        ? seeds
+        : [selected];
+    setSeeds(requestedSeeds);
     setBusy(true);
     setError("");
     try {
       const value = await api("/api/v1/observatory/runs", {
         repo,
-        seeds: seeds.length ? seeds : [selected],
+        seeds: requestedSeeds,
         target,
         ranker,
         name,
       });
       if (id !== generation.current) return;
       setRun(value);
+      setActiveSeed(0);
       setPage("Impact Lab");
       setSaved(await api("/api/v1/observatory/runs"));
       setSelected(value.results[0].candidates[0]?.path || selected);
@@ -158,14 +151,37 @@ export default function Observatory({ repo, onJobs, onResearch }) {
       if (id === generation.current) setBusy(false);
     }
   }
-  const result = run?.results?.[0],
+  const result = run?.results?.[activeSeed],
     shown = result
       ? { ...result, candidates: result.candidates.slice(0, k) }
       : null;
   const displayGraph = useMemo(
-    () => (graph ? savedGraph(result, graph) : null),
-    [result, graph],
+    () => displaySnapshot(result, graph, historicalGraph),
+    [result, graph, historicalGraph],
   );
+  useEffect(() => {
+    let active = true;
+    setHistoricalGraph(null);
+    if (result && graph && result.graph_revision !== graph.revision) {
+      api(
+        "/api/v1/observatory/graph?" +
+          new URLSearchParams({ repo, revision: result.graph_revision }),
+      )
+        .then((value) => {
+          if (active) setHistoricalGraph(value);
+        })
+        .catch((e) => {
+          if (active)
+            setError(
+              "Full historical map unavailable; saved graph slice remains available. " +
+                e.message,
+            );
+        });
+    }
+    return () => {
+      active = false;
+    };
+  }, [result?.graph_revision, graph?.revision, repo]);
   const visible = (displayGraph?.nodes || [])
     .filter(
       (n) =>
@@ -215,6 +231,11 @@ export default function Observatory({ repo, onJobs, onResearch }) {
         generation.current++;
         setBusy(false);
         setRun(value);
+        setActiveSeed(0);
+        setSelected(
+          value.results[0].candidates[0]?.path || value.request.seeds[0],
+        );
+        setEntity("");
         setSeeds(value.request.seeds);
         setTarget(value.request.target);
         setRanker(value.request.ranker);
@@ -322,10 +343,10 @@ export default function Observatory({ repo, onJobs, onResearch }) {
             </label>
             <button
               className="primary"
-              disabled={busy || (!selected && !seeds.length)}
-              onClick={forecast}
+              disabled={busy || !selected}
+              onClick={(e) => forecast(e, true)}
             >
-              {busy ? "Forecast running…" : "Forecast impact ↗"}
+              {busy ? "Forecast running…" : "Forecast selected file ↗"}
             </button>
           </div>
           {!!query && (
@@ -362,8 +383,11 @@ export default function Observatory({ repo, onJobs, onResearch }) {
           {stale && (
             <p className="alert">
               Historical result: {result.graph_revision.slice(0, 12)}. The city
-              uses the saved historical graph slice (up to 500 entities). Source
-              and evidence retain that SHA.
+              uses{" "}
+              {displayGraph.slice
+                ? "a saved graph slice while the full map loads"
+                : "the full historical source map"}
+              . Source and evidence retain that SHA.
             </p>
           )}
           {["Command Deck", "Code Metropolis"].includes(page) && (
@@ -544,6 +568,35 @@ export default function Observatory({ repo, onJobs, onResearch }) {
               </section>
               {run && (
                 <>
+                  {run.results.length > 1 && (
+                    <label className="seed-inspection">
+                      Inspect one seed's original result
+                      <select
+                        value={activeSeed}
+                        onChange={(e) => {
+                          const index = +e.target.value;
+                          setActiveSeed(index);
+                          setSelected(
+                            run.results[index].candidates[0]?.path ||
+                              run.request.seeds[index],
+                          );
+                          setEntity("");
+                        }}
+                      >
+                        {run.results.map((r, i) => (
+                          <option value={i} key={r.seed}>
+                            {r.seed}
+                          </option>
+                        ))}
+                      </select>
+                      <small>
+                        The aggregate queue combines ranks. The city, source
+                        evidence and explanation below follow this selected
+                        seed.
+                      </small>
+                    </label>
+                  )}
+
                   {run.request.target && (
                     <div className="evidence-panel">
                       <p>
@@ -618,7 +671,16 @@ export default function Observatory({ repo, onJobs, onResearch }) {
                         <li key={r.path}>
                           <button
                             className="link"
-                            onClick={() => setSelected(r.path)}
+                            onClick={() => {
+                              const bestSeed = Object.entries(
+                                r.seed_ranks,
+                              ).sort((a, b) => a[1] - b[1])[0]?.[0];
+                              const index = run.results.findIndex(
+                                (result) => result.seed === bestSeed,
+                              );
+                              if (index >= 0) setActiveSeed(index);
+                              setSelected(r.path);
+                            }}
                           >
                             {r.path}
                           </button>{" "}
@@ -636,7 +698,7 @@ export default function Observatory({ repo, onJobs, onResearch }) {
                     result={shown}
                   />
                   <ImpactResults
-                    key={run.id + k}
+                    key={run.id + activeSeed + k}
                     result={shown}
                     selectedPath={selected}
                     onSelect={setSelected}
@@ -646,8 +708,9 @@ export default function Observatory({ repo, onJobs, onResearch }) {
               <section className="evidence-panel">
                 <h3>Saved scenarios & parallel universes</h3>
                 <p>
-                  Compare saved forecasts. Matching SHA and candidate protocol
-                  are required for direct score comparisons.
+                  Compare the first seed of each saved forecast. Matching seed,
+                  SHA and candidate protocol are required for direct score
+                  comparisons.
                 </p>
                 {saved
                   .filter((s) => s.request.repo === repo)
@@ -685,7 +748,7 @@ export default function Observatory({ repo, onJobs, onResearch }) {
                         <section key={v.id}>
                           <h4>{v.name}</h4>
                           <CodeMetropolis
-                            graph={savedGraph(v.results[0], graph)}
+                            graph={displaySnapshot(v.results[0], graph, null)}
                             selected={selected}
                             onSelect={setSelected}
                             result={v.results[0]}

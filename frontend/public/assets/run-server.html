@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Run the server · Neural Cartographer</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#f3f6f8;color:#1b2a3b;font:16px/1.75 "Segoe UI",Arial,sans-serif}a{color:#086479}header{background:#0a1726;color:#ecf7fc;padding:38px max(24px,calc((100vw - 1200px)/2));border-bottom:4px solid #50d9e8}header small{letter-spacing:2px;color:#80c7d5}header h1{margin:8px 0;font-size:38px;line-height:1.2}header p{color:#b1c7d4}header nav{display:flex;gap:20px;flex-wrap:wrap}header a{color:#90e7ee}button{font:inherit;cursor:pointer;border:1px solid #66818d;background:transparent;color:inherit;border-radius:5px;padding:5px 13px}.layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:40px;max-width:1200px;margin:36px auto;padding:0 24px}aside{align-self:start;position:sticky;top:20px;max-height:90vh;overflow:auto;font-size:12px}aside a{display:block;padding:6px 0;text-decoration:none;color:#466074}article{background:white;padding:38px 48px;border:1px solid #dae4eb;border-radius:10px;min-width:0}article>h1{font-size:30px;line-height:1.25}h2{font-size:24px;line-height:1.4;padding-top:22px;margin-top:34px;border-top:1px solid #dce6ed}h3{font-size:19px;margin-top:28px}p{margin:15px 0}li{margin:9px 0}strong{color:#122f45}blockquote{margin:24px 0;padding:20px 24px;background:#e9f6fa;border-left:4px solid #168da0;border-radius:4px}code{font:13px/1.7 Consolas,monospace;background:#edf2f5;padding:2px 4px;border-radius:3px;overflow-wrap:anywhere}.code-block{margin:22px 0;border:1px solid #cbdbe4;border-radius:7px;overflow:hidden}.code-heading{display:flex;justify-content:space-between;align-items:center;background:#e7eff4;padding:7px 14px;font-size:11px;letter-spacing:.7px}.code-heading button{font-size:11px}pre{margin:0;padding:20px;background:#101d2d;color:#e3f5fc;white-space:pre-wrap;overflow-wrap:anywhere}pre code{padding:0;background:none;color:inherit;font-size:12px}.table-scroll{overflow:auto;margin:22px 0}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid #d7e3eb}th{background:#eaf1f6;color:#24455f}footer{max-width:1200px;margin:30px auto;padding:20px 24px;color:#60798a;font-size:12px}a:focus-visible,button:focus-visible{outline:3px solid #12a5bf;outline-offset:3px}#copy-status{font-size:12px} @media(max-width:850px){.layout{grid-template-columns:1fr;gap:16px;margin:20px auto}aside{position:static;max-height:180px;border:1px solid #d2e0e8;padding:14px}article{padding:22px}header h1{font-size:29px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{header{background:white;color:black;padding:0;border-bottom:1px solid #333}header small,header p{color:#333}header nav,aside,.code-heading button,#copy-status,footer{display:none}.layout{display:block;margin:0;padding:0}article{border:0;padding:0}body{background:white;font-size:10pt;line-height:1.5}h2{break-after:avoid}table{font-size:9pt}tr,blockquote,.code-block{break-inside:avoid}pre{background:#f3f3f3;color:black}a{color:inherit;text-decoration:none}h1{font-size:22pt}h2{font-size:15pt}}</style></head><body><header><small>NEURAL CARTOGRAPHER / PROJECT HANDBOOK</small><h1>Run the server</h1><p>Start, stop and troubleshoot your local workspace.</p><nav><a href="/">Open the website</a><a href="evaluator-guide.html">Evaluator guide</a><a href="run-server.html">Server instructions</a><button type="button" onclick="window.print()">Print / save as PDF</button></nav></header><div class="layout"><aside aria-label="On this page"><strong>ON THIS PAGE</strong><a href="#daily-start-this-existing-workspace">Daily start: this existing workspace</a><a href="#if-port-8080-is-busy">If port 8080 is busy</a><a href="#after-editing-the-frontend">After editing the frontend</a><a href="#useful-local-pages">Useful local pages</a><a href="#a-reliable-demonstration">A reliable demonstration</a><a href="#optional-groq-or-gemini-explanations">Optional Groq or Gemini explanations</a><a href="#if-something-does-not-work">If something does not work</a><a href="#first-time-setup-or-environment-repair">First-time setup or environment repair</a><a href="#optional-verification">Optional verification</a></aside><article><h1 id="run-neural-cartographer-yourself">Run Neural Cartographer yourself</h1>
+<h2 id="daily-start-this-existing-workspace">Daily start: this existing workspace</h2>
+<p>You do not need to reinstall packages, re-download repositories or train the model each time.</p>
+<p><strong>Easiest:</strong> open the project folder and double-click <strong>START_NEURAL_CARTOGRAPHER.cmd</strong>. It starts the local server and opens your default browser. If the application is already running, it opens the existing instance instead of creating a duplicate server.</p>
+<p><strong>PowerShell:</strong> open a terminal and run:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-1">Copy command</button></div><pre><code id="code-1">Set-Location -LiteralPath &#x27;C:\Users\raddo\Documents\aiml el 5th sem&#x27;
+.\.venv\Scripts\python.exe .\scripts\run_local.py --open</code></pre></div>
+<p>Open <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a>. Keep the server terminal open while using the site. You can close the browser and reopen the same URL while the terminal is still running.</p>
+<p>To stop a server you started, press <strong>Ctrl+C in its terminal</strong>. Wait for the shutdown message. Do not close unrelated Python processes in Task Manager.</p>
+<p>The one server serves both the API and the already-built frontend. There is no need to run <code>npm run dev</code> for a normal demonstration. Starting the site does not restart training or ingestion.</p>
+<h2 id="if-port-8080-is-busy">If port 8080 is busy</h2>
+<p>If this project&#x27;s server is already running, the launcher reports its URL. To run a separate instance on another port:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-2">Copy command</button></div><pre><code id="code-2">.\.venv\Scripts\python.exe .\scripts\run_local.py --port 8081 --open</code></pre></div>
+<p>Use <a href="http://127.0.0.1:8081">http://127.0.0.1:8081</a> for that instance. If an unrelated application occupies the requested port, choose another port rather than stopping unfamiliar processes.</p>
+<p>The direct compatibility command also works:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-3">Copy command</button></div><pre><code id="code-3">.\.venv\Scripts\python.exe .\scripts\start.py --port 8080</code></pre></div>
+<p>This direct command starts a foreground server; it does not check for an existing instance or automatically open a browser.</p>
+<h2 id="after-editing-the-frontend">After editing the frontend</h2>
+<p>Stop the running server first. Rebuild once, then start again:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-4">Copy command</button></div><pre><code id="code-4">npm run build --prefix frontend
+.\.venv\Scripts\python.exe .\scripts\run_local.py --open</code></pre></div>
+<p>Or use the launcher&#x27;s rebuild option with the server stopped:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-5">Copy command</button></div><pre><code id="code-5">.\.venv\Scripts\python.exe .\scripts\run_local.py --rebuild --open</code></pre></div>
+<p>Reload the browser after a new build. Rebuilding the frontend does not change the trained model or its dataset.</p>
+<h2 id="useful-local-pages">Useful local pages</h2>
+<div class="table-scroll"><table><thead><tr><th>Page</th><th>Address</th></tr></thead><tbody>
+<tr><td>Website</td><td>http://127.0.0.1:8080</td></tr>
+<tr><td>Simple evaluator guide</td><td>http://127.0.0.1:8080/assets/evaluator-guide.html</td></tr>
+<tr><td>These server instructions</td><td>http://127.0.0.1:8080/assets/run-server.html</td></tr>
+<tr><td>API documentation</td><td>http://127.0.0.1:8080/docs</td></tr>
+<tr><td>Health check</td><td>http://127.0.0.1:8080/api/v1/health</td></tr>
+</tbody></table></div>
+<p>Use the port you selected if it differs from 8080. The guides are also printable HTML files in <code>frontend/public/assets/</code> and Markdown documents in <code>docs/</code>.</p>
+<h2 id="a-reliable-demonstration">A reliable demonstration</h2>
+<ol>
+<li>Choose <strong>flask</strong> in the repository list.</li>
+<li>Search <code>Scaffold::route</code>, select the real function, and inspect its source.</li>
+<li>Click <strong>Forecast selected file</strong>. The model analyzes the function&#x27;s owning file.</li>
+<li>Inspect candidates in Impact Lab, then open Evidence, Test Constellation and Research Bench.</li>
+<li>Keep explanations on <strong>Local deterministic</strong> for a fully local demo without provider credentials.</li>
+</ol>
+<p>The public sample repositories, trained weights and prepared data are already present in this workspace. Existing prepared snapshots can be explored locally. Importing a new public repository, downloading absent encoder artifacts or using a hosted explanation provider requires network access.</p>
+<h2 id="optional-groq-or-gemini-explanations">Optional Groq or Gemini explanations</h2>
+<p>The website and normal forecasts work without any hosted API key. If you want the optional hosted evidence selector:</p>
+<ol>
+<li>Copy <code>.env.example</code> to <code>.env</code> if <code>.env</code> does not already exist. Keep existing credentials if it does.</li>
+<li>Put your provider&#x27;s key and a model available to your account into the appropriate fields: <code>GROQ_API_KEY</code> / <code>GROQ_MODEL</code>, or <code>GEMINI_API_KEY</code> / <code>GEMINI_MODEL</code>.</li>
+<li>Restart the server. Explicit process environment values take precedence over <code>.env</code>.</li>
+<li>In Evidence &amp; Explainability, choose the provider and explicitly allow sending evidence paths/commit metadata.</li>
+</ol>
+<p>Keys stay server-side; do not put them in frontend source or browser code. The provider request excludes source text. Missing credentials, unavailable models and rejected citations fall back to local evidence. A live hosted-provider success was not claimed during validation because no credentials were configured.</p>
+<h2 id="if-something-does-not-work">If something does not work</h2>
+<div class="table-scroll"><table><thead><tr><th>Symptom</th><th>What to do</th></tr></thead><tbody>
+<tr><td>Browser says connection refused</td><td>Start the server, keep its terminal open and check the correct port.</td></tr>
+<tr><td>Workspace Python is missing</td><td>Use the first-time setup below; do not use the system Python 3.14 environment.</td></tr>
+<tr><td>Frontend build missing</td><td>Run <code>npm ci --prefix frontend</code>, then <code>npm run build --prefix frontend</code>.</td></tr>
+<tr><td>UI still looks old after edits</td><td>Rebuild and reload the browser.</td></tr>
+<tr><td>Repository has no local data</td><td>Restore its pinned artifacts or connect a new public repository. A manifest alone is not source data.</td></tr>
+<tr><td>3D does not work on this device</td><td>Switch to the entity table; source, ranking and evidence remain usable.</td></tr>
+<tr><td>A new import takes time</td><td>Check Repositories &amp; Jobs / Flight Recorder. Imports build real source/history/vector artifacts, not a fake timed animation.</td></tr>
+<tr><td>Provider is unavailable</td><td>Use the local explanation. No retraining is needed.</td></tr>
+<tr><td>Frozen artifact mismatch</td><td>Restore the matching model/data bundle. Do not delete the freeze record or silently rerun training against held-out outcomes.</td></tr>
+</tbody></table></div>
+<p>Use this as a localhost application. It has no multi-user authentication layer and should not be exposed publicly without production hardening.</p>
+<h2 id="first-time-setup-or-environment-repair">First-time setup or environment repair</h2>
+<p>This section is for a fresh environment, not ordinary daily starting. The existing <code>.venv</code> and workspace-local <code>.runtime</code> are already configured. Recreating a virtual environment while a server is running can interrupt it.</p>
+<p>Requirements: Node.js/npm, Git, <code>uv</code>, and a supported Python version. This Windows workspace uses Python 3.12; supported project versions are Python 3.10–3.12.</p>
+<p>From the project folder, with existing project processes stopped:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-6">Copy command</button></div><pre><code id="code-6">$env:UV_PYTHON_INSTALL_DIR = Join-Path (Get-Location).Path &#x27;.runtime\python&#x27;
+uv python install 3.12
+uv venv --python 3.12 .venv
+uv pip install --python .venv\Scripts\python.exe -r requirements-lock-windows-py312.txt
+npm ci --prefix frontend
+npm run build --prefix frontend
+.\.venv\Scripts\python.exe .\scripts\run_local.py --open</code></pre></div>
+<p>A fresh source checkout does not include large raw repositories, vector caches, encoder weights or all local model artifacts. Follow the README&#x27;s restore instructions or restore the matching prepared bundle/data. Keep <code>.runtime</code> and <code>.venv</code> together in the current workspace; if you move the folder, recreate the environment at the new location.</p>
+<h2 id="optional-verification">Optional verification</h2>
+<p>These commands check the implementation; they are not needed on every start:</p>
+<div class="code-block"><div class="code-heading"><span>powershell</span><button type="button" data-copy="code-7">Copy command</button></div><pre><code id="code-7">.\.venv\Scripts\python.exe -m unittest discover -s backend/tests/unit -q
+node --test frontend/src/graph/view.test.js
+.\.venv\Scripts\python.exe scripts/check_observatory.py</code></pre></div>
+<p>The observatory check intentionally creates a small saved validation scenario. The frozen study and its published scores already exist; do not overwrite or retune them for a presentation.</p><p id="copy-status" role="status" aria-live="polite"></p></article></div><footer>Local project documentation · 2 November 2026 · Canonical Markdown: docs/RUN_SERVER.md. Frozen model results are reported as measured.</footer><script>document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById(button.dataset.copy).textContent);document.getElementById('copy-status').textContent='Command copied. Paste it into PowerShell.';button.textContent='Copied';}catch{document.getElementById('copy-status').textContent='Select the command text and copy it manually.'}}));</script></body></html>

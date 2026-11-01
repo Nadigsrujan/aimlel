@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sqlite3
+import subprocess
 import time
 import uuid
 from contextlib import contextmanager
@@ -29,6 +30,7 @@ class Forecast(BaseModel):
 class Reading(BaseModel):
     run: str = Field(min_length=1, max_length=64)
     candidate: str = Field(min_length=1, max_length=4096)
+    seed: str | None = Field(default=None, max_length=4096)
     provider: str = "local"
     style: str = "concise"
     allow_hosted: bool = False
@@ -86,25 +88,61 @@ def install(core):
         return json.loads(row[0])
 
     @app.get("/api/v1/observatory/graph")
-    def graph(repo: str):
+    def graph(repo: str, revision: str = ""):
         row = manifest(repo)
-        path = (
-            root
-            / "data/processed"
-            / repo.replace("/", "__")
-            / row["revision"]
-            / "graph.json"
-        )
-        if not path.is_file():
+        selected_revision = revision or row["revision"]
+        if not re.fullmatch(r"[0-9a-f]{40}", selected_revision):
+            raise HTTPException(422, "Use a complete 40-character source commit")
+        clone = root / "data/raw" / repo.replace("/", "__")
+        historical = selected_revision != row["revision"]
+        if historical:
+            check = subprocess.run(
+                [
+                    "git",
+                    "-C",
+                    str(clone),
+                    "merge-base",
+                    "--is-ancestor",
+                    selected_revision,
+                    row["revision"],
+                ],
+                capture_output=True,
+                timeout=60,
+            )
+            if check.returncode:
+                raise HTTPException(422, "Revision outside pinned history")
+            path = (
+                root
+                / "artifacts/observatory-graphs"
+                / repo.replace("/", "__")
+                / (selected_revision + ".json")
+            )
+        else:
+            path = (
+                root
+                / "data/processed"
+                / repo.replace("/", "__")
+                / selected_revision
+                / "graph.json"
+            )
+        if path.is_file():
+            raw = json.loads(path.read_text())
+        elif historical:
+            from neural_cartographer.graph.snapshots import build_snapshot
+
+            raw = build_snapshot(clone, selected_revision)
+            from neural_cartographer.ingest.pipeline import write
+
+            write(path, raw)
+        else:
             raise HTTPException(409, "Snapshot must be indexed first")
-        raw = json.loads(path.read_text())
         from neural_cartographer.graph.relations import enrich_relations
         from neural_cartographer.graph.structure import resolve_imports
 
-        raw, resolution = enrich_relations(repo, row["revision"], raw)
+        raw, resolution = enrich_relations(repo, selected_revision, raw)
         imports, unresolved = resolve_imports(raw)
         raw["edges"] = [e for e in raw["edges"] if e["relation"] != "IMPORTS"] + imports
-        records = core.entity_records(raw, repo, row["revision"])
+        records = core.entity_records(raw, repo, selected_revision)
         for node in records:
             node["logical_id"] = hashlib.sha256(
                 json.dumps(
@@ -125,7 +163,7 @@ def install(core):
         ]
         return {
             "repo": repo,
-            "revision": row["revision"],
+            "revision": selected_revision,
             "nodes": records,
             "edges": edges,
             "quality": {
@@ -135,6 +173,7 @@ def install(core):
                 "lexical_resolution": resolution,
             },
             "prediction_granularity": "file",
+            "historical": historical,
             "provenance": "parsed pinned source; unresolved external targets omitted",
         }
 
@@ -323,7 +362,8 @@ def install(core):
             (
                 r
                 for r in run["results"]
-                if any(c["path"] == request.candidate for c in r["candidates"])
+                if (request.seed is None or r["seed"] == request.seed)
+                and any(c["path"] == request.candidate for c in r["candidates"])
             ),
             None,
         )
@@ -372,7 +412,9 @@ def install(core):
                 "SELECT body FROM readings WHERE id=?", (cachekey,)
             ).fetchone()
         if cached:
-            return json.loads(cached[0])
+            value = json.loads(cached[0])
+            value.setdefault("seed", result["seed"])
+            return value
         value = explain(result, candidate)
         if request.style == "technical":
             value["statements"] = records
@@ -441,7 +483,7 @@ def install(core):
                     value["status"] = (
                         "Provider unavailable or citations rejected; local evidence shown"
                     )
-        value.update(style=request.style, evidence_hash=cachekey)
+        value.update(style=request.style, evidence_hash=cachekey, seed=result["seed"])
         # Do not persist transient failure as a successful provider response.
         if request.provider == "local" or value["mode"] != "deterministic":
             with connection() as db:

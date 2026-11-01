@@ -14,19 +14,17 @@ export default function RankFlow({ left, right, onSelect }) {
     la = [...paths].sort((x, y) => (ra.get(x) || 101) - (ra.get(y) || 101)),
     lb = [...paths].sort((x, y) => (rb.get(x) || 101) - (rb.get(y) || 101)),
     height = paths.length * 28 + 55;
-  const same =
-    a.graph_revision === b.graph_revision &&
-    JSON.stringify([...left.request.seeds].sort()) ===
-      JSON.stringify([...right.request.seeds].sort());
+  const same = a.graph_revision === b.graph_revision && a.seed === b.seed;
   return (
     <section className="rank-flow">
       <h4>Measured rank-flow · saved forecast comparison</h4>
       <p className="result-note">
         {same
-          ? "Same snapshot and seed set."
+          ? "Same snapshot and inspected seed."
           : "Different seed or snapshot — descriptive comparison only."}{" "}
-        Union of each run’s first ten targets; labels retain actual cached
-        ranks. Line position orders the displayed subset, not a probability.
+        First seed in each saved run: {a.seed} / {b.seed}. Union of each run’s
+        first ten targets; labels retain actual cached ranks. Line position
+        orders the displayed subset, not a probability.
       </p>
       <svg
         viewBox={`0 0 850 ${height}`}

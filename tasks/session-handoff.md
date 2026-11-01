@@ -1,4 +1,4 @@
-# Final session checkpoint — 2026-11-01
+# Final session checkpoint — 2026-11-02
 
 The user’s three new master briefs are read and implemented through the additive observatory layer. See docs/observatory-implementation.md for exact coverage and limitations. Existing frozen backend source and primary model remain unchanged; all 606 hashes verified.
 
@@ -13,3 +13,6 @@ Critical checks: archive malicious paths, archive static baseline, real graph id
 Release: artifacts/releases/neural-cartographer-87277161a5cd.zip; rerun scripts/package_demo.py after final screenshots/docs so the manifest includes them. Bundles omit raw repos/encoder/runtime/user scenarios/uploaded source and secrets. The package has a checksummed manifest and ZIP CRC validation.
 
 Limits: forecasts remain file-level; functions/classes/test-named entities are inspectable and select their owning file. ZIP uses an untrained static/directory baseline. Historical city views use saved up-to-500-entity slices. Groq/Gemini live calls need configured credentials; no live provider success is claimed. No untrusted code/tests executed. P3 cloud/collaboration/GitHub App integrations and reliable test execution are not part of this local demo.
+
+
+Final handoff: use START_NEURAL_CARTOGRAPHER.cmd or `.venv\Scripts\python.exe scripts/run_local.py --open`. Canonical docs are docs/RUN_SERVER.md and docs/EVALUATOR_GUIDE_ELI5.md; their printable HTML pages are linked in the app. The launcher was checked both on the existing server and a fresh temporary port (stopped after verification). Final tests: 81 backend tests, 6 graph/state tests, focused API checks, build and guide links/copy controls. Final mobile website and server guide widths stayed within 390px. The full historical graph endpoint and per-seed explanation binding are additive; the 606 frozen artifacts remain unchanged. The older pending/todo lists are preserved under docs/archive/ and replaced with current completion boundaries.

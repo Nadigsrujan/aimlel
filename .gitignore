@@ -52,3 +52,5 @@ architecture-page-*.jpeg
 architecture-page-*.png
 *[Ww]hats[Aa]pp*
 
+
+artifacts/observatory-graphs/

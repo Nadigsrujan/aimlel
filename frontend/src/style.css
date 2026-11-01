@@ -1638,3 +1638,46 @@ pre {
 .rank-flow {
   overflow: auto;
 }
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.topbar-actions a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #94cbd7;
+}
+.topbar-actions a:hover {
+  text-decoration: underline;
+}
+.seed-inspection {
+  background: #102231;
+  border: 1px solid #30506a;
+  border-radius: 9px;
+  padding: 18px;
+  margin: 20px 0;
+}
+.seed-inspection select {
+  margin: 10px 0;
+}
+.seed-inspection small {
+  display: block;
+  line-height: 1.6;
+  color: #8fa7bd;
+}
+@media (max-width: 720px) {
+  .topbar-actions {
+    gap: 12px;
+  }
+  .topbar {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 68px;
+    gap: 10px;
+    padding-block: 14px;
+  }
+  .topbar-actions a {
+    font-size: 10px;
+  }
+}
