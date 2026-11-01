@@ -1,0 +1,322 @@
+{
+  "cases": [
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.2,
+        "mrr": 0.2,
+        "mrr_at_10": 0.2,
+        "ndcg_at_10": 0.38685280723454163,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "1757dffac2fa493d7b9a074b84cf8c830a706688",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-3095",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 128.76600000000326,
+      "seed": "xarray/core/indexing.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "69c7e01e5167a3137c285cb50d1978252bb8bcbf",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.25,
+        "mrr": 0.25,
+        "mrr_at_10": 0.25,
+        "ndcg_at_10": 0.43067655807339306,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-3305",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 93.85899999999674,
+      "seed": "xarray/core/dataset.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 1.0,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 1.0,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "8cc34cb412ba89ebca12fc84f76a9e452628f1bc",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 1.0,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 1.0,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-3993",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/dataset.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 99.17199999999866,
+      "seed": "xarray/core/dataarray.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "c4e40d991c28be51de9ac560ce895ac7f9b14924",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-6938",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 77.75,
+      "seed": "xarray/core/dataset.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.05,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "commit": "45c0a114e2b7b27b83c9618bc05b36afac82183c",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.03333333333333333,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "instance_id": "pydata__xarray-6992",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/indexes.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 33.875,
+      "seed": "xarray/core/dataset.py"
+    }
+  ],
+  "confidence_intervals": {
+    "cochange-v1": {
+      "ndcg_at_10": {
+        "estimate": 0.4773705614469083,
+        "iterations": 1000,
+        "lower": 0.2,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 0.8
+      },
+      "recall_at_5": {
+        "estimate": 0.8,
+        "iterations": 1000,
+        "lower": 0.4,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 1.0
+      }
+    },
+    "heterogeneous": {
+      "ndcg_at_10": {
+        "estimate": 0.4861353116146786,
+        "iterations": 1000,
+        "lower": 0.2,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 0.7861353116146785
+      },
+      "recall_at_5": {
+        "estimate": 0.8,
+        "iterations": 1000,
+        "lower": 0.4,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 1.0
+      }
+    }
+  },
+  "failures": [],
+  "metrics": {
+    "cochange-v1": {
+      "candidate_ceiling": 1.0,
+      "map_at_10": 0.37333333333333335,
+      "mrr": 0.38333333333333336,
+      "mrr_at_10": 0.37333333333333335,
+      "ndcg_at_10": 0.4773705614469083,
+      "precision_at_5": 0.16,
+      "recall_at_10": 0.8,
+      "recall_at_5": 0.8
+    },
+    "heterogeneous": {
+      "candidate_ceiling": 1.0,
+      "map_at_10": 0.3833333333333333,
+      "mrr": 0.39,
+      "mrr_at_10": 0.3833333333333333,
+      "ndcg_at_10": 0.4861353116146786,
+      "precision_at_5": 0.16,
+      "recall_at_10": 0.8,
+      "recall_at_5": 0.8
+    }
+  },
+  "model_sha256": "87277161a5cdb719c383fb6601568c26340b29d25800376dbcc6040c22050e37",
+  "overlap_audit": {
+    "dataset": {
+      "dataset": "princeton-nlp/SWE-bench_Verified",
+      "files": [
+        "data/test-00000-of-00001.parquet"
+      ],
+      "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a"
+    },
+    "excluded_instances": 410,
+    "excluded_projects": [
+      "django/django",
+      "encode/httpx",
+      "fastapi/fastapi",
+      "pallets/flask",
+      "pallets/werkzeug",
+      "psf/requests",
+      "pydantic/pydantic",
+      "pytest-dev/pytest",
+      "scikit-learn/scikit-learn",
+      "sphinx-doc/sphinx",
+      "sqlalchemy/sqlalchemy",
+      "sympy/sympy"
+    ],
+    "files": [
+      {
+        "name": "data/test-00000-of-00001.parquet",
+        "sha256": "a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd"
+      }
+    ],
+    "instances": 500,
+    "limitations": [
+      "One external project and a bounded sample",
+      "Oracle changed-file seed; not issue localization or patch generation",
+      "Gold source-file patches are a different label source from commit co-change",
+      "No benchmark repository code or tests are executed"
+    ],
+    "repository_counts": {
+      "astropy/astropy": 22,
+      "django/django": 231,
+      "matplotlib/matplotlib": 34,
+      "mwaskom/seaborn": 2,
+      "pallets/flask": 1,
+      "psf/requests": 8,
+      "pydata/xarray": 22,
+      "pylint-dev/pylint": 10,
+      "pytest-dev/pytest": 19,
+      "scikit-learn/scikit-learn": 32,
+      "sphinx-doc/sphinx": 44,
+      "sympy/sympy": 75
+    },
+    "selected": [
+      {
+        "base_commit": "1757dffac2fa493d7b9a074b84cf8c830a706688",
+        "instance_id": "pydata__xarray-3095",
+        "modified_paths": [
+          "xarray/core/indexing.py",
+          "xarray/core/variable.py"
+        ],
+        "repo": "pydata/xarray"
+      },
+      {
+        "base_commit": "69c7e01e5167a3137c285cb50d1978252bb8bcbf",
+        "instance_id": "pydata__xarray-3305",
+        "modified_paths": [
+          "xarray/core/dataset.py",
+          "xarray/core/variable.py"
+        ],
+        "repo": "pydata/xarray"
+      },
+      {
+        "base_commit": "8cc34cb412ba89ebca12fc84f76a9e452628f1bc",
+        "instance_id": "pydata__xarray-3993",
+        "modified_paths": [
+          "xarray/core/dataarray.py",
+          "xarray/core/dataset.py"
+        ],
+        "repo": "pydata/xarray"
+      },
+      {
+        "base_commit": "c4e40d991c28be51de9ac560ce895ac7f9b14924",
+        "instance_id": "pydata__xarray-6938",
+        "modified_paths": [
+          "xarray/core/dataset.py",
+          "xarray/core/variable.py"
+        ],
+        "repo": "pydata/xarray"
+      },
+      {
+        "base_commit": "45c0a114e2b7b27b83c9618bc05b36afac82183c",
+        "instance_id": "pydata__xarray-6992",
+        "modified_paths": [
+          "xarray/core/dataset.py",
+          "xarray/core/indexes.py"
+        ],
+        "repo": "pydata/xarray"
+      }
+    ],
+    "selection_policy": "first five instance IDs in pydata/xarray with at least two modified Python paths; no study-project overlap"
+  },
+  "runner_sha256": "50928180b7a371c1a4ca98c66a7efbea8a5ef8e2e04c51883f32e800799b0754",
+  "status": "exploratory frozen seeded-file ranking; not SWE-bench issue-resolution accuracy"
+}

@@ -1,0 +1,17 @@
+{
+  "edges": 2005,
+  "lexical_resolution": {
+    "calls": 3961,
+    "resolved_calls": 70,
+    "syntax_unavailable": 0
+  },
+  "limitations": [
+    "Optional export; the local API reads JSON graphs",
+    "Unresolved dynamic imports/calls are not invented",
+    "Past co-change is query-cutoff-specific and is not exported as a static dependency"
+  ],
+  "nodes": 1705,
+  "repo": "pallets/flask",
+  "revision": "d086db856be187255b8ec61ef409357393020f32",
+  "unresolved_imports": 376
+}

@@ -1,0 +1,2 @@
+# Optional frozen external file-ranking study only.
+pyarrow==19.0.1

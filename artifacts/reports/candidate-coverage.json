@@ -1,0 +1,3619 @@
+{
+  "cases": [
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 60,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 25,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 55
+      },
+      "commit": "7c0cda153d301bde9a011e1dd7157d7e2b20889d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_urlparse.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 60,
+        "diagnostic_three_channel_union": 57,
+        "past_cochange": 27,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "609df7ecc0f7cb10a1c998aa9c269bba77337c5f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/__version__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 60,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 44,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "49d74a2e7f773f88a84dd4af900d7a8543636ae2",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 60,
+        "diagnostic_three_channel_union": 57,
+        "past_cochange": 48,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 57
+      },
+      "commit": "8e36f2bc685dfbe43cd7503bc1c422a6ed6e05a5",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.9473684210526315,
+        "semantic_top_50": 0.8947368421052632,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 43,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "9fd6f0ca6616d0310a3ee0b0c6ef509a97995797",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.6666666666666666,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_content.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 55,
+        "past_cochange": 25,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 54
+      },
+      "commit": "d293374b6603816420a2bb8e7f4fe5a5f09cbfcc",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_urlparse.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 55,
+        "past_cochange": 25,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 54
+      },
+      "commit": "ba2e51215e4e619540f2a24282b84ed8a738e6fd",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_urlparse.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 37,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "5dda2aa30692e8529555f57efa7bcd203a7d5ac1",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_urls.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 36,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 55
+      },
+      "commit": "e9cabc8e1deb6548c5c5e2f453e343d39a2a5321",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.8,
+        "semantic_top_50": 0.8,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/__version__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 44,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "12be5c44caa7a34bfe19f82eace5150ddeba2612",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_config.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 51,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "83a85189c79708b732d04e7b906e388fb0fbde94",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 54,
+        "past_cochange": 30,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 53
+      },
+      "commit": "6212e8fa3bf90154b891c7721f6d29737caac861",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_multipart.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 51,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "41597adffa9d34171a63f7511fc0f702558dd08c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 49,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "1805ee0d22f96e2b29f0500dd3076e10020004bf",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 50,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "7b19cd5f4b749064c6452892a5e58a3758da1d1b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_client.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 37,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 55
+      },
+      "commit": "47f4a96ffaaaa07dca1614409549b5d7a6e7af49",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.5,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/__version__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 51,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "a33c87852b8a0dddc65e5f739af1e0a6fca4b91f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 41,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "80960fa31918d7663c3f4c3ad61661cf0e80628f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_api.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 50,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "4189b7f051c6c51ce74c3bee1a5f269f9c50c6b2",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/_client.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 59,
+        "diagnostic_three_channel_union": 56,
+        "past_cochange": 49,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 56
+      },
+      "commit": "ae1b9f66238f75ced3ced5e4485408435de10768",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "encode/httpx",
+      "seed": "httpx/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 31,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "edebd3704437f19b5b137eaffe97130fe817d144",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/sansio/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 42,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "53b8f08218796d95764c5252bccd8a50a173a6fb",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/testing.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 43,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "9822a0351574790cb66c652fcc396ad7aa2b09d8",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/helpers.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 29,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "d8259eb11900285af9b80b0fa47f841174c054e3",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/sansio/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "c2705ffd9ce1dc8476cb29eaf5ff5d4c719852d9",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "6a64969009bf1898bd302e6a9633f71942523f7f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.75,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 43,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "eca5fd1dfdc614c2df876cc32018a7d71f84ea82",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/helpers.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "c77a5203438fe772d41f6a47303ad3f57a4efe6d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 36,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "e82db2ca3a22c9614c1987392c9cfaa8c6ce99ad",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/sansio/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "c17f379390731543eea33a570a47bd4ef76a54fa",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "fbb6f0bc4c60a0bada0e03c3480d0ccf30a3c1df",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 44,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "a29f88ce6f2f9843bd6fcbbfce1390a2071965d6",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/ctx.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 44,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "06ea505ce2b2042af26e96d35ebf159af7c0869d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/ctx.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 75,
+        "past_cochange": 40,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "5ce121dd841e2dc2594d0ed3954278f4101d3521",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "tests/conftest.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 75,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 68
+      },
+      "commit": "8b4fd5d18611e63080b826ecfefe8659dba7d2e4",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "tests/test_blueprints.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 43,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "de8429ffda8cfb54db175529e2bae72a24e1fa7e",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/testing.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "7203feabf723edae0286ae5dc64fec8ac4c91735",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 26,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "89992954ec71b594b1b911f98977cdc8ad46a057",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/sansio/scaffold.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 43,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 69
+      },
+      "commit": "7689f98403e2c0b0bc8d1031e60f8cff2620e86a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 0.8
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/helpers.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 82,
+        "diagnostic_three_channel_union": 73,
+        "past_cochange": 45,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 70
+      },
+      "commit": "329c32b916938d33fec41f40eb7ed854bf0b3e2b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/flask",
+      "seed": "src/flask/app.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 131,
+        "past_cochange": 77,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 124
+      },
+      "commit": "afd45a357ecd8bb12cf7710c25916cbb0359a424",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/formparser.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 118,
+        "past_cochange": 50,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 111
+      },
+      "commit": "40d4b497104db492273057c19425a6d47442bd29",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/datastructures/etag.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 122,
+        "past_cochange": 41,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 118
+      },
+      "commit": "50f5cfb31b39f8c10c12dda5ef8176fd2c1aeaf7",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/_header_property.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 133,
+        "past_cochange": 77,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 127
+      },
+      "commit": "5b0e3209ad5d81b0015c277c0521d6d956d7f688",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/http.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 133,
+        "past_cochange": 77,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 127
+      },
+      "commit": "411ba540d7c59b20b172970ed1d844d6e19fc26a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/http.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 135
+      },
+      "commit": "24b07cc56164eefa4d04725b1f1a17fa554f9635",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/wrappers/response.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 135
+      },
+      "commit": "2e1d359cdc510d7103180c51fade31888e136d1c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/wrappers/response.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 135
+      },
+      "commit": "e43d440cb9ff6e7f24246047add8d7a36e5523f8",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/wrappers/response.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 122,
+        "past_cochange": 41,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 118
+      },
+      "commit": "9c8790261f3d1a6d077a56548f75b76bf9eac678",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.8,
+        "semantic_top_50": 0.7333333333333333,
+        "structural_within_three_hops": 0.9333333333333333
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/_header_property.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 134,
+        "past_cochange": 61,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 130
+      },
+      "commit": "3d27209c27b14cf2a2b0796767cb34f1a4c3e94e",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/sansio/response.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 136,
+        "past_cochange": 76,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 134
+      },
+      "commit": "b71ddc615fb5ac2248cb4e7df20d6eedd8f77b2b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/_internal.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 136,
+        "past_cochange": 76,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 134
+      },
+      "commit": "e86e99c678d15e8e7ef4a3f3a8b025d4f2397110",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.2,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/_internal.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 136,
+        "past_cochange": 76,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 134
+      },
+      "commit": "5ab01003c364a41a5a49bbe03ecc8869f6c9ec6c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/_internal.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 138,
+        "past_cochange": 86,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 135
+      },
+      "commit": "e49785c25326ae73269c4363331b9a788f702be2",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 76,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 133
+      },
+      "commit": "864cde89a2f5ad2ae2f03453ec1c8b41a434f44f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.3333333333333333,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/exceptions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 135
+      },
+      "commit": "21b45dbd33501e9dc576292f7ff1afe3e1559a97",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/wrappers/response.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 135
+      },
+      "commit": "5b68c736ff07163c84454d305d67d9e1f473481f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.3333333333333333,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/wrappers/response.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 137,
+        "past_cochange": 76,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 133
+      },
+      "commit": "6c4c680f5392342a68065114987f39160388064c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/exceptions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 136,
+        "past_cochange": 46,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 132
+      },
+      "commit": "5cc9af729ff838790b6729c5d6a23a37345165a7",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.6666666666666666,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/routing/exceptions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 141,
+        "diagnostic_three_channel_union": 136,
+        "past_cochange": 83,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 131
+      },
+      "commit": "c2bc20f67343e8997c6582c57a0cc6c5f4f45556",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pallets/werkzeug",
+      "seed": "src/werkzeug/debug/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 1,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 29
+      },
+      "commit": "a94e9b5308ffcc3d2913ab873e9810a6601a67da",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.5,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/adapters.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 0,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 30
+      },
+      "commit": "555b870eb19d497ddb67042645420083ec8efb02",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 0.6666666666666666
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 3,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 30
+      },
+      "commit": "4e383642a9ebb82a67eaeed199d0fbbb31991e3c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/compat.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 5,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 30
+      },
+      "commit": "01353d3b4afe3afa838f8f5c08e5f30a5b50cb05",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/compat.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 2,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 31
+      },
+      "commit": "5b4b64c3467fd7a3c03f91ee641aaa348b6bed3b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 3,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 31
+      },
+      "commit": "f8bec2f7ca9d7c03981a12ff8866a9b3923f1699",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.125,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 10,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 31
+      },
+      "commit": "47914226c2968802f2cdee3f6f0f6e06e4472f64",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 0,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 30
+      },
+      "commit": "bc7dd0fc4d56e808bcdd85ac2d797b3107c89259",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/_internal_utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 10,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 31
+      },
+      "commit": "f0198e6dfc431a2293dc16e1b1e8fcddc910a7f3",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 0,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 31
+      },
+      "commit": "ef439eb779c1eba7cbdeeeb302b11e1e061b4b7d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/sessions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 35,
+        "diagnostic_three_channel_union": 35,
+        "past_cochange": 10,
+        "semantic_top_50": 35,
+        "structural_within_three_hops": 31
+      },
+      "commit": "561e4b6889f53584c39a67f8794c53a414f68481",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.4666666666666667,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 18,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 32
+      },
+      "commit": "fd628095d7b9ddbf3e987d8a4bf0e6062768916f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/adapters.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 0,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 31
+      },
+      "commit": "b684dcb9bbf3aa557d1238e72062c4a29737dd1c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/_types.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 1,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 31
+      },
+      "commit": "3816cfa1abd42dca21b9e837f26c59b246016aaf",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/_types.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 19,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 32
+      },
+      "commit": "a4f9a5999bdb9bf2d6e7c8aa973b28cacb17134f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 18,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 32
+      },
+      "commit": "6404f345e562d962abe6700a1c357ec1e7e18232",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 2,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 31
+      },
+      "commit": "e511bc72777a94c45d004e010c597925092e1efe",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.5,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/_types.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 3,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 31
+      },
+      "commit": "84d10f0be83e8f6aeca8a05230c52216431c4d0b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/_types.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 19,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 32
+      },
+      "commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 36,
+        "diagnostic_three_channel_union": 36,
+        "past_cochange": 3,
+        "semantic_top_50": 36,
+        "structural_within_three_hops": 31
+      },
+      "commit": "6f66281a1d6326b1b9c4ac09ca30de0fc4e6ef43",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.5,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "psf/requests",
+      "seed": "src/requests/_types.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 363,
+        "past_cochange": 122,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 354
+      },
+      "commit": "141c1e3df86e1b3f4bfe908fb89ac860e8ba7c0c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/json_schema.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 52,
+        "past_cochange": 2,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 2
+      },
+      "commit": "3eca5695dabc5a451ccfc0f4afa802166e61e27a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "release/prepare.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 303,
+        "past_cochange": 76,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 293
+      },
+      "commit": "e1ca33220585e8f745000eff4b067e04fe7d83e9",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_generics.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 298,
+        "past_cochange": 15,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 283
+      },
+      "commit": "b96a4f8716beb6fafedaca92abc57f1628927e3a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic-core/tests/serializers/test_any.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 366,
+        "past_cochange": 118,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 360
+      },
+      "commit": "03de65fc2f44faa4b32e05ce0a5d499cdf38f89b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/types.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 344,
+        "past_cochange": 56,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 337
+      },
+      "commit": "900e8991b7bf066a0d44346636c43b371608d8cf",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/root_model.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 363,
+        "past_cochange": 122,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 354
+      },
+      "commit": "44d5e1e8fc8198ecd0083a00a05e099aba0423ab",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/json_schema.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 295,
+        "past_cochange": 92,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 274
+      },
+      "commit": "834e800cda72c264a1476d25dfbf892a9a2614ef",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/mypy.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 179,
+        "past_cochange": 12,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 154
+      },
+      "commit": "471fe56b45a85c9066fd8392e31dfad1402e071a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_serializers.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 293,
+        "past_cochange": 3,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 278
+      },
+      "commit": "ab0ce7da96a1470c0c0d15a9fddc66056653bc72",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_docs_extraction.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 359,
+        "past_cochange": 95,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 354
+      },
+      "commit": "281aee54558e2ae7964d32b6c351951feaaa0650",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_fields.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 312,
+        "past_cochange": 133,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 300
+      },
+      "commit": "27f3c351f9c62b22a11c6e6e7dc1a14921467dab",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_generate_schema.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 452,
+        "diagnostic_three_channel_union": 360,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 354
+      },
+      "commit": "4c65dbda9970a488e2ff21c8693fc6f6d70a3358",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.75,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "tests/conftest.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 453,
+        "diagnostic_three_channel_union": 302,
+        "past_cochange": 0,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 284
+      },
+      "commit": "b0bf19f2be812f7a348ded86ffe7dd4887d1f01a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic-core/tests/validators/test_dict.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 453,
+        "diagnostic_three_channel_union": 290,
+        "past_cochange": 5,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 284
+      },
+      "commit": "34491f5328f168f14e3769cd5f0f83c0af0f4778",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic-core/tests/validators/test_dataclasses.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 461,
+        "diagnostic_three_channel_union": 81,
+        "past_cochange": 32,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 32
+      },
+      "commit": "2483fc1cda169e3ed3c8b10ffdd9f724b63247c7",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.25,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/v1/dataclasses.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 461,
+        "diagnostic_three_channel_union": 375,
+        "past_cochange": 135,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 364
+      },
+      "commit": "43e992d405df3cdab633e2af182d2e6b6d12f6a2",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.3333333333333333,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/main.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 461,
+        "diagnostic_three_channel_union": 307,
+        "past_cochange": 18,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 300
+      },
+      "commit": "577e542aa361eb4fb6ea43671b0f7c5ae713fd1b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_mock_val_ser.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 461,
+        "diagnostic_three_channel_union": 318,
+        "past_cochange": 133,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 306
+      },
+      "commit": "2a62f7a904734206cb029b94e25b9b968158aa63",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/_internal/_generate_schema.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 464,
+        "diagnostic_three_channel_union": 373,
+        "past_cochange": 122,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 364
+      },
+      "commit": "27caa1e4dea73c6cd50e48cbbba315d817c1cf0a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pydantic/pydantic",
+      "seed": "pydantic/json_schema.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 212,
+        "past_cochange": 107,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 205
+      },
+      "commit": "59200df778adf8079df6125d60662908ac0a0646",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/compat.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 204,
+        "past_cochange": 54,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 202
+      },
+      "commit": "7edc6b039a56844d74a8aeef313a2d36560f08cc",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "testing/test_debugging.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 215,
+        "past_cochange": 125,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 204
+      },
+      "commit": "9260a4bfc0b698e30e2373d4b929479cd514bc46",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.5,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/_code/code.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 204,
+        "past_cochange": 78,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "13ba5cba07f56728d25d89cc7f5f0b24b06c3b95",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/junitxml.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 195,
+        "past_cochange": 7,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 195
+      },
+      "commit": "5b6fa400dda2e283f3550f5cc8228298f0410ed7",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/assertion/_compare_mapping.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 204,
+        "past_cochange": 49,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 201
+      },
+      "commit": "2ab97ff6ef879618e6254b48a1e7ce6eda600bb6",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/faulthandler.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 210,
+        "past_cochange": 120,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 204
+      },
+      "commit": "69890d20bbed5cdfe3d7e29e2608d1679ace2441",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.8,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/config/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 210,
+        "past_cochange": 120,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 204
+      },
+      "commit": "04de0179dbefe1de9daddfe650cdfefe804ed377",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/config/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 210,
+        "past_cochange": 120,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 204
+      },
+      "commit": "b55862ac5665e3570364143a2ba67a92fabd0ab3",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/config/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 210,
+        "past_cochange": 120,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 204
+      },
+      "commit": "f38448e6e32ab80bb714e66b7a63a2df76f3a0a6",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/config/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 209,
+        "past_cochange": 112,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "3212d470263f5707563466a16facad43dc5d130b",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/terminal.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 208,
+        "past_cochange": 77,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 201
+      },
+      "commit": "bcd254872ce246628c40fa3845f253252ab9ddc4",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/deprecated.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 208,
+        "past_cochange": 77,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 201
+      },
+      "commit": "bf586fdc1d7b1eca5682b92a5c79a910984683a8",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/deprecated.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 205,
+        "past_cochange": 83,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 200
+      },
+      "commit": "9ae02e65ab1a7eac5118e5ced970f903d7970786",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "doc/en/conf.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 206,
+        "past_cochange": 109,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "ff1b6f4822b61b306a665d21c70b382fecc1c24c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/mark/structures.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 200,
+        "past_cochange": 41,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 181
+      },
+      "commit": "6e6c9964d267233f12654bf0d799a40503a22c0e",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/_io/pprint.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 206,
+        "past_cochange": 89,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "1a82d3d1be4012ff5836bba307240ab9cdf0caa8",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/tmpdir.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 206,
+        "past_cochange": 89,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "ead31721f3a48e0e51a9f0f7c661b77a93386e62",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/tmpdir.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 206,
+        "past_cochange": 89,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "bd10be732c8496218d30f9ef4c4c42e2bb2e734c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/tmpdir.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 273,
+        "diagnostic_three_channel_union": 206,
+        "past_cochange": 89,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 203
+      },
+      "commit": "9a84fda2ab8710a3d34bca145464c4c70b40768d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "pytest-dev/pytest",
+      "seed": "src/_pytest/tmpdir.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 393,
+        "past_cochange": 172,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 384
+      },
+      "commit": "eb4d0da2d0dabfae391393223683444370851d0f",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/transforms/i18n.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 342,
+        "past_cochange": 52,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 337
+      },
+      "commit": "9257a4f1bb88d562bb22ed6ca8657bf7838c4b56",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.17647058823529413,
+        "semantic_top_50": 0.17647058823529413,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "tests/test_builders/test_build.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 377,
+        "past_cochange": 8,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 368
+      },
+      "commit": "b9650d5d26273aba9fc49a78b14a085235f8ebd2",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.1,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/ext/autodoc/_event_listeners.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 418,
+        "past_cochange": 249,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 402
+      },
+      "commit": "ce19a75e3c5f886e57cf169c713a243e9722aac5",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.6666666666666666,
+        "semantic_top_50": 0.2222222222222222,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/builders/html/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 384,
+        "past_cochange": 143,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 377
+      },
+      "commit": "5db3a1928c97b9454be310ec484b6324b53497b1",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/io.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 379,
+        "past_cochange": 149,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 376
+      },
+      "commit": "b062fa92874981c1c14d8581658ba76575348b7a",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/ext/autodoc/directive.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 382,
+        "past_cochange": 18,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 382
+      },
+      "commit": "d59b2375945ed04414a11b0adb3e5655525f3e9e",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/ext/autodoc/_dynamic/_loader.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 387,
+        "past_cochange": 205,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 377
+      },
+      "commit": "20f1c46790d370b50fa7396cca3e1cc658ce9f89",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/writers/latex.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 771,
+        "diagnostic_three_channel_union": 424,
+        "past_cochange": 215,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 403
+      },
+      "commit": "b127b9478aa4654a82eeadf1a1e89715d3927608",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.75,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/application.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 773,
+        "diagnostic_three_channel_union": 402,
+        "past_cochange": 189,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 390
+      },
+      "commit": "9af5b469df42c810c62453661c1974c0f254e674",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/search/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 773,
+        "diagnostic_three_channel_union": 299,
+        "past_cochange": 16,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 293
+      },
+      "commit": "b04a2101295ac3fb725b16111eda0284b6da4cca",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.3333333333333333,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "tests/test_builders/test_build_html_code.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 773,
+        "diagnostic_three_channel_union": 387,
+        "past_cochange": 61,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 384
+      },
+      "commit": "378a332a8fb7cc608d51c17e3732e57ef3ab0543",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/ext/autodoc/_dynamic/_member_finder.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 773,
+        "diagnostic_three_channel_union": 401,
+        "past_cochange": 199,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 387
+      },
+      "commit": "d19cbb5083c5f2f1588ee3a78a0cc3b2f03bbe01",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.9166666666666666,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/ext/autosummary/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 333,
+        "past_cochange": 70,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 315
+      },
+      "commit": "f03a2433a941e17162795c5ebf44dc751989011d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.9655172413793104,
+        "past_cochange": 0.2413793103448276,
+        "semantic_top_50": 0.06896551724137931,
+        "structural_within_three_hops": 0.9655172413793104
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/domains/c/_parser.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 321,
+        "past_cochange": 46,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 314
+      },
+      "commit": "9448f26ec649d9ab7559a101d84f4a564f839c43",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.9473684210526315,
+        "past_cochange": 0.5263157894736842,
+        "semantic_top_50": 0.2631578947368421,
+        "structural_within_three_hops": 0.8947368421052632
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/ext/autodoc/_dynamic/_mock.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 320,
+        "past_cochange": 80,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 313
+      },
+      "commit": "a4c976d17985f55a223d5b4b6bf2d0373a9797a7",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.5,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "tests/test_ext_autodoc/test_ext_autodoc.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 385,
+        "past_cochange": 163,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 378
+      },
+      "commit": "412cebf1660c54966245a88269516e54d0a85c37",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.42857142857142855,
+        "semantic_top_50": 0.2857142857142857,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/builders/_epub_base.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 379,
+        "past_cochange": 72,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 377
+      },
+      "commit": "a341795e990fb11d2558fb80abf453cdac912c1d",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "tests/test_transforms/test_transforms_post_transforms.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 419,
+        "past_cochange": 253,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 403
+      },
+      "commit": "a74616a89c342ae0bded4145a16ba50a74ec698c",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/builders/html/__init__.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 774,
+        "diagnostic_three_channel_union": 386,
+        "past_cochange": 135,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 385
+      },
+      "commit": "035a07c32c3241fd3356f4d827800c1f88525272",
+      "partition": "train_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "sphinx-doc/sphinx",
+      "seed": "sphinx/roles.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1175,
+        "diagnostic_three_channel_union": 799,
+        "past_cochange": 145,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 767
+      },
+      "commit": "fef9257394e2d3037a38045d4f8f86f0259e6ffd",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1177,
+        "diagnostic_three_channel_union": 914,
+        "past_cochange": 54,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 911
+      },
+      "commit": "34b1783f880da54b2abfb40be608d2d9bedcb40d",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/param_functions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1177,
+        "diagnostic_three_channel_union": 914,
+        "past_cochange": 54,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 911
+      },
+      "commit": "0a8c3fae5495a2b4d62e5d83cb63d4087fb7e63e",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/param_functions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1178,
+        "diagnostic_three_channel_union": 777,
+        "past_cochange": 60,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 769
+      },
+      "commit": "dfb3b91b7c6102cddde6e2cb1422d0faaa273be5",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/_compat/v2.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1180,
+        "diagnostic_three_channel_union": 802,
+        "past_cochange": 148,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 772
+      },
+      "commit": "2d1851f35da7025273b51fc3aa3deb88839a6a33",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1182,
+        "diagnostic_three_channel_union": 804,
+        "past_cochange": 149,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 774
+      },
+      "commit": "bd4d5705d573c8c59c37b46b313a1849229176fe",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.3333333333333333,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1181,
+        "diagnostic_three_channel_union": 690,
+        "past_cochange": 52,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 667
+      },
+      "commit": "578af61e04e045321e5ec04653a646375c86b34f",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1192,
+        "diagnostic_three_channel_union": 933,
+        "past_cochange": 151,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 928
+      },
+      "commit": "c059fbf0f2884ef61252649538c58f9b92fc5f62",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1211,
+        "diagnostic_three_channel_union": 711,
+        "past_cochange": 52,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 689
+      },
+      "commit": "91a335ce946c7a832da973f2acf69b8876594216",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.8,
+        "past_cochange": 0.2,
+        "semantic_top_50": 0.2,
+        "structural_within_three_hops": 0.8
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/models.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1215,
+        "diagnostic_three_channel_union": 956,
+        "past_cochange": 159,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 951
+      },
+      "commit": "f90d0369380a539c673b1bbbbd86535b8cdee746",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 374,
+        "past_cochange": 281,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "e507ebee1085953bf8eeaaa10700cc08202b62ef",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.8571428571428571,
+        "past_cochange": 0.5714285714285714,
+        "semantic_top_50": 0.2857142857142857,
+        "structural_within_three_hops": 0.7142857142857143
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/dialects/oracle/base.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 435,
+        "past_cochange": 385,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 251
+      },
+      "commit": "75853e8375d9490a536f95951e8f52ecb5042d35",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/sql/compiler.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 386,
+        "past_cochange": 329,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "9a70d8961d33397fb752c000fec504fdaf97dbbf",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.25,
+        "structural_within_three_hops": 0.25
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/engine/base.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 272,
+        "past_cochange": 136,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "3154ad86f25c5f3963a0cad0e656dcb22427d641",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/engine/url.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 373,
+        "past_cochange": 259,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "8301becbe64bb7dd87671c2c5285df9f0e22547f",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/context.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 453,
+        "past_cochange": 383,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 248
+      },
+      "commit": "5707e5be0200ea10f2f574303c21b7b73ba40727",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/session.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 187,
+        "past_cochange": 144,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 47
+      },
+      "commit": "f9ac4e1f4d254b52b255ad35efef6771edc8ff03",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "test/orm/test_core_compilation.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 453,
+        "past_cochange": 383,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 248
+      },
+      "commit": "10f4d1e2d706a7722ca78e79ce05b00333a7aa5b",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/session.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 395,
+        "past_cochange": 277,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "df5fa627fb37b4b7cda15e4c6fc8b2efb1ba1bd1",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.5,
+        "past_cochange": 0.5,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/strategies.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 266,
+        "past_cochange": 93,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "47615a8485df63681fb8541a3764c48b995245d1",
+      "partition": "selection_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/inspection.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1176,
+        "diagnostic_three_channel_union": 913,
+        "past_cochange": 51,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 910
+      },
+      "commit": "597b5a7c82aafbca5510f42120dd033c91980630",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.25,
+        "semantic_top_50": 0.25,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/param_functions.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1177,
+        "diagnostic_three_channel_union": 776,
+        "past_cochange": 59,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 768
+      },
+      "commit": "f8cba1038d0c6ff2e56888830bc535f0c4e62d00",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/_compat/v2.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1178,
+        "diagnostic_three_channel_union": 800,
+        "past_cochange": 145,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 770
+      },
+      "commit": "f5a439d59b263a7d88b2b5c46a3e8e26862a4eb8",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.3333333333333333,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1180,
+        "diagnostic_three_channel_union": 802,
+        "past_cochange": 147,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 772
+      },
+      "commit": "75f3a149359bfd39665aaf81dc223fb6fc28da23",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.6666666666666666,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1181,
+        "diagnostic_three_channel_union": 803,
+        "past_cochange": 148,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 773
+      },
+      "commit": "89317c7003d0cca25e56b5acbfc11aa2c1810e08",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1182,
+        "diagnostic_three_channel_union": 804,
+        "past_cochange": 151,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 774
+      },
+      "commit": "1282e9a9f1ac0647cb2031c6dd9c1d5631ade4d4",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.5,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1185,
+        "diagnostic_three_channel_union": 785,
+        "past_cochange": 60,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 777
+      },
+      "commit": "48e43e5cbf82415cd17ec542e67058a9be4db48e",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/_compat/v2.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1196,
+        "diagnostic_three_channel_union": 937,
+        "past_cochange": 152,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 932
+      },
+      "commit": "2f6d43c6ecc9a392ea0fcb14c0b063e76b448b62",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1211,
+        "diagnostic_three_channel_union": 952,
+        "past_cochange": 159,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 947
+      },
+      "commit": "e42ac0a13459086f42d96eab13748303bcfa78e7",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 1.0,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 1215,
+        "diagnostic_three_channel_union": 956,
+        "past_cochange": 160,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 951
+      },
+      "commit": "f02ef4900bacc28942a051b95b9719c5002a7858",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 0.8333333333333334,
+        "semantic_top_50": 0.6666666666666666,
+        "structural_within_three_hops": 1.0
+      },
+      "repo": "fastapi/fastapi",
+      "seed": "fastapi/dependencies/utils.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 372,
+        "past_cochange": 309,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "4a1bb7314b9f73a5c3e6bc6c811030aa1692befb",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/util/langhelpers.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 367,
+        "past_cochange": 271,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "624018f1903da2c7eec3903bfd75068f1bfdf677",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/sql/dml.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 276,
+        "past_cochange": 116,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 248
+      },
+      "commit": "0c3d684e4748acf174e43c116b1ecb6c14106687",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.0,
+        "past_cochange": 0.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/ext/asyncio/result.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 361,
+        "past_cochange": 268,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 248
+      },
+      "commit": "7ca9b3d88a2d47a079c7c14fa37f254c48ab1cf2",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 0.3333333333333333,
+        "past_cochange": 0.3333333333333333,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.3333333333333333
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/engine/result.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 373,
+        "past_cochange": 259,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "8e0782776949d11d34c9624dd84dc01ccfd3f5b7",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.25,
+        "structural_within_three_hops": 0.5
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/context.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 382,
+        "past_cochange": 319,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 248
+      },
+      "commit": "f066a1ca3dc25827aced3db8cb90ec4d226c44b2",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/dialects/mysql/base.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 374,
+        "past_cochange": 260,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "69e49c9c07e434b479a250eaf15fa7f8136123a4",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.5
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/context.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 382,
+        "past_cochange": 284,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "7663f5c48a2b2bbad70d3d79a86ae098605bb315",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/orm/relationships.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 386,
+        "past_cochange": 329,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "735a63081348ac9df0605359ee01e15911102923",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/engine/base.py"
+    },
+    {
+      "candidate_sizes": {
+        "actual_full_file_pool": 675,
+        "diagnostic_three_channel_union": 318,
+        "past_cochange": 210,
+        "semantic_top_50": 50,
+        "structural_within_three_hops": 247
+      },
+      "commit": "bbf3c354ea3eb1b7c1c7539fdd81b9498de115a5",
+      "partition": "calibration_queries",
+      "recall": {
+        "actual_full_file_pool": 1.0,
+        "diagnostic_three_channel_union": 1.0,
+        "past_cochange": 1.0,
+        "semantic_top_50": 0.0,
+        "structural_within_three_hops": 0.0
+      },
+      "repo": "sqlalchemy/sqlalchemy",
+      "seed": "lib/sqlalchemy/sql/operators.py"
+    }
+  ],
+  "input_fingerprint": "6810a4d6b5fad78defab5c7cbd09b7acd6c43969a9666236e69fd94028a497e1",
+  "limitations": [
+    "Development sample only; no held-out model selection",
+    "Channel coverage is not ranking precision or evidence causality"
+  ],
+  "policy": "Every learned/baseline system scores the actual full eligible-file pool. The top-50 union is a diagnostic alternative, never substituted into evaluation.",
+  "queries": 180,
+  "repository_macro_recall": {
+    "actual_full_file_pool": 1.0,
+    "diagnostic_three_channel_union": 0.963352010293934,
+    "past_cochange": 0.7830548191246653,
+    "semantic_top_50": 0.5682239720516828,
+    "structural_within_three_hops": 0.8853215173950201
+  },
+  "status": "development candidate coverage audit"
+}

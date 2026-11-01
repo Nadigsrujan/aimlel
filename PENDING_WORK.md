@@ -1,3 +1,5 @@
+> Current checkpoint (2026-11-01): the three new master briefs are implemented through the additive observatory layer. See [exact coverage and remaining limitations](docs/observatory-implementation.md). The historical checklist below is retained as an audit trail and may describe work now completed. Final held-out publication is tracked separately in artifacts/reports/finalization-progress.json.
+
 # Neural Cartographer — Pending Work
 
 Updated: 31 October 2026

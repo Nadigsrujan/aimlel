@@ -1,0 +1,160 @@
+{
+  "cases": [
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.2,
+        "mrr": 0.2,
+        "mrr_at_10": 0.2,
+        "ndcg_at_10": 0.38685280723454163,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "1757dffac2fa493d7b9a074b84cf8c830a706688",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-3095",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 128.76600000000326,
+      "seed": "xarray/core/indexing.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "69c7e01e5167a3137c285cb50d1978252bb8bcbf",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.25,
+        "mrr": 0.25,
+        "mrr_at_10": 0.25,
+        "ndcg_at_10": 0.43067655807339306,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-3305",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 93.85899999999674,
+      "seed": "xarray/core/dataset.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 1.0,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 1.0,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "8cc34cb412ba89ebca12fc84f76a9e452628f1bc",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 1.0,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 1.0,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-3993",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/dataset.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 99.17199999999866,
+      "seed": "xarray/core/dataarray.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "commit": "c4e40d991c28be51de9ac560ce895ac7f9b14924",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.3333333333333333,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.5,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 1.0
+      },
+      "instance_id": "pydata__xarray-6938",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 77.75,
+      "seed": "xarray/core/dataset.py"
+    },
+    {
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.05,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "commit": "45c0a114e2b7b27b83c9618bc05b36afac82183c",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.03333333333333333,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "instance_id": "pydata__xarray-6992",
+      "parse_failures": 0,
+      "positives": [
+        "xarray/core/indexes.py"
+      ],
+      "repo": "pydata/xarray",
+      "seconds": 33.875,
+      "seed": "xarray/core/dataset.py"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,244 @@
+{
+  "cases": [
+    {
+      "candidate_files": 61,
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.07692307692307693,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "commit": "8c8adedc2a74a494c24f93e405b6418ac32f54cd",
+      "fixed_commit": "f8617f975d56e81cfb4070ce65584f7b29a77e7a",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.40740740740740744,
+        "mrr": 1.0,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 0.6105456988825855,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.6666666666666666,
+        "recall_at_5": 0.3333333333333333
+      },
+      "instance_id": "BugsInPy-black-6",
+      "parse_failures": 1,
+      "positives": [
+        "blib2to3/pgen2/driver.py",
+        "blib2to3/pgen2/tokenize.py",
+        "tests/data/python37.py"
+      ],
+      "repo": "psf/black",
+      "seconds": 31.15599999999904,
+      "seed": "black.py"
+    },
+    {
+      "candidate_files": 50,
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.020833333333333332,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "commit": "3bdd42389128bbbe8b64a8e050563f09bff99979",
+      "fixed_commit": "dd8bde6d2fbfe8a7a11093e761a0cb5837efa96a",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.0,
+        "mrr": 0.02631578947368421,
+        "mrr_at_10": 0,
+        "ndcg_at_10": 0.0,
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "recall_at_5": 0.0
+      },
+      "instance_id": "BugsInPy-black-14",
+      "parse_failures": 1,
+      "positives": [
+        "tests/data/python2_unicode_literals.py"
+      ],
+      "repo": "psf/black",
+      "seconds": 10.203000000001339,
+      "seed": "black.py"
+    },
+    {
+      "candidate_files": 23,
+      "cochange-v1": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.16666666666666666,
+        "mrr": 0.3333333333333333,
+        "mrr_at_10": 0.3333333333333333,
+        "ndcg_at_10": 0.3065735963827292,
+        "precision_at_5": 0.2,
+        "recall_at_10": 0.5,
+        "recall_at_5": 0.5
+      },
+      "commit": "8de552eb4f0fbf1ad84812cde71489cc00d3ed1f",
+      "fixed_commit": "6316e293ac30a2837ec20eba289fd28a2a18cf89",
+      "heterogeneous": {
+        "candidate_ceiling": 1.0,
+        "map_at_10": 0.225,
+        "mrr": 0.25,
+        "mrr_at_10": 0.25,
+        "ndcg_at_10": 0.44130740935663865,
+        "precision_at_5": 0.2,
+        "recall_at_10": 1.0,
+        "recall_at_5": 0.5
+      },
+      "instance_id": "BugsInPy-black-23",
+      "parse_failures": 0,
+      "positives": [
+        "blib2to3/pygram.py",
+        "tests/function.py"
+      ],
+      "repo": "psf/black",
+      "seconds": 5.7189999999973224,
+      "seed": "black.py"
+    }
+  ],
+  "confidence_intervals": {
+    "cochange-v1": {
+      "ndcg_at_10": {
+        "estimate": 0.10219119879424306,
+        "iterations": 1000,
+        "lower": 0.0,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 0.3065735963827292
+      },
+      "recall_at_5": {
+        "estimate": 0.16666666666666666,
+        "iterations": 1000,
+        "lower": 0.0,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 0.5
+      }
+    },
+    "heterogeneous": {
+      "ndcg_at_10": {
+        "estimate": 0.3506177027464081,
+        "iterations": 1000,
+        "lower": 0.0,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 0.6105456988825855
+      },
+      "recall_at_5": {
+        "estimate": 0.27777777777777773,
+        "iterations": 1000,
+        "lower": 0.0,
+        "repositories": 1,
+        "seed": 17,
+        "upper": 0.5
+      }
+    }
+  },
+  "failures": [],
+  "metrics": {
+    "cochange-v1": {
+      "candidate_ceiling": 1.0,
+      "map_at_10": 0.05555555555555555,
+      "mrr": 0.14369658119658119,
+      "mrr_at_10": 0.1111111111111111,
+      "ndcg_at_10": 0.10219119879424306,
+      "precision_at_5": 0.06666666666666667,
+      "recall_at_10": 0.16666666666666666,
+      "recall_at_5": 0.16666666666666666
+    },
+    "heterogeneous": {
+      "candidate_ceiling": 1.0,
+      "map_at_10": 0.21080246913580247,
+      "mrr": 0.4254385964912281,
+      "mrr_at_10": 0.4166666666666667,
+      "ndcg_at_10": 0.3506177027464081,
+      "precision_at_5": 0.13333333333333333,
+      "recall_at_10": 0.5555555555555555,
+      "recall_at_5": 0.27777777777777773
+    }
+  },
+  "model_sha256": "87277161a5cdb719c383fb6601568c26340b29d25800376dbcc6040c22050e37",
+  "overlap_audit": {
+    "dataset": {
+      "repository": "https://github.com/soarsmu/BugsInPy",
+      "revision": "11c5f1eea954a42132cfd06bf257766a7963e0fd"
+    },
+    "excluded_projects": {
+      "test": [
+        "sympy/sympy",
+        "scikit-learn/scikit-learn",
+        "django/django"
+      ],
+      "train": [
+        "pallets/flask",
+        "psf/requests",
+        "pytest-dev/pytest",
+        "sphinx-doc/sphinx",
+        "pydantic/pydantic",
+        "encode/httpx",
+        "pallets/werkzeug"
+      ],
+      "validation": [
+        "fastapi/fastapi",
+        "sqlalchemy/sqlalchemy"
+      ]
+    },
+    "limitations": [
+      "Oracle changed-file seed; exploratory file ranking only",
+      "Static benchmark patch/commit metadata, not reproduced test-suite execution",
+      "Historical Python versions differ from the analysis runtime",
+      "Fixture Python files remain eligible labels where present in the buggy snapshot"
+    ],
+    "selected": [
+      {
+        "base_commit": "8c8adedc2a74a494c24f93e405b6418ac32f54cd",
+        "fixed_commit": "f8617f975d56e81cfb4070ce65584f7b29a77e7a",
+        "instance_id": "BugsInPy-black-6",
+        "modified_paths": [
+          "black.py",
+          "blib2to3/pgen2/driver.py",
+          "blib2to3/pgen2/tokenize.py",
+          "tests/data/python37.py"
+        ],
+        "patch_sha256": "73e0c51ab2f65bcf01ac3f9373528a72c3c5f8dfd06081e262e0b2fa800abbc7",
+        "python_version": "3.8.3",
+        "repo": "psf/black"
+      },
+      {
+        "base_commit": "3bdd42389128bbbe8b64a8e050563f09bff99979",
+        "fixed_commit": "dd8bde6d2fbfe8a7a11093e761a0cb5837efa96a",
+        "instance_id": "BugsInPy-black-14",
+        "modified_paths": [
+          "black.py",
+          "tests/data/python2_unicode_literals.py"
+        ],
+        "patch_sha256": "25d76a25a40730cbf19ece05f4fec7a155b2566c8dd390ba2e73a27ae51920e5",
+        "python_version": "3.8.3",
+        "repo": "psf/black"
+      },
+      {
+        "base_commit": "8de552eb4f0fbf1ad84812cde71489cc00d3ed1f",
+        "fixed_commit": "6316e293ac30a2837ec20eba289fd28a2a18cf89",
+        "instance_id": "BugsInPy-black-23",
+        "modified_paths": [
+          "black.py",
+          "blib2to3/pygram.py",
+          "tests/function.py"
+        ],
+        "patch_sha256": "cef9c45394405f9e01ed1912e39ba1ff826f970158cd8a73d641e7e1e975fa61",
+        "python_version": "3.8.3",
+        "repo": "psf/black"
+      }
+    ],
+    "selection_policy": "First three numerically ordered Black bugs with multiple modified Python paths: 6, 14, 23"
+  },
+  "runner_sha256": "afd4dea394b416749c918f9cfae5b938a550bfb29a9ee829051cd13a165c7318",
+  "status": "exploratory frozen BugsInPy file ranking; no benchmark test reproduction"
+}

@@ -1,0 +1,22 @@
+{
+  "version": "research-protocol-v1",
+  "split_configuration": "configs/repositories.json",
+  "split_decision": "User confirmed 7 training / 2 validation / 3 test on 2026-11-01",
+  "held_out_repositories": [
+    "sympy/sympy",
+    "scikit-learn/scikit-learn",
+    "django/django"
+  ],
+  "graph_cutoff": "single parent of the target commit",
+  "history_policy": "ancestors of the graph revision only",
+  "label_policy": "other eligible files modified in the target commit; co-change is a proxy",
+  "selection_metric": "repository-macro recall_at_5",
+  "success_metrics": [
+    "recall_at_5",
+    "ndcg_at_10"
+  ],
+  "confidence_intervals": "95 percent bootstrap clustered by repository and commit",
+  "candidate_policy": "all-eligible-files-excluding-seed-v1",
+  "test_access_gate": "frozen model, baseline, feature schema, query selection and configuration hashes required",
+  "freeze_record": "artifacts/models/heterogeneous-development/freeze.json"
+}

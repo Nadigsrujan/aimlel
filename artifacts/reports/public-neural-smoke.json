@@ -1,0 +1,3125 @@
+{
+  "job": {
+    "job": "b72ff95463ea4c5c9bc379523222f6c6",
+    "repo": "pallets/markupsafe",
+    "status": "processed",
+    "progress": {
+      "stage": "complete",
+      "elapsed_seconds": 25
+    },
+    "semantic_ready": true
+  },
+  "analysis": {
+    "schema_version": 1,
+    "repo": "pallets/markupsafe",
+    "graph_revision": "4e111271b1494995708a9e878a10829b5e10c7ba",
+    "seed": "src/markupsafe/__init__.py",
+    "ranker": "heterogeneous-v1",
+    "score_is_probability": false,
+    "candidate_count": 11,
+    "candidates": [
+      {
+        "path": "tests/test_markupsafe.py",
+        "score": 0.9771682024002075,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 11,
+          "past_change_count": 14,
+          "commits_since_change": 16,
+          "cochange_jaccard": 0.15492957746478872,
+          "semantic_cosine": 0.9864871501922607
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_markupsafe.py"
+          ],
+          "past_commits": [
+            "e49d257126d09937b1bf5e2b2173238df729fb13",
+            "391aa07d3c68d4d0888b31fdea62516df9e19cb8",
+            "53d3f454828dc958b7c5ff972a39eb1279e5c943",
+            "0b6bee071fbd8d3171fb1ac4fb669baace808438",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_leak.py",
+        "score": 0.9560801386833191,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 3,
+          "past_change_count": 8,
+          "commits_since_change": 1,
+          "cochange_jaccard": 0.0410958904109589,
+          "semantic_cosine": 0.9871194362640381
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_leak.py"
+          ],
+          "past_commits": [
+            "b41c96e00afd09eca075a98589886c78666d4d33",
+            "337a79f8caeff25422b28771e851c140d5d744ac",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_escape.py",
+        "score": 0.9076337814331055,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 2,
+          "past_change_count": 6,
+          "commits_since_change": 7,
+          "cochange_jaccard": 0.027777777777777776,
+          "semantic_cosine": 0.9759057760238647
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_escape.py"
+          ],
+          "past_commits": [
+            "337a79f8caeff25422b28771e851c140d5d744ac",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_exception_custom_html.py",
+        "score": 0.8772191405296326,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 2,
+          "past_change_count": 4,
+          "commits_since_change": 16,
+          "cochange_jaccard": 0.02857142857142857,
+          "semantic_cosine": 0.9861260652542114
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_exception_custom_html.py"
+          ],
+          "past_commits": [
+            "337a79f8caeff25422b28771e851c140d5d744ac",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_ext_init.py",
+        "score": 0.7986767888069153,
+        "channels": [
+          "directory",
+          "structural",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 0,
+          "past_change_count": 1,
+          "commits_since_change": 1,
+          "cochange_jaccard": 0.0,
+          "semantic_cosine": 0.9929823875427246
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_ext_init.py"
+          ],
+          "past_commits": []
+        },
+        "distance": 5
+      }
+    ],
+    "recommended_tests": [
+      {
+        "path": "tests/test_markupsafe.py",
+        "score": 0.9771682024002075,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 11,
+          "past_change_count": 14,
+          "commits_since_change": 16,
+          "cochange_jaccard": 0.15492957746478872,
+          "semantic_cosine": 0.9864871501922607
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_markupsafe.py"
+          ],
+          "past_commits": [
+            "e49d257126d09937b1bf5e2b2173238df729fb13",
+            "391aa07d3c68d4d0888b31fdea62516df9e19cb8",
+            "53d3f454828dc958b7c5ff972a39eb1279e5c943",
+            "0b6bee071fbd8d3171fb1ac4fb669baace808438",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_leak.py",
+        "score": 0.9560801386833191,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 3,
+          "past_change_count": 8,
+          "commits_since_change": 1,
+          "cochange_jaccard": 0.0410958904109589,
+          "semantic_cosine": 0.9871194362640381
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_leak.py"
+          ],
+          "past_commits": [
+            "b41c96e00afd09eca075a98589886c78666d4d33",
+            "337a79f8caeff25422b28771e851c140d5d744ac",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_escape.py",
+        "score": 0.9076337814331055,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 2,
+          "past_change_count": 6,
+          "commits_since_change": 7,
+          "cochange_jaccard": 0.027777777777777776,
+          "semantic_cosine": 0.9759057760238647
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_escape.py"
+          ],
+          "past_commits": [
+            "337a79f8caeff25422b28771e851c140d5d744ac",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_exception_custom_html.py",
+        "score": 0.8772191405296326,
+        "channels": [
+          "directory",
+          "structural",
+          "history",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 2,
+          "past_change_count": 4,
+          "commits_since_change": 16,
+          "cochange_jaccard": 0.02857142857142857,
+          "semantic_cosine": 0.9861260652542114
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_exception_custom_html.py"
+          ],
+          "past_commits": [
+            "337a79f8caeff25422b28771e851c140d5d744ac",
+            "dcb170b127137880729ac66f03cb590fff562225"
+          ]
+        },
+        "distance": 5
+      },
+      {
+        "path": "tests/test_ext_init.py",
+        "score": 0.7986767888069153,
+        "channels": [
+          "directory",
+          "structural",
+          "semantic"
+        ],
+        "features": {
+          "directory_proximity": 0.16666666666666666,
+          "structural_hops": 1,
+          "past_cochange_count": 0,
+          "past_change_count": 1,
+          "commits_since_change": 1,
+          "cochange_jaccard": 0.0,
+          "semantic_cosine": 0.9929823875427246
+        },
+        "evidence": {
+          "import_path": [
+            "src/markupsafe/__init__.py",
+            "tests/test_ext_init.py"
+          ],
+          "past_commits": []
+        },
+        "distance": 5
+      }
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "id": "src/markupsafe/__init__.py",
+          "kind": "file",
+          "path": "src/markupsafe/__init__.py"
+        },
+        {
+          "id": "tests/test_escape.py",
+          "kind": "file",
+          "path": "tests/test_escape.py"
+        },
+        {
+          "id": "tests/test_exception_custom_html.py",
+          "kind": "file",
+          "path": "tests/test_exception_custom_html.py"
+        },
+        {
+          "id": "tests/test_ext_init.py",
+          "kind": "file",
+          "path": "tests/test_ext_init.py"
+        },
+        {
+          "id": "tests/test_leak.py",
+          "kind": "file",
+          "path": "tests/test_leak.py"
+        },
+        {
+          "id": "tests/test_markupsafe.py",
+          "kind": "file",
+          "path": "tests/test_markupsafe.py"
+        },
+        {
+          "end": 364,
+          "id": "src/markupsafe/__init__.py::EscapeFormatter@342",
+          "kind": "class",
+          "path": "src/markupsafe/__init__.py",
+          "start": 342
+        },
+        {
+          "end": 347,
+          "id": "src/markupsafe/__init__.py::EscapeFormatter@342::__init__@345",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 345
+        },
+        {
+          "end": 364,
+          "id": "src/markupsafe/__init__.py::EscapeFormatter@342::format_field@349",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 349
+        },
+        {
+          "end": 339,
+          "id": "src/markupsafe/__init__.py::Markup@84",
+          "kind": "class",
+          "path": "src/markupsafe/__init__.py",
+          "start": 84
+        },
+        {
+          "end": 140,
+          "id": "src/markupsafe/__init__.py::Markup@84::__add__@136",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 136
+        },
+        {
+          "end": 253,
+          "id": "src/markupsafe/__init__.py::Markup@84::__getitem__@252",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 252
+        },
+        {
+          "end": 134,
+          "id": "src/markupsafe/__init__.py::Markup@84::__html__@133",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 133
+        },
+        {
+          "end": 339,
+          "id": "src/markupsafe/__init__.py::Markup@84::__html_format__@335",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 335
+        },
+        {
+          "end": 165,
+          "id": "src/markupsafe/__init__.py::Markup@84::__mod__@154",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 154
+        },
+        {
+          "end": 149,
+          "id": "src/markupsafe/__init__.py::Markup@84::__mul__@148",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 148
+        },
+        {
+          "end": 131,
+          "id": "src/markupsafe/__init__.py::Markup@84::__new__@122",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 122
+        },
+        {
+          "end": 146,
+          "id": "src/markupsafe/__init__.py::Markup@84::__radd__@142",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 142
+        },
+        {
+          "end": 168,
+          "id": "src/markupsafe/__init__.py::Markup@84::__repr__@167",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 167
+        },
+        {
+          "end": 152,
+          "id": "src/markupsafe/__init__.py::Markup@84::__rmul__@151",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 151
+        },
+        {
+          "end": 256,
+          "id": "src/markupsafe/__init__.py::Markup@84::capitalize@255",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 255
+        },
+        {
+          "end": 305,
+          "id": "src/markupsafe/__init__.py::Markup@84::casefold@304",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 304
+        },
+        {
+          "end": 283,
+          "id": "src/markupsafe/__init__.py::Markup@84::center@282",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 282
+        },
+        {
+          "end": 250,
+          "id": "src/markupsafe/__init__.py::Markup@84::escape@241",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 241
+        },
+        {
+          "end": 296,
+          "id": "src/markupsafe/__init__.py::Markup@84::expandtabs@295",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 295
+        },
+        {
+          "end": 325,
+          "id": "src/markupsafe/__init__.py::Markup@84::format@323",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 323
+        },
+        {
+          "end": 333,
+          "id": "src/markupsafe/__init__.py::Markup@84::format_map@327",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 327
+        },
+        {
+          "end": 171,
+          "id": "src/markupsafe/__init__.py::Markup@84::join@170",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 170
+        },
+        {
+          "end": 271,
+          "id": "src/markupsafe/__init__.py::Markup@84::ljust@270",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 270
+        },
+        {
+          "end": 262,
+          "id": "src/markupsafe/__init__.py::Markup@84::lower@261",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 261
+        },
+        {
+          "end": 277,
+          "id": "src/markupsafe/__init__.py::Markup@84::lstrip@276",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 276
+        },
+        {
+          "end": 316,
+          "id": "src/markupsafe/__init__.py::Markup@84::partition@313",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 313
+        },
+        {
+          "end": 308,
+          "id": "src/markupsafe/__init__.py::Markup@84::removeprefix@307",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 307
+        },
+        {
+          "end": 311,
+          "id": "src/markupsafe/__init__.py::Markup@84::removesuffix@310",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 310
+        },
+        {
+          "end": 268,
+          "id": "src/markupsafe/__init__.py::Markup@84::replace@267",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 267
+        },
+        {
+          "end": 274,
+          "id": "src/markupsafe/__init__.py::Markup@84::rjust@273",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 273
+        },
+        {
+          "end": 321,
+          "id": "src/markupsafe/__init__.py::Markup@84::rpartition@318",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 318
+        },
+        {
+          "end": 181,
+          "id": "src/markupsafe/__init__.py::Markup@84::rsplit@178",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 178
+        },
+        {
+          "end": 280,
+          "id": "src/markupsafe/__init__.py::Markup@84::rstrip@279",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 279
+        },
+        {
+          "end": 176,
+          "id": "src/markupsafe/__init__.py::Markup@84::split@173",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 173
+        },
+        {
+          "end": 186,
+          "id": "src/markupsafe/__init__.py::Markup@84::splitlines@183",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 183
+        },
+        {
+          "end": 286,
+          "id": "src/markupsafe/__init__.py::Markup@84::strip@285",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 285
+        },
+        {
+          "end": 238,
+          "id": "src/markupsafe/__init__.py::Markup@84::striptags@199",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 199
+        },
+        {
+          "end": 299,
+          "id": "src/markupsafe/__init__.py::Markup@84::swapcase@298",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 298
+        },
+        {
+          "end": 259,
+          "id": "src/markupsafe/__init__.py::Markup@84::title@258",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 258
+        },
+        {
+          "end": 293,
+          "id": "src/markupsafe/__init__.py::Markup@84::translate@288",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 288
+        },
+        {
+          "end": 197,
+          "id": "src/markupsafe/__init__.py::Markup@84::unescape@188",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 188
+        },
+        {
+          "end": 265,
+          "id": "src/markupsafe/__init__.py::Markup@84::upper@264",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 264
+        },
+        {
+          "end": 302,
+          "id": "src/markupsafe/__init__.py::Markup@84::zfill@301",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 301
+        },
+        {
+          "end": 17,
+          "id": "src/markupsafe/__init__.py::_HasHTML@16",
+          "kind": "class",
+          "path": "src/markupsafe/__init__.py",
+          "start": 16
+        },
+        {
+          "end": 17,
+          "id": "src/markupsafe/__init__.py::_HasHTML@16::__html__@17",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 17
+        },
+        {
+          "end": 389,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "kind": "class",
+          "path": "src/markupsafe/__init__.py",
+          "start": 367
+        },
+        {
+          "end": 389,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__float__@388",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 388
+        },
+        {
+          "end": 377,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__getitem__@376",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 376
+        },
+        {
+          "end": 374,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__init__@372",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 372
+        },
+        {
+          "end": 386,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__int__@385",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 385
+        },
+        {
+          "end": 383,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__repr__@382",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 382
+        },
+        {
+          "end": 380,
+          "id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__str__@379",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 379
+        },
+        {
+          "end": 21,
+          "id": "src/markupsafe/__init__.py::_TPEscape@20",
+          "kind": "class",
+          "path": "src/markupsafe/__init__.py",
+          "start": 20
+        },
+        {
+          "end": 21,
+          "id": "src/markupsafe/__init__.py::_TPEscape@20::__call__@21",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 21
+        },
+        {
+          "end": 45,
+          "id": "src/markupsafe/__init__.py::escape@24",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 24
+        },
+        {
+          "end": 61,
+          "id": "src/markupsafe/__init__.py::escape_silent@48",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 48
+        },
+        {
+          "end": 81,
+          "id": "src/markupsafe/__init__.py::soft_str@64",
+          "kind": "function",
+          "path": "src/markupsafe/__init__.py",
+          "start": 64
+        },
+        {
+          "end": 47,
+          "id": "tests/test_escape.py::Proxy@37",
+          "kind": "class",
+          "path": "tests/test_escape.py",
+          "start": 37
+        },
+        {
+          "end": 44,
+          "id": "tests/test_escape.py::Proxy@37::__class__@42",
+          "kind": "function",
+          "path": "tests/test_escape.py",
+          "start": 42
+        },
+        {
+          "end": 39,
+          "id": "tests/test_escape.py::Proxy@37::__init__@38",
+          "kind": "function",
+          "path": "tests/test_escape.py",
+          "start": 38
+        },
+        {
+          "end": 47,
+          "id": "tests/test_escape.py::Proxy@37::__str__@46",
+          "kind": "function",
+          "path": "tests/test_escape.py",
+          "start": 46
+        },
+        {
+          "end": 61,
+          "id": "tests/test_escape.py::ReferenceStr@58",
+          "kind": "class",
+          "path": "tests/test_escape.py",
+          "start": 58
+        },
+        {
+          "end": 61,
+          "id": "tests/test_escape.py::ReferenceStr@58::__str__@59",
+          "kind": "function",
+          "path": "tests/test_escape.py",
+          "start": 59
+        },
+        {
+          "end": 34,
+          "id": "tests/test_escape.py::test_escape@33",
+          "kind": "test",
+          "path": "tests/test_escape.py",
+          "start": 33
+        },
+        {
+          "end": 55,
+          "id": "tests/test_escape.py::test_proxy@50",
+          "kind": "test",
+          "path": "tests/test_escape.py",
+          "start": 50
+        },
+        {
+          "end": 68,
+          "id": "tests/test_escape.py::test_subclass@64",
+          "kind": "test",
+          "path": "tests/test_escape.py",
+          "start": 64
+        },
+        {
+          "end": 10,
+          "id": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8",
+          "kind": "class",
+          "path": "tests/test_exception_custom_html.py",
+          "start": 8
+        },
+        {
+          "end": 10,
+          "id": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8::__html__@9",
+          "kind": "function",
+          "path": "tests/test_exception_custom_html.py",
+          "start": 9
+        },
+        {
+          "end": 23,
+          "id": "tests/test_exception_custom_html.py::test_exception_custom_html@13",
+          "kind": "test",
+          "path": "tests/test_exception_custom_html.py",
+          "start": 13
+        },
+        {
+          "end": 28,
+          "id": "tests/test_ext_init.py::test_ext_init@15",
+          "kind": "test",
+          "path": "tests/test_ext_init.py",
+          "start": 15
+        },
+        {
+          "end": 28,
+          "id": "tests/test_leak.py::test_markup_leaks@11",
+          "kind": "test",
+          "path": "tests/test_leak.py",
+          "start": 11
+        },
+        {
+          "end": 16,
+          "id": "tests/test_markupsafe.py::test_adding@13",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 13
+        },
+        {
+          "end": 166,
+          "id": "tests/test_markupsafe.py::test_complex_custom_formatting@144",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 144
+        },
+        {
+          "end": 161,
+          "id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145",
+          "kind": "class",
+          "path": "tests/test_markupsafe.py",
+          "start": 145
+        },
+        {
+          "end": 161,
+          "id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__html__@160",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 160
+        },
+        {
+          "end": 158,
+          "id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__html_format__@150",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 150
+        },
+        {
+          "end": 148,
+          "id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__init__@146",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 146
+        },
+        {
+          "end": 141,
+          "id": "tests/test_markupsafe.py::test_custom_formatting@128",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 128
+        },
+        {
+          "end": 138,
+          "id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133",
+          "kind": "class",
+          "path": "tests/test_markupsafe.py",
+          "start": 133
+        },
+        {
+          "end": 135,
+          "id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133::__html__@134",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 134
+        },
+        {
+          "end": 138,
+          "id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133::__html_format__@137",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 137
+        },
+        {
+          "end": 131,
+          "id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129",
+          "kind": "class",
+          "path": "tests/test_markupsafe.py",
+          "start": 129
+        },
+        {
+          "end": 131,
+          "id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129::__html__@130",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 130
+        },
+        {
+          "end": 74,
+          "id": "tests/test_markupsafe.py::test_dict_interpol@67",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 67
+        },
+        {
+          "end": 202,
+          "id": "tests/test_markupsafe.py::test_escape_return_type@194",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 194
+        },
+        {
+          "end": 200,
+          "id": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198",
+          "kind": "class",
+          "path": "tests/test_markupsafe.py",
+          "start": 198
+        },
+        {
+          "end": 200,
+          "id": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198::__html__@199",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 199
+        },
+        {
+          "end": 180,
+          "id": "tests/test_markupsafe.py::test_escape_silent@177",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 177
+        },
+        {
+          "end": 89,
+          "id": "tests/test_markupsafe.py::test_escaping@77",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 77
+        },
+        {
+          "end": 115,
+          "id": "tests/test_markupsafe.py::test_format@107",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 107
+        },
+        {
+          "end": 120,
+          "id": "tests/test_markupsafe.py::test_format_map@118",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 118
+        },
+        {
+          "end": 125,
+          "id": "tests/test_markupsafe.py::test_formatting_empty@123",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 123
+        },
+        {
+          "end": 174,
+          "id": "tests/test_markupsafe.py::test_formatting_with_objects@169",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 169
+        },
+        {
+          "end": 172,
+          "id": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170",
+          "kind": "class",
+          "path": "tests/test_markupsafe.py",
+          "start": 170
+        },
+        {
+          "end": 172,
+          "id": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170::__str__@171",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 171
+        },
+        {
+          "end": 52,
+          "id": "tests/test_markupsafe.py::test_html_interop@42",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 42
+        },
+        {
+          "end": 48,
+          "id": "tests/test_markupsafe.py::test_html_interop@42::Foo@43",
+          "kind": "class",
+          "path": "tests/test_markupsafe.py",
+          "start": 43
+        },
+        {
+          "end": 45,
+          "id": "tests/test_markupsafe.py::test_html_interop@42::Foo@43::__html__@44",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 44
+        },
+        {
+          "end": 48,
+          "id": "tests/test_markupsafe.py::test_html_interop@42::Foo@43::__str__@47",
+          "kind": "function",
+          "path": "tests/test_markupsafe.py",
+          "start": 47
+        },
+        {
+          "end": 58,
+          "id": "tests/test_markupsafe.py::test_missing_interpol@56",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 56
+        },
+        {
+          "end": 191,
+          "id": "tests/test_markupsafe.py::test_mul@190",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 190
+        },
+        {
+          "end": 208,
+          "id": "tests/test_markupsafe.py::test_soft_str@205",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 205
+        },
+        {
+          "end": 187,
+          "id": "tests/test_markupsafe.py::test_splitting@183",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 183
+        },
+        {
+          "end": 33,
+          "id": "tests/test_markupsafe.py::test_string_interpolation@32",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 32
+        },
+        {
+          "end": 64,
+          "id": "tests/test_markupsafe.py::test_tuple_interpol@61",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 61
+        },
+        {
+          "end": 39,
+          "id": "tests/test_markupsafe.py::test_type_behavior@36",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 36
+        },
+        {
+          "end": 104,
+          "id": "tests/test_markupsafe.py::test_unescape@92",
+          "kind": "test",
+          "path": "tests/test_markupsafe.py",
+          "start": 92
+        }
+      ],
+      "edges": [
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::_HasHTML@16"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_HasHTML@16",
+          "target": "src/markupsafe/__init__.py::_HasHTML@16::__html__@17"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::_TPEscape@20"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_TPEscape@20",
+          "target": "src/markupsafe/__init__.py::_TPEscape@20::__call__@21"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::escape@24"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::escape_silent@48"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::soft_str@64"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::Markup@84"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__new__@122"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__html__@133"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__add__@136"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__radd__@142"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__mul__@148"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__rmul__@151"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__mod__@154"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__repr__@167"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::join@170"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::split@173"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::rsplit@178"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::splitlines@183"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::unescape@188"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::striptags@199"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::escape@241"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__getitem__@252"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::capitalize@255"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::title@258"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::lower@261"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::upper@264"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::replace@267"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::ljust@270"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::rjust@273"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::lstrip@276"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::rstrip@279"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::center@282"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::strip@285"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::translate@288"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::expandtabs@295"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::swapcase@298"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::zfill@301"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::casefold@304"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::removeprefix@307"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::removesuffix@310"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::partition@313"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::rpartition@318"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::format@323"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::format_map@327"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::Markup@84",
+          "target": "src/markupsafe/__init__.py::Markup@84::__html_format__@335"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::EscapeFormatter@342"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::EscapeFormatter@342",
+          "target": "src/markupsafe/__init__.py::EscapeFormatter@342::__init__@345"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::EscapeFormatter@342",
+          "target": "src/markupsafe/__init__.py::EscapeFormatter@342::format_field@349"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__init__@372"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__getitem__@376"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__str__@379"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__repr__@382"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__int__@385"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__float__@388"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py",
+          "target": "tests/test_escape.py::test_escape@33"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py",
+          "target": "tests/test_escape.py::Proxy@37"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py::Proxy@37",
+          "target": "tests/test_escape.py::Proxy@37::__init__@38"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py::Proxy@37",
+          "target": "tests/test_escape.py::Proxy@37::__class__@42"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py::Proxy@37",
+          "target": "tests/test_escape.py::Proxy@37::__str__@46"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py",
+          "target": "tests/test_escape.py::test_proxy@50"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py",
+          "target": "tests/test_escape.py::ReferenceStr@58"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py::ReferenceStr@58",
+          "target": "tests/test_escape.py::ReferenceStr@58::__str__@59"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_escape.py",
+          "target": "tests/test_escape.py::test_subclass@64"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_exception_custom_html.py",
+          "target": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8",
+          "target": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8::__html__@9"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_exception_custom_html.py",
+          "target": "tests/test_exception_custom_html.py::test_exception_custom_html@13"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_ext_init.py",
+          "target": "tests/test_ext_init.py::test_ext_init@15"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_leak.py",
+          "target": "tests/test_leak.py::test_markup_leaks@11"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_adding@13"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_string_interpolation@32"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_type_behavior@36"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_html_interop@42"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_html_interop@42",
+          "target": "tests/test_markupsafe.py::test_html_interop@42::Foo@43"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_html_interop@42::Foo@43",
+          "target": "tests/test_markupsafe.py::test_html_interop@42::Foo@43::__html__@44"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_html_interop@42::Foo@43",
+          "target": "tests/test_markupsafe.py::test_html_interop@42::Foo@43::__str__@47"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_missing_interpol@56"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_tuple_interpol@61"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_dict_interpol@67"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_escaping@77"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_unescape@92"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_format@107"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_format_map@118"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_formatting_empty@123"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_custom_formatting@128"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_custom_formatting@128",
+          "target": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129",
+          "target": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129::__html__@130"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_custom_formatting@128",
+          "target": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133",
+          "target": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133::__html__@134"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133",
+          "target": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133::__html_format__@137"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_complex_custom_formatting@144"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_complex_custom_formatting@144",
+          "target": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145",
+          "target": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__init__@146"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145",
+          "target": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__html_format__@150"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145",
+          "target": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__html__@160"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_formatting_with_objects@169"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_formatting_with_objects@169",
+          "target": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170",
+          "target": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170::__str__@171"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_escape_silent@177"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_splitting@183"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_mul@190"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_escape_return_type@194"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_escape_return_type@194",
+          "target": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198",
+          "target": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198::__html__@199"
+        },
+        {
+          "relation": "CONTAINS",
+          "source": "tests/test_markupsafe.py",
+          "target": "tests/test_markupsafe.py::test_soft_str@205"
+        },
+        {
+          "source": "src/markupsafe/__init__.py::escape@24",
+          "target": "src/markupsafe/__init__.py::Markup@84",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 40
+        },
+        {
+          "source": "src/markupsafe/__init__.py::escape@24",
+          "target": "src/markupsafe/__init__.py::Markup@84",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 43
+        },
+        {
+          "source": "src/markupsafe/__init__.py::escape@24",
+          "target": "src/markupsafe/__init__.py::Markup@84",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 45
+        },
+        {
+          "source": "src/markupsafe/__init__.py::escape_silent@48",
+          "target": "src/markupsafe/__init__.py::Markup@84",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 59
+        },
+        {
+          "source": "src/markupsafe/__init__.py::escape_silent@48",
+          "target": "src/markupsafe/__init__.py::escape@24",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 61
+        },
+        {
+          "source": "src/markupsafe/__init__.py::Markup@84::__mod__@154",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 157
+        },
+        {
+          "source": "src/markupsafe/__init__.py::Markup@84::__mod__@154",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 160
+        },
+        {
+          "source": "src/markupsafe/__init__.py::Markup@84::__mod__@154",
+          "target": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 163
+        },
+        {
+          "source": "src/markupsafe/__init__.py::Markup@84::escape@241",
+          "target": "src/markupsafe/__init__.py::escape@24",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 245
+        },
+        {
+          "source": "src/markupsafe/__init__.py::Markup@84::format@323",
+          "target": "src/markupsafe/__init__.py::EscapeFormatter@342",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 324
+        },
+        {
+          "source": "src/markupsafe/__init__.py::Markup@84::format_map@327",
+          "target": "src/markupsafe/__init__.py::EscapeFormatter@342",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 332
+        },
+        {
+          "source": "tests/test_escape.py::test_proxy@50",
+          "target": "tests/test_escape.py::Proxy@37",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 52
+        },
+        {
+          "source": "tests/test_escape.py::test_subclass@64",
+          "target": "tests/test_escape.py::ReferenceStr@58",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 66
+        },
+        {
+          "source": "tests/test_exception_custom_html.py::test_exception_custom_html@13",
+          "target": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8",
+          "relation": "CALLS",
+          "resolution": "unshadowed-module-symbol",
+          "line": 20
+        }
+      ],
+      "total_nodes": 128,
+      "truncated": true,
+      "node_limit": 500
+    },
+    "parse_failures": [],
+    "provenance": {
+      "schema_version": 1,
+      "manifest_sha256": "c12a062abebf9c754926ae30e631e13669a210cfd84d415fedde15dc75287e3f",
+      "configuration_sha256": "2abf9420b5993ae669b5d7f9ff3ab1fdeceaa444a37145eda28b79a5acb19b19",
+      "random_seed": 17,
+      "parser_version": "5",
+      "feature_version": "structural-history-v3"
+    },
+    "target_commit": null,
+    "relation_resolution": {
+      "calls": 352,
+      "resolved_calls": 24,
+      "syntax_unavailable": 0
+    },
+    "relation_version": "lexical-relations-v1",
+    "entities": [
+      {
+        "id": "799e23de637d9fa69167c8b45250dac08d96e041628608f02b6f63b42d04c43b",
+        "kind": "file",
+        "path": "src/markupsafe/__init__.py",
+        "legacy_id": "src/markupsafe/__init__.py",
+        "qualified_name": "",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 17,
+        "id": "e96bd0f71d794cde30b09d9544bea44a6955a4af752626c552a20cdc8c3e5f71",
+        "kind": "class",
+        "path": "src/markupsafe/__init__.py",
+        "start": 16,
+        "legacy_id": "src/markupsafe/__init__.py::_HasHTML@16",
+        "qualified_name": "_HasHTML",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 17,
+        "id": "74d8a28eec48bbe80901a8559925ac29a993920f5e9184cef44b8f655afac74f",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 17,
+        "legacy_id": "src/markupsafe/__init__.py::_HasHTML@16::__html__@17",
+        "qualified_name": "_HasHTML::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 21,
+        "id": "bacf8e58b139198bf24ab7867317510b8cc429743ad104f80a6d272122b31c0f",
+        "kind": "class",
+        "path": "src/markupsafe/__init__.py",
+        "start": 20,
+        "legacy_id": "src/markupsafe/__init__.py::_TPEscape@20",
+        "qualified_name": "_TPEscape",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 21,
+        "id": "2ab87dd7a896856b97e6379b6ea39de4dc62540f6c804b9b502c4520f7f96be6",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 21,
+        "legacy_id": "src/markupsafe/__init__.py::_TPEscape@20::__call__@21",
+        "qualified_name": "_TPEscape::__call__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 45,
+        "id": "44ede540d86898267eb145bad9218d6d024948b3d76665e0cd69be241012f1a9",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 24,
+        "legacy_id": "src/markupsafe/__init__.py::escape@24",
+        "qualified_name": "escape",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 61,
+        "id": "7d0354fb78f3470cbcd8cbbe3867cac7aec3157f524bb1497bda693d1beba842",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 48,
+        "legacy_id": "src/markupsafe/__init__.py::escape_silent@48",
+        "qualified_name": "escape_silent",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 81,
+        "id": "f9f309e22de6413d677c4c288b96bcad5b48278b2162907e57d514309d49dd66",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 64,
+        "legacy_id": "src/markupsafe/__init__.py::soft_str@64",
+        "qualified_name": "soft_str",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 339,
+        "id": "97856529ca1b40fd22057b69fa85f2a8424a1b3a80beae81f45773bc37f6fc57",
+        "kind": "class",
+        "path": "src/markupsafe/__init__.py",
+        "start": 84,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84",
+        "qualified_name": "Markup",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 131,
+        "id": "b12c6a930c7deac0392890c2da0394fd5574508140b433360e06560623f50b9f",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 122,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__new__@122",
+        "qualified_name": "Markup::__new__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 134,
+        "id": "bdda9ec8ab0240b2c99ae860951106a0fb3a045f6938026807a12fb3881e2c42",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 133,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__html__@133",
+        "qualified_name": "Markup::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 140,
+        "id": "58d455b40b7d14d9757d75160b8cf1bf366efa1f250c9f154dac5eef75c2d01e",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 136,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__add__@136",
+        "qualified_name": "Markup::__add__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 146,
+        "id": "0ac21dbb4946009b0764eb4aa842ec068389bb3754492dba1cf576526c106c96",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 142,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__radd__@142",
+        "qualified_name": "Markup::__radd__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 149,
+        "id": "41de3d91702092abdf0f89c9c8c17df3913ec4b84366a5e206f0ee547f526fc8",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 148,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__mul__@148",
+        "qualified_name": "Markup::__mul__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 152,
+        "id": "ee8c5230c64897d1eeacb98592a850b613441d38ef3297ead96bafa850755537",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 151,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__rmul__@151",
+        "qualified_name": "Markup::__rmul__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 165,
+        "id": "8493316225749767dea62fdb438bffa21145d4fa90aa21ad6266a24a69623107",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 154,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__mod__@154",
+        "qualified_name": "Markup::__mod__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 168,
+        "id": "3456490ff7a54c2ae9034b3a5b99c91bd8d5f64649b603a204bd9dc295f24b30",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 167,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__repr__@167",
+        "qualified_name": "Markup::__repr__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 171,
+        "id": "6dae4161cba28604573daabd9a61d78075027eb1511e22f8e8c03321431a0ab4",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 170,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::join@170",
+        "qualified_name": "Markup::join",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 176,
+        "id": "4290f7fee5fbc045c3633298fb064d6c5f0a49ed69d14b04fbdde6da31552858",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 173,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::split@173",
+        "qualified_name": "Markup::split",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 181,
+        "id": "6d4e68c846164e6b13705ecf54f2eda325ee909dd5f7322920c2342135e4696d",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 178,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::rsplit@178",
+        "qualified_name": "Markup::rsplit",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 186,
+        "id": "684026781752b82ed0e7ab1760509c8cc26b50034fac99c91da0d3487b5fae15",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 183,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::splitlines@183",
+        "qualified_name": "Markup::splitlines",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 197,
+        "id": "fd13d492dee345173b0a7992cf5efb3f8cc2742182e8428b258a85ce6a7cf89a",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 188,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::unescape@188",
+        "qualified_name": "Markup::unescape",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 238,
+        "id": "73c2acf3d112087fc7a549fbc614c72d83ead283d44215e34c38546c2108a80d",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 199,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::striptags@199",
+        "qualified_name": "Markup::striptags",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 250,
+        "id": "84c1d38f369efb25bd655bdda1cee8162ee4bc2e5d1543ea32ed7989fb2b5aec",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 241,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::escape@241",
+        "qualified_name": "Markup::escape",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 253,
+        "id": "1ab4f5dc85680b1b7dad61b25357ddc7ba46943886e83742c8b360a69702a186",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 252,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__getitem__@252",
+        "qualified_name": "Markup::__getitem__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 256,
+        "id": "0495a68183c216a413c8018af62905408a4ee8af88d16054c9541dd5ebe90094",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 255,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::capitalize@255",
+        "qualified_name": "Markup::capitalize",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 259,
+        "id": "d5e63595c8a848866a2ccd7bb00dab3cca769339a94b355d6b54a45bdbe8b7a7",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 258,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::title@258",
+        "qualified_name": "Markup::title",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 262,
+        "id": "ca7a2106b7372eab0894d221d884a5f8a1cf1f3302aca5504ebe49d1c564409c",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 261,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::lower@261",
+        "qualified_name": "Markup::lower",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 265,
+        "id": "9657d5884568448e09b62445aaedf9d2ede58843d11bd34b64f76e5ff4193538",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 264,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::upper@264",
+        "qualified_name": "Markup::upper",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 268,
+        "id": "8c14a7205998ea042524dced998cdd42c4547296cce9bd3b5937d234035b007e",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 267,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::replace@267",
+        "qualified_name": "Markup::replace",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 271,
+        "id": "3defb1a7388db1b1d7e054642198b6afc8c50ae28d9a89f60ee684f1379100cf",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 270,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::ljust@270",
+        "qualified_name": "Markup::ljust",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 274,
+        "id": "ef79221e844b4ffb7f7a544086f571208d18c1130bba5bfe76818aad580cda0d",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 273,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::rjust@273",
+        "qualified_name": "Markup::rjust",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 277,
+        "id": "206559e87d7ad93ee6274956919dcc3ee0e1555c22078a95c7cc5bd34742c1f2",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 276,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::lstrip@276",
+        "qualified_name": "Markup::lstrip",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 280,
+        "id": "87582fe61b8422ce0f906ced146a0222e634b67359e9fd4515e9f55f31b4d83f",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 279,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::rstrip@279",
+        "qualified_name": "Markup::rstrip",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 283,
+        "id": "99b43b8fb7c33cbb53cc0bf140bb31d9470dabbaff399a0caccdb232b9bca670",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 282,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::center@282",
+        "qualified_name": "Markup::center",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 286,
+        "id": "7ffb68598ef2d763bc44462408aa1fd5689934a2516f56ce2df0035fd013b41e",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 285,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::strip@285",
+        "qualified_name": "Markup::strip",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 293,
+        "id": "2f5555cb573f78e3ffb593761353b7e06b8731d092684afc25441d78a8ff34bb",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 288,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::translate@288",
+        "qualified_name": "Markup::translate",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 296,
+        "id": "c9a0d1a3cfb837c773aafceb1c69d02ec7f5cd8136104c262c25fb8066744f4a",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 295,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::expandtabs@295",
+        "qualified_name": "Markup::expandtabs",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 299,
+        "id": "95db40ed6cad364a386e71e8379402a7d8c476bd5e262163e4342ba7f0de4b43",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 298,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::swapcase@298",
+        "qualified_name": "Markup::swapcase",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 302,
+        "id": "2126096f025a857d53383deeb57b5fc5b1b63b00fc466b4d4e7f91d831c6db1c",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 301,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::zfill@301",
+        "qualified_name": "Markup::zfill",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 305,
+        "id": "b1b8e4eb845a135e39c07fc1bfc1862ebe66f285b92d0d993bfff477c0b7ed17",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 304,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::casefold@304",
+        "qualified_name": "Markup::casefold",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 308,
+        "id": "ea734fe6ca64f812efbab01a139a093f5f45d451e290467204c39fbcb8ebb3d2",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 307,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::removeprefix@307",
+        "qualified_name": "Markup::removeprefix",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 311,
+        "id": "2c4616001ef333fe24fe32db082e8f03069238b4099662dff57df9843a68d8e4",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 310,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::removesuffix@310",
+        "qualified_name": "Markup::removesuffix",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 316,
+        "id": "673afd2bccaa3f9b07bc1d0f222fdf0907d6b676674745abd3cc5ee343237c60",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 313,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::partition@313",
+        "qualified_name": "Markup::partition",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 321,
+        "id": "02b89fdb42b9fba7bf6e5ecf2ecb815d30846038b47726158e2208bb945dcf8f",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 318,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::rpartition@318",
+        "qualified_name": "Markup::rpartition",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 325,
+        "id": "7fbb6434ecafc697a797c89d07dd48b6294ad23ccc108300b68aec449430501e",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 323,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::format@323",
+        "qualified_name": "Markup::format",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 333,
+        "id": "9fd7de0f87dc73105fc840c738f9d3ba493745776700ef253f25722221581dbf",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 327,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::format_map@327",
+        "qualified_name": "Markup::format_map",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 339,
+        "id": "c8370c397424b71f75ff86083b4363d7010ab971ccb764a20f06e4fc605fa69f",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 335,
+        "legacy_id": "src/markupsafe/__init__.py::Markup@84::__html_format__@335",
+        "qualified_name": "Markup::__html_format__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 364,
+        "id": "a42560ffee4c6773c514caff96d97943973c00b2726aa1e3d9a0d660b3a17b90",
+        "kind": "class",
+        "path": "src/markupsafe/__init__.py",
+        "start": 342,
+        "legacy_id": "src/markupsafe/__init__.py::EscapeFormatter@342",
+        "qualified_name": "EscapeFormatter",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 347,
+        "id": "bc3aa8a778ee98eaa91ba6dc1ad67d77452190e19c2b5ad960a9d84a9de6d0a1",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 345,
+        "legacy_id": "src/markupsafe/__init__.py::EscapeFormatter@342::__init__@345",
+        "qualified_name": "EscapeFormatter::__init__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 364,
+        "id": "c08e84c52c213ad65dd32d6f63892d70bcac904793c7cc4b52999adb07d7a5af",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 349,
+        "legacy_id": "src/markupsafe/__init__.py::EscapeFormatter@342::format_field@349",
+        "qualified_name": "EscapeFormatter::format_field",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 389,
+        "id": "ff731e61b5e05c81a0ec4e10294835cdfba3378adb17143259eeee559194a98d",
+        "kind": "class",
+        "path": "src/markupsafe/__init__.py",
+        "start": 367,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367",
+        "qualified_name": "_MarkupEscapeHelper",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 374,
+        "id": "5998d7b24300a61073b6f97aa90fa5b147f0cbfaeb891eb3cfde5f657dd9051f",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 372,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__init__@372",
+        "qualified_name": "_MarkupEscapeHelper::__init__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 377,
+        "id": "c51b930c385974b9cd8be798ec48a00218aa46f8a95fb7704583c506fca33440",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 376,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__getitem__@376",
+        "qualified_name": "_MarkupEscapeHelper::__getitem__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 380,
+        "id": "b05227981deb2a92e8d644ac146e1f7ab23203632d82e1a0c13f949a3c0380cf",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 379,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__str__@379",
+        "qualified_name": "_MarkupEscapeHelper::__str__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 383,
+        "id": "9e97dee8745539b7fe7edd52c0e63354e6d98894af69e92a32a87a39982a159d",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 382,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__repr__@382",
+        "qualified_name": "_MarkupEscapeHelper::__repr__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 386,
+        "id": "60acdbb86f6878953fb975e3eeded1dd4a2f67fd35761f60e67b962693305330",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 385,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__int__@385",
+        "qualified_name": "_MarkupEscapeHelper::__int__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 389,
+        "id": "ab418f135e0fb45f986444ea3139b17b35baef856d36c927a3882c61071b8606",
+        "kind": "function",
+        "path": "src/markupsafe/__init__.py",
+        "start": 388,
+        "legacy_id": "src/markupsafe/__init__.py::_MarkupEscapeHelper@367::__float__@388",
+        "qualified_name": "_MarkupEscapeHelper::__float__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "id": "f8c4b946eb5f578ac8215a488f8cf6113f0d058a1bf901add7915e0b9f61e692",
+        "kind": "file",
+        "path": "tests/test_escape.py",
+        "legacy_id": "tests/test_escape.py",
+        "qualified_name": "",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 34,
+        "id": "37287c6e4700e121147ecc10d32238d7fbd8245716405d7e94c72e15de294bf6",
+        "kind": "test",
+        "path": "tests/test_escape.py",
+        "start": 33,
+        "legacy_id": "tests/test_escape.py::test_escape@33",
+        "qualified_name": "test_escape",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 47,
+        "id": "ff8e30befe1f337e5f5331a4e286954e40e3792435319eb124b3115a9e11a52e",
+        "kind": "class",
+        "path": "tests/test_escape.py",
+        "start": 37,
+        "legacy_id": "tests/test_escape.py::Proxy@37",
+        "qualified_name": "Proxy",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 39,
+        "id": "4855cffd801b7d423dbb64f621d623ff76c57ff978ea89b3de63092542a6e973",
+        "kind": "function",
+        "path": "tests/test_escape.py",
+        "start": 38,
+        "legacy_id": "tests/test_escape.py::Proxy@37::__init__@38",
+        "qualified_name": "Proxy::__init__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 44,
+        "id": "ce5a7a9f8042816d5cd1b11d5224acc5556f85dbb42129b15b8dae1e8684fa63",
+        "kind": "function",
+        "path": "tests/test_escape.py",
+        "start": 42,
+        "legacy_id": "tests/test_escape.py::Proxy@37::__class__@42",
+        "qualified_name": "Proxy::__class__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 47,
+        "id": "a2dec6057cc31a444d396df755f4a2c0c07d6ed4e18f5e4edf8b13e1c61107d4",
+        "kind": "function",
+        "path": "tests/test_escape.py",
+        "start": 46,
+        "legacy_id": "tests/test_escape.py::Proxy@37::__str__@46",
+        "qualified_name": "Proxy::__str__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 55,
+        "id": "efe70a5c25cb34d7ff1df798448a8da60c4440e4d4842d86e19f7cb6fcc2789c",
+        "kind": "test",
+        "path": "tests/test_escape.py",
+        "start": 50,
+        "legacy_id": "tests/test_escape.py::test_proxy@50",
+        "qualified_name": "test_proxy",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 61,
+        "id": "463121560acc02d3b0d0d380e066a0be8850961c88006c2557b9c663c25b8e79",
+        "kind": "class",
+        "path": "tests/test_escape.py",
+        "start": 58,
+        "legacy_id": "tests/test_escape.py::ReferenceStr@58",
+        "qualified_name": "ReferenceStr",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 61,
+        "id": "14a0af43863fa0ac0b98b8a17af28b0afb40e405babc978865a969fbc22bcb63",
+        "kind": "function",
+        "path": "tests/test_escape.py",
+        "start": 59,
+        "legacy_id": "tests/test_escape.py::ReferenceStr@58::__str__@59",
+        "qualified_name": "ReferenceStr::__str__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 68,
+        "id": "1b2e686329f2b17e6ba3d3aaaeb30fef5c24e4451436ad004e74aef8df379217",
+        "kind": "test",
+        "path": "tests/test_escape.py",
+        "start": 64,
+        "legacy_id": "tests/test_escape.py::test_subclass@64",
+        "qualified_name": "test_subclass",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "id": "c53d23dff2cf15b4755e9e3a1c3dbe56babb09e4198f986145506c168b010f2f",
+        "kind": "file",
+        "path": "tests/test_exception_custom_html.py",
+        "legacy_id": "tests/test_exception_custom_html.py",
+        "qualified_name": "",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 10,
+        "id": "b1dd07fbab6d2b9e6e484c50cd39f9516c8c98fc6bcf08c248c860cdf9238725",
+        "kind": "class",
+        "path": "tests/test_exception_custom_html.py",
+        "start": 8,
+        "legacy_id": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8",
+        "qualified_name": "CustomHtmlThatRaises",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 10,
+        "id": "00137e4e6bd28b92782d8138b5e502189e419c01a227dceec0cbb84331622a7c",
+        "kind": "function",
+        "path": "tests/test_exception_custom_html.py",
+        "start": 9,
+        "legacy_id": "tests/test_exception_custom_html.py::CustomHtmlThatRaises@8::__html__@9",
+        "qualified_name": "CustomHtmlThatRaises::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 23,
+        "id": "49569de5bff94e92fe9b01d54d8acc0e8673bf70b8307bec524184fd33dac679",
+        "kind": "test",
+        "path": "tests/test_exception_custom_html.py",
+        "start": 13,
+        "legacy_id": "tests/test_exception_custom_html.py::test_exception_custom_html@13",
+        "qualified_name": "test_exception_custom_html",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "id": "5d81619282fbafd17d2863beaef394acf7355e684c3f1074f97ef6cdac4a7daa",
+        "kind": "file",
+        "path": "tests/test_ext_init.py",
+        "legacy_id": "tests/test_ext_init.py",
+        "qualified_name": "",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 28,
+        "id": "82b6ed6612af6c71ba48c120fdb36842dabd4849b41b560149a53c8f0ccbd38c",
+        "kind": "test",
+        "path": "tests/test_ext_init.py",
+        "start": 15,
+        "legacy_id": "tests/test_ext_init.py::test_ext_init@15",
+        "qualified_name": "test_ext_init",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "id": "d0c6fcc5bca469437ade63609fffcc1cdb0e3b56bc998a3d2d63a79a9527f03e",
+        "kind": "file",
+        "path": "tests/test_leak.py",
+        "legacy_id": "tests/test_leak.py",
+        "qualified_name": "",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 28,
+        "id": "723163b93583cd11c0d305889d690d87bce8e938702402ecf78b8e3f8a4c0ba2",
+        "kind": "test",
+        "path": "tests/test_leak.py",
+        "start": 11,
+        "legacy_id": "tests/test_leak.py::test_markup_leaks@11",
+        "qualified_name": "test_markup_leaks",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "id": "7ecbfd7ddcfa02f1188be91b55efd18da0f4289079138c98ab18cebc1449d366",
+        "kind": "file",
+        "path": "tests/test_markupsafe.py",
+        "legacy_id": "tests/test_markupsafe.py",
+        "qualified_name": "",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 16,
+        "id": "0cb120ab21c4e4830c714c36f51e190bc9df4326e49766d16a9dfb8d46675516",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 13,
+        "legacy_id": "tests/test_markupsafe.py::test_adding@13",
+        "qualified_name": "test_adding",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 33,
+        "id": "8c25056f6e27f62eb15ddf55e909de232b7cfae9199212d80bace42ba0f6511e",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 32,
+        "legacy_id": "tests/test_markupsafe.py::test_string_interpolation@32",
+        "qualified_name": "test_string_interpolation",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 39,
+        "id": "fe3d5ff7df85230fae80e652c58145adab700b237e7002ef0e6efe396b742082",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 36,
+        "legacy_id": "tests/test_markupsafe.py::test_type_behavior@36",
+        "qualified_name": "test_type_behavior",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 52,
+        "id": "6624e0545dfeaa0e5b0b34d3c2c3850da711a418687821183f16597efb89a7c2",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 42,
+        "legacy_id": "tests/test_markupsafe.py::test_html_interop@42",
+        "qualified_name": "test_html_interop",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 48,
+        "id": "0310a4be81a59411cd55cf562f14555f11db4378e0b61549811cf5360434b815",
+        "kind": "class",
+        "path": "tests/test_markupsafe.py",
+        "start": 43,
+        "legacy_id": "tests/test_markupsafe.py::test_html_interop@42::Foo@43",
+        "qualified_name": "test_html_interop::Foo",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 45,
+        "id": "b106e8b38d380564ed43cd181ec72fdab7ead26eb6ec726f25d6a6493bbd3df8",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 44,
+        "legacy_id": "tests/test_markupsafe.py::test_html_interop@42::Foo@43::__html__@44",
+        "qualified_name": "test_html_interop::Foo::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 48,
+        "id": "7ba7f5d73e793d573232bc9aa7b6be9b0a4e90d517d6c509991c7117342e546e",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 47,
+        "legacy_id": "tests/test_markupsafe.py::test_html_interop@42::Foo@43::__str__@47",
+        "qualified_name": "test_html_interop::Foo::__str__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 58,
+        "id": "c4a87eb1426a1bc479b23e7c9c79fc064cda6981b243a7e673c9cca74928baad",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 56,
+        "legacy_id": "tests/test_markupsafe.py::test_missing_interpol@56",
+        "qualified_name": "test_missing_interpol",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 64,
+        "id": "c7c18d227135a8f011a519112cb6cb77c704011fc74e96256a0357ea2b8471a0",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 61,
+        "legacy_id": "tests/test_markupsafe.py::test_tuple_interpol@61",
+        "qualified_name": "test_tuple_interpol",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 74,
+        "id": "a2e2f8b1eb4560a8ea228ff7155f14360caabeeeff79175e1483915b30daa39d",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 67,
+        "legacy_id": "tests/test_markupsafe.py::test_dict_interpol@67",
+        "qualified_name": "test_dict_interpol",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 89,
+        "id": "ed55a2608613d2afc86f8368bb452a868b6c96f83f66b46a943dc8f08ec76d3e",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 77,
+        "legacy_id": "tests/test_markupsafe.py::test_escaping@77",
+        "qualified_name": "test_escaping",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 104,
+        "id": "648b3c03bb05c4f9abe7ef353c6c49c1e824d6b70d44e93586513f5b4e7ccb71",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 92,
+        "legacy_id": "tests/test_markupsafe.py::test_unescape@92",
+        "qualified_name": "test_unescape",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 115,
+        "id": "2b01e0e9a728cb8f82992d319873edf809d8a18a0c9f486de4411296ff46734c",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 107,
+        "legacy_id": "tests/test_markupsafe.py::test_format@107",
+        "qualified_name": "test_format",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 120,
+        "id": "64c00439bf4fe36b1ee0ab150963867e163dbcec0b28ff3933ac2fdbd11963d0",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 118,
+        "legacy_id": "tests/test_markupsafe.py::test_format_map@118",
+        "qualified_name": "test_format_map",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 125,
+        "id": "92fa4b3f1b6d06a089a2dd7759b20768c76ca3715e00feafe9fce0090136e556",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 123,
+        "legacy_id": "tests/test_markupsafe.py::test_formatting_empty@123",
+        "qualified_name": "test_formatting_empty",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 141,
+        "id": "e676dc1fd054955ba8433060c76fc2a3eac50d148ae73ce9002af28e4ad8bead",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 128,
+        "legacy_id": "tests/test_markupsafe.py::test_custom_formatting@128",
+        "qualified_name": "test_custom_formatting",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 131,
+        "id": "e2de64874edc280d7352fb9588e1f0bc70b7d5f46329515838d4532e770f56f0",
+        "kind": "class",
+        "path": "tests/test_markupsafe.py",
+        "start": 129,
+        "legacy_id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129",
+        "qualified_name": "test_custom_formatting::HasHTMLOnly",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 131,
+        "id": "1c26896cae44f5d2238179e460a4506102cc362dfb109151f29640528a14ecf0",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 130,
+        "legacy_id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLOnly@129::__html__@130",
+        "qualified_name": "test_custom_formatting::HasHTMLOnly::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 138,
+        "id": "a2bc31324d9ed5aa56dbdcbe6339357c86919f235401daf8c603f9cec156be91",
+        "kind": "class",
+        "path": "tests/test_markupsafe.py",
+        "start": 133,
+        "legacy_id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133",
+        "qualified_name": "test_custom_formatting::HasHTMLAndFormat",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 135,
+        "id": "a6f38b383c5f8e4e18b3f0e312cf26d8552c015c3a41f62a59313e92fd6d8af4",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 134,
+        "legacy_id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133::__html__@134",
+        "qualified_name": "test_custom_formatting::HasHTMLAndFormat::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 138,
+        "id": "c7f5fb8b5378baaf9f227091580cebdcbe60e8a1483b104afb7c911d2ab99a18",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 137,
+        "legacy_id": "tests/test_markupsafe.py::test_custom_formatting@128::HasHTMLAndFormat@133::__html_format__@137",
+        "qualified_name": "test_custom_formatting::HasHTMLAndFormat::__html_format__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 166,
+        "id": "1a84be48e8aad242a3d4ee43b1126cb582cbd6a510c23720b9635c4d1d38cfa8",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 144,
+        "legacy_id": "tests/test_markupsafe.py::test_complex_custom_formatting@144",
+        "qualified_name": "test_complex_custom_formatting",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 161,
+        "id": "5db82db3eb65dc60c249643a2dd6404f8b2883dc582e9d2adb5e9c2127d0cf8b",
+        "kind": "class",
+        "path": "tests/test_markupsafe.py",
+        "start": 145,
+        "legacy_id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145",
+        "qualified_name": "test_complex_custom_formatting::User",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 148,
+        "id": "ffbf9a99498e5ed17b92ad97194f81b796f851be14d65bfa1dc26ea75161db5b",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 146,
+        "legacy_id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__init__@146",
+        "qualified_name": "test_complex_custom_formatting::User::__init__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 158,
+        "id": "c87ad1cf74976254623f9d2afc7d3ace1546a1832965505143a8dcf92dbdc5d3",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 150,
+        "legacy_id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__html_format__@150",
+        "qualified_name": "test_complex_custom_formatting::User::__html_format__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 161,
+        "id": "2fe8885ff34963be9938eed9d4c4262ee61cca4c411f985729f3eb373cfd9460",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 160,
+        "legacy_id": "tests/test_markupsafe.py::test_complex_custom_formatting@144::User@145::__html__@160",
+        "qualified_name": "test_complex_custom_formatting::User::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 174,
+        "id": "beec9b8b2b4bfca8e36f434291c07479835a695efab7026aaff9603625fc8307",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 169,
+        "legacy_id": "tests/test_markupsafe.py::test_formatting_with_objects@169",
+        "qualified_name": "test_formatting_with_objects",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 172,
+        "id": "0d1ee2472a0fcdc0e145e5037373dda47205a98e8733c487fe8dd395ae287d97",
+        "kind": "class",
+        "path": "tests/test_markupsafe.py",
+        "start": 170,
+        "legacy_id": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170",
+        "qualified_name": "test_formatting_with_objects::Stringable",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 172,
+        "id": "3fe4bf40e4e239903ca5452bd3249bcb6d38df0e9e12be4e0230fa19dcd6f47f",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 171,
+        "legacy_id": "tests/test_markupsafe.py::test_formatting_with_objects@169::Stringable@170::__str__@171",
+        "qualified_name": "test_formatting_with_objects::Stringable::__str__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 180,
+        "id": "495e6a40ced03fbaf7780b80c92fdff3ba1ba9da3e80a5dbec771b7192dccc41",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 177,
+        "legacy_id": "tests/test_markupsafe.py::test_escape_silent@177",
+        "qualified_name": "test_escape_silent",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 187,
+        "id": "275ad85cb81d3cf7cfd245cb7efd97f649be263db9e2a56ced4a434dd366a809",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 183,
+        "legacy_id": "tests/test_markupsafe.py::test_splitting@183",
+        "qualified_name": "test_splitting",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 191,
+        "id": "c331887d220174de9ef30e436648eafd2d86aaf1f151a8c56771cce91b7b8027",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 190,
+        "legacy_id": "tests/test_markupsafe.py::test_mul@190",
+        "qualified_name": "test_mul",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 202,
+        "id": "b39f0c5428fd0fa4d960cb0811be553293e4d57cf0c261fbe05a0747b79091c2",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 194,
+        "legacy_id": "tests/test_markupsafe.py::test_escape_return_type@194",
+        "qualified_name": "test_escape_return_type",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 200,
+        "id": "a26e337b1e6e1eb99959c7bdcf638cbcb6c5ff5ff457478d326a307fb925479a",
+        "kind": "class",
+        "path": "tests/test_markupsafe.py",
+        "start": 198,
+        "legacy_id": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198",
+        "qualified_name": "test_escape_return_type::Foo",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 200,
+        "id": "d3ac48df16302b78341d9aeaf453bf8f9c7f7a0b6c680530009be45d32758090",
+        "kind": "function",
+        "path": "tests/test_markupsafe.py",
+        "start": 199,
+        "legacy_id": "tests/test_markupsafe.py::test_escape_return_type@194::Foo@198::__html__@199",
+        "qualified_name": "test_escape_return_type::Foo::__html__",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      },
+      {
+        "end": 208,
+        "id": "3e8196ac0302ea55e1f5f4f39c931cb2b7f8c156e5f272e34a5d362d762a6457",
+        "kind": "test",
+        "path": "tests/test_markupsafe.py",
+        "start": 205,
+        "legacy_id": "tests/test_markupsafe.py::test_soft_str@205",
+        "qualified_name": "test_soft_str",
+        "occurrence": 0,
+        "repo": "pallets/markupsafe",
+        "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+      }
+    ],
+    "candidate_policy": "all-eligible-files-excluding-seed-v1",
+    "resolution": {
+      "resolved_imports": 14,
+      "unresolved_imports": 39
+    },
+    "evidence_cutoff": "4e111271b1494995708a9e878a10829b5e10c7ba",
+    "model_provenance": {
+      "schema_version": 1,
+      "manifest_sha256": "51be77fc195ac28a0d8e6f33fb14c3e13998fa94f2eace905a062de19cd6fc89",
+      "configuration_sha256": "7a0b315de802fc1cc47e6af72b9441c8bfbafeef6751e497a28b3ec786bdd112",
+      "random_seed": 17,
+      "parser_version": "5",
+      "feature_version": "structural-history-v3"
+    },
+    "model_status": "frozen checkpoint",
+    "score_kind": "uncalibrated_sigmoid",
+    "feature_version": "structural-history-v3"
+  }
+}

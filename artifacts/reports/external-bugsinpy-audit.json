@@ -1,0 +1,74 @@
+{
+  "dataset": {
+    "repository": "https://github.com/soarsmu/BugsInPy",
+    "revision": "11c5f1eea954a42132cfd06bf257766a7963e0fd"
+  },
+  "selection_policy": "First three numerically ordered Black bugs with multiple modified Python paths: 6, 14, 23",
+  "selected": [
+    {
+      "repo": "psf/black",
+      "instance_id": "BugsInPy-black-6",
+      "base_commit": "8c8adedc2a74a494c24f93e405b6418ac32f54cd",
+      "fixed_commit": "f8617f975d56e81cfb4070ce65584f7b29a77e7a",
+      "python_version": "3.8.3",
+      "modified_paths": [
+        "black.py",
+        "blib2to3/pgen2/driver.py",
+        "blib2to3/pgen2/tokenize.py",
+        "tests/data/python37.py"
+      ],
+      "patch_sha256": "73e0c51ab2f65bcf01ac3f9373528a72c3c5f8dfd06081e262e0b2fa800abbc7"
+    },
+    {
+      "repo": "psf/black",
+      "instance_id": "BugsInPy-black-14",
+      "base_commit": "3bdd42389128bbbe8b64a8e050563f09bff99979",
+      "fixed_commit": "dd8bde6d2fbfe8a7a11093e761a0cb5837efa96a",
+      "python_version": "3.8.3",
+      "modified_paths": [
+        "black.py",
+        "tests/data/python2_unicode_literals.py"
+      ],
+      "patch_sha256": "25d76a25a40730cbf19ece05f4fec7a155b2566c8dd390ba2e73a27ae51920e5"
+    },
+    {
+      "repo": "psf/black",
+      "instance_id": "BugsInPy-black-23",
+      "base_commit": "8de552eb4f0fbf1ad84812cde71489cc00d3ed1f",
+      "fixed_commit": "6316e293ac30a2837ec20eba289fd28a2a18cf89",
+      "python_version": "3.8.3",
+      "modified_paths": [
+        "black.py",
+        "blib2to3/pygram.py",
+        "tests/function.py"
+      ],
+      "patch_sha256": "cef9c45394405f9e01ed1912e39ba1ff826f970158cd8a73d641e7e1e975fa61"
+    }
+  ],
+  "excluded_projects": {
+    "train": [
+      "pallets/flask",
+      "psf/requests",
+      "pytest-dev/pytest",
+      "sphinx-doc/sphinx",
+      "pydantic/pydantic",
+      "encode/httpx",
+      "pallets/werkzeug"
+    ],
+    "validation": [
+      "fastapi/fastapi",
+      "sqlalchemy/sqlalchemy"
+    ],
+    "test": [
+      "sympy/sympy",
+      "scikit-learn/scikit-learn",
+      "django/django"
+    ]
+  },
+  "limitations": [
+    "Oracle changed-file seed; exploratory file ranking only",
+    "Static benchmark patch/commit metadata, not reproduced test-suite execution",
+    "Historical Python versions differ from the analysis runtime",
+    "Fixture Python files remain eligible labels where present in the buggy snapshot"
+  ]
+}

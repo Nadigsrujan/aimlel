@@ -4,29 +4,60 @@ import unittest
 import tempfile
 import json
 from unittest.mock import patch
-import serve
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'scripts'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "scripts"))
+import serve
 from serve import validate_submission, load_manifests
 
 
 class SubmissionTests(unittest.TestCase):
     def test_restart_marks_running_jobs_failed(self):
         with tempfile.TemporaryDirectory() as directory:
-            path = Path(directory) / 'state.json'
-            path.write_text(json.dumps({'one': {'status': 'running', 'repo': 'a/b'}}))
-            with patch.object(serve, 'JOB_FILE', path), patch.object(serve, 'JOBS', {}):
+            path = Path(directory) / "state.json"
+            path.write_text(json.dumps({"one": {"status": "running", "repo": "a/b"}}))
+            with patch.object(serve, "JOB_FILE", path), patch.object(serve, "JOBS", {}):
                 serve.restore_jobs()
-                self.assertEqual(serve.JOBS['one']['status'], 'failed')
-                self.assertEqual(json.loads(path.read_text())['one']['status'], 'failed')
+                self.assertEqual(serve.JOBS["one"]["status"], "failed")
+                self.assertEqual(
+                    json.loads(path.read_text())["one"]["status"], "failed"
+                )
 
     def test_invalid_shapes(self):
-        for payload in (None, [], 'url', {}, {'url': 3}):
+        for payload in (None, [], "url", {}, {"url": 3}):
             with self.subTest(payload=payload), self.assertRaises(ValueError):
                 validate_submission(payload)
 
     def test_public_url(self):
-        self.assertEqual(validate_submission({'url': ' https://github.com/a/b.git '})[1], 'a/b')
+        self.assertEqual(
+            validate_submission({"url": " https://github.com/a/b.git "})[1], "a/b"
+        )
 
     def test_held_out_not_exposed(self):
-        self.assertTrue(all(m['split'] != 'test' for m in load_manifests().values()))
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            manifests = root / "data/manifests"
+            manifests.mkdir(parents=True)
+            (manifests / "a__b.json").write_text(
+                json.dumps({"repo": "a/b", "split": "train"})
+            )
+            (manifests / "c__d.json").write_text(
+                json.dumps({"repo": "c/d", "split": "test"})
+            )
+            with patch.object(serve, "ROOT", root):
+                self.assertEqual(set(load_manifests()), {"a/b"})
+
+    def test_recorded_final_result_releases_held_out_catalog(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            manifests = root / "data/manifests"
+            manifests.mkdir(parents=True)
+            (manifests / "c__d.json").write_text(
+                json.dumps({"repo": "c/d", "split": "test"})
+            )
+            reports = root / "artifacts/reports"
+            reports.mkdir(parents=True)
+            (reports / "final-heldout.json").write_text(
+                json.dumps({"status": "frozen held-out evaluation"})
+            )
+            with patch.object(serve, "ROOT", root):
+                self.assertEqual(set(load_manifests()), {"c/d"})

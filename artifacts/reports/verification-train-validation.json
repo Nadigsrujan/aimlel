@@ -1,0 +1,83 @@
+[
+  {
+    "repo": "pallets/flask",
+    "split": "train",
+    "status": "verified",
+    "queries": 2454,
+    "nodes": 1705,
+    "parse_failures": 0,
+    "commits": 3829
+  },
+  {
+    "repo": "psf/requests",
+    "split": "train",
+    "status": "verified",
+    "queries": 1893,
+    "nodes": 844,
+    "parse_failures": 0,
+    "commits": 4884
+  },
+  {
+    "repo": "pytest-dev/pytest",
+    "split": "train",
+    "status": "verified",
+    "queries": 15317,
+    "nodes": 7663,
+    "parse_failures": 0,
+    "commits": 13255
+  },
+  {
+    "repo": "sphinx-doc/sphinx",
+    "split": "train",
+    "status": "verified",
+    "queries": 16842,
+    "nodes": 9331,
+    "parse_failures": 0,
+    "commits": 16626
+  },
+  {
+    "repo": "pydantic/pydantic",
+    "split": "train",
+    "status": "verified",
+    "queries": 9581,
+    "nodes": 14887,
+    "parse_failures": 0,
+    "commits": 5848
+  },
+  {
+    "repo": "encode/httpx",
+    "split": "train",
+    "status": "verified",
+    "queries": 2563,
+    "nodes": 1301,
+    "parse_failures": 0,
+    "commits": 1482
+  },
+  {
+    "repo": "pallets/werkzeug",
+    "split": "train",
+    "status": "verified",
+    "queries": 5183,
+    "nodes": 2635,
+    "parse_failures": 0,
+    "commits": 4539
+  },
+  {
+    "repo": "fastapi/fastapi",
+    "split": "validation",
+    "status": "verified",
+    "queries": 1967,
+    "nodes": 8314,
+    "parse_failures": 0,
+    "commits": 7940
+  },
+  {
+    "repo": "sqlalchemy/sqlalchemy",
+    "split": "validation",
+    "status": "verified",
+    "queries": 33682,
+    "nodes": 41740,
+    "parse_failures": 2,
+    "commits": 15591
+  }
+]

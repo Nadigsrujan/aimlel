@@ -1,0 +1,995 @@
+{
+  "datasets": [
+    {
+      "checksums": {
+        "events.jsonl": "84517dcdee524440c94d7a4011ec626eaaed4917f632ed99504444b948805bd5",
+        "graph.json": "49d4a33e00ec6524ad342aeb5887812a9883034c07366cf7b977a9d0545dec45",
+        "queries.jsonl": "37f0d3149785d45ba9e3d652677f6f209d4c832ce69e40cf17f5c726ec4d2c33"
+      },
+      "current_snapshot_parse_failures": [],
+      "manifest_sha256": "c601fe307b3022209f9f965c421f81ee58e6afe8198a280ed00dd66d96300671",
+      "repo": "sympy/sympy",
+      "revision": "692117a3cdabedf3d453714b42b0e10376bd87e8",
+      "summary_sha256": "7c8caff19c0bd0c85a8e72ce2c2e29b2b388a083cd9c3b8188e66ab02676fdc0"
+    },
+    {
+      "checksums": {
+        "events.jsonl": "e6fb9dd17150b451eccd899f2c0bc047afac6a800a030cc2ef670f2d959600d6",
+        "graph.json": "5bb9dbb95139547e78f6f01014ee863e03707c1ca4a1bafad333577698625e89",
+        "queries.jsonl": "85b4daebe4b8b45ee1fc9ab4940130c40f2bca2dbf9ac2ce4d9ce36735ff7e75"
+      },
+      "current_snapshot_parse_failures": [],
+      "manifest_sha256": "0a38877c9f9eb12676fa368bdb765309997724d0867e6c1c331400033097cee9",
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "583b8c40912b9b57f59fd4ab2f63d961e6dafe57",
+      "summary_sha256": "9302acabd8b85b4c88dbc7bf51d0a0ca003be2a9f77324d7b24f53a1f82f361b"
+    },
+    {
+      "checksums": {
+        "events.jsonl": "18e7da836b04a6b0fda57e23c92403fa0117e3d58dbae594ed8f31c3547d2d33",
+        "graph.json": "dc3e00259a935d21655d6345d7a782bf5562389988a52dda0fdb1d799c8c4867",
+        "queries.jsonl": "862cb4308d4a7d05ccd164750537eff4badef6c3dbcbdb38999e3aa4caae2f32"
+      },
+      "current_snapshot_parse_failures": [
+        {
+          "error": "tree-sitter syntax errors: invalid decimal literal (<unknown>, line 11)",
+          "path": "tests/test_runner_apps/tagged/tests_syntax_error.py"
+        }
+      ],
+      "manifest_sha256": "51c9b0baabb5ea1dacb6de937acd2df311cd57fe6af9866ff8161184b37d577a",
+      "repo": "django/django",
+      "revision": "3bdcd29a61be034b9c9a1cea744371c12339c48e",
+      "summary_sha256": "084ce06f10b67ac4ff9230038ae9dd5aad496d34645fd471f486750639d2ac40"
+    }
+  ],
+  "final_report_sha256": "0cbc1667fffaeedf51ee5942304dbe9eccab7b5674e3a8a7ce10c47251d3057e",
+  "frozen_artifacts": 606,
+  "model_sha256": "87277161a5cdb719c383fb6601568c26340b29d25800376dbcc6040c22050e37",
+  "queries": [
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "179d82286dea00c4246cdd7e66dc94d1147c1bae38390b5b60568b0039cfa8b1",
+      "commit": "15696ea00d6b48be01b86a9d3668b1b6f00b80b3",
+      "example_cache_key": "1ac29aee1320b5b0a5b941f382e3161af3e9e73cf55a226ef6d147fee7de8eb9",
+      "example_sha256": "3823cccaed4fe25e3aa3fcad1832dadc02283ef6fa6ac8b4f4b02943279cdb68",
+      "positive_paths": [
+        "sympy/functions/elementary/miscellaneous.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "ba6dd0cff412ba539218cbe1934c50d745b9ee7a",
+      "seed": "sympy/core/tests/test_function.py",
+      "unresolved_imports": 3128
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "be2c41315fd9af89bf04140621e0aa41d5a89b8ff964c81f51eab7cbec6f4b4a",
+      "commit": "e9a8a817086bbfca057894ca53c338a7493cac76",
+      "example_cache_key": "475a9f49c4fa2d881ac6fed40ce352c9669621aba5233c9d762010bddda093e8",
+      "example_sha256": "dc4574405b5e7dd2291d847aab0bcf60c187be9fa72decc691cd888c6e8492b2",
+      "positive_paths": [
+        "sympy/core/tests/test_basic.py",
+        "sympy/sets/tests/test_conditionset.py",
+        "sympy/sets/tests/test_fancysets.py",
+        "sympy/solvers/tests/test_solveset.py",
+        "sympy/stats/tests/test_mix.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "529acd9f2725f663491a244bb3e86dd495e08229",
+      "seed": "sympy/core/basic.py",
+      "unresolved_imports": 3128
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "be2c41315fd9af89bf04140621e0aa41d5a89b8ff964c81f51eab7cbec6f4b4a",
+      "commit": "bb515afef3b3368ec3fc329d7eb655ec222bd856",
+      "example_cache_key": "694247dcb9a182dc28e821a0b8feefc04ef890613b2af0913200f64d9345ec00",
+      "example_sha256": "25dad6f376650b188ee51810e623c4bfd9c5f305ebf2a29f3e56ff748fe4412e",
+      "positive_paths": [
+        "sympy/core/function.py",
+        "sympy/core/tests/test_function.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "e9a8a817086bbfca057894ca53c338a7493cac76",
+      "seed": "sympy/core/basic.py",
+      "unresolved_imports": 3128
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "2e8319e05ecf4cfbab5f4b348cc98c22321b53d407f2aba24b109f602f9d42fa",
+      "commit": "f97cc7fc366ac93f872113512a60ad2c46807948",
+      "example_cache_key": "b55f90f32ef2bae8048c181fd52ced17f3f518f31c7eab8a59bd464346a786dd",
+      "example_sha256": "39760327e4ab43098dbd408f18365169cff04c15dcbdcf2e850d0e9240ec23fc",
+      "positive_paths": [
+        "sympy/core/tests/test_expr.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "f8531d83d716cec36a82f0023975bc3322a2984c",
+      "seed": "sympy/core/expr.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "c004a87f146fbc544efa510d031dd3c7cdcb3a176ee5d76efc738efa817aae95",
+      "commit": "65c7920cb5e5c8958872c11f3ce1b3ba6c3e3395",
+      "example_cache_key": "4db689de6c1b0ab9b89add27453bac965484a7cb72e1c84ff94f752ad676ec5a",
+      "example_sha256": "3a3f21bae0cd5093ae8d016df67139b47ab2a249244974734f95e086436d0993",
+      "positive_paths": [
+        "sympy/solvers/ode/tests/test_lie_group.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "fbf557ab210f4f0dd1a5c05129b9905073d24150",
+      "seed": "sympy/solvers/ode/lie_group.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "d6efef8dbd9d4ce9410b4511106d6a496075d44c84ed6524a7acb4d6c21adaab",
+      "commit": "a1d4179bc5d403ba9a09228475f3bc8ebc03ad2d",
+      "example_cache_key": "db9bf31815a3cfa8300d1debde8d357640518d18b690990420f0fffde1ce2216",
+      "example_sha256": "da8c053f6210ffadd6c419db062c05b095bacd281566292d2cabaebd3c162e63",
+      "positive_paths": [
+        "sympy/geometry/tests/test_plane.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "fbf557ab210f4f0dd1a5c05129b9905073d24150",
+      "seed": "sympy/geometry/plane.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "d6efef8dbd9d4ce9410b4511106d6a496075d44c84ed6524a7acb4d6c21adaab",
+      "commit": "c282f4d31166f2e0703bffe5ab87c3005723549e",
+      "example_cache_key": "659577e6f0ecdd260d83bd73728f6a8a0dfa7aeb717c2203709dfac6dfcf149f",
+      "example_sha256": "264d0722722e219871ed75783f544fbc19f2763aeef2cb9ded648824dbaf428a",
+      "positive_paths": [
+        "sympy/geometry/tests/test_plane.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "ae7f317c5e07dad31927ca957f3276840783f16b",
+      "seed": "sympy/geometry/plane.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "d6efef8dbd9d4ce9410b4511106d6a496075d44c84ed6524a7acb4d6c21adaab",
+      "commit": "29ef5436df25960a575e1cf2e3f58ecf614f3bb4",
+      "example_cache_key": "8a2f8fd91969eeab29a43d90588e9ee1a6749fa87bba0fd759c62c7b2943d238",
+      "example_sha256": "75d2dd47c5b58b716c520e91812f80484d4477530d909dd3763b1662313158a6",
+      "positive_paths": [
+        "sympy/geometry/tests/test_plane.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "3bb5277807da3a0498a31ee00611ba1a4c37fcc2",
+      "seed": "sympy/geometry/plane.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "d1536bd2c9009a98463f236d067321c3e44008a3237324ddcceec411dd51ad85",
+      "commit": "20e9f8390af80c3c411220a0f326aa4888744d59",
+      "example_cache_key": "65bd6c9ef41d2badf86bd1879e0617a5dc6f707ace886b66f1353c3353fcf43e",
+      "example_sha256": "074fc545288b1921b1b85632806be5f17e28a2e1aab3a3bbd3ffd102bce722eb",
+      "positive_paths": [
+        "sympy/printing/tests/test_mathematica.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "bfb177ed523cfac92135da1c52997e1313d04fde",
+      "seed": "sympy/printing/mathematica.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "1e6876afc6054625b27a2e24709a0f6b831705ed572ad24011e97476b5c093ef",
+      "commit": "f8ea58b03ec08777ed7832bf85606c1fae9f935a",
+      "example_cache_key": "795d43d73aee26319d88b0d280a1fd8a5df608233ded5f18ce06ca5423cc7ceb",
+      "example_sha256": "854774a183c4e40961de62eae0f724e790b810cdfb64f809906323d9387cd602",
+      "positive_paths": [
+        "sympy/calculus/tests/test_singularities.py",
+        "sympy/calculus/tests/test_util.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "cd86f04255d9411f11f32108cfa4ef773e4f401b",
+      "seed": "sympy/calculus/singularities.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "70ebab5bd8bc2a8bfbcfe9c9b92dd9e46c585afdb01f1674b624207e05a8524d",
+      "commit": "17594ab1954648db1238cb1372c50b479b70fc73",
+      "example_cache_key": "505820f324caea9bb0480f299cbff1488987b32db874559d6d7a1d96031a6200",
+      "example_sha256": "7fdaaaa628f90c90fab6362311dfbc757f0594fdb221b67613999e72ad9ccabf",
+      "positive_paths": [
+        "sympy/algebras/tests/test_quaternion.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "f8ea58b03ec08777ed7832bf85606c1fae9f935a",
+      "seed": "sympy/algebras/quaternion.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "8130d12a4210657c26ac946baba9e5bec596a35751eb5853ed569d52a2e1f23e",
+      "commit": "e743b723bd3715eb013c9428b09bbf438455f2a8",
+      "example_cache_key": "3a13fde8708a02ca4c1607c4bacb00e1dfc5330bda53a372d07ef3fa809eaa41",
+      "example_sha256": "1da64be706f47a3889f1bb99e06813fa4dc51ce57dc4bbb7ed5f0b81e53c22a5",
+      "positive_paths": [
+        "sympy/printing/tests/test_latex.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "f8ea58b03ec08777ed7832bf85606c1fae9f935a",
+      "seed": "sympy/printing/latex.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "8130d12a4210657c26ac946baba9e5bec596a35751eb5853ed569d52a2e1f23e",
+      "commit": "977e3e823bde235cfaab944a6bd97cf08b82efbc",
+      "example_cache_key": "e9858d1518927cb47affc0600b1263049f303f2ca418fe7b0aa09d2094214cd6",
+      "example_sha256": "9f2d5f47f156404a0f1f284ddd14eea2a4c8caeba331dd192dc8450fd001493a",
+      "positive_paths": [
+        "sympy/printing/tests/test_latex.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "5b861e4c4a06d56bac4b3f1398985416ae6ec6c7",
+      "seed": "sympy/printing/latex.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "d2626736da0448e10104fe7caeb39390815a226c37237805c35152b23350facd",
+      "commit": "f6929b52f6daab52d43c638ddead09d1da3efb9d",
+      "example_cache_key": "9660c0517d1259aee8434635420d291d8337a055ee87226ee17219d24b6256ce",
+      "example_sha256": "5262d18fb06deaa1e50dab6927eedd09dd8076817313ff3993561e027b472f6f",
+      "positive_paths": [
+        "sympy/logic/tests/test_boolalg.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "36e94607e83b672e423e6b17ab978261831f4613",
+      "seed": "sympy/logic/boolalg.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "04f430a0c4ac9035ad6f01cc920c7baecb3ee9b2fa0a5a4d3d0158127e7d71c4",
+      "commit": "b720d526167821855ea5c574131bde42da3a0901",
+      "example_cache_key": "5d058670caf726bb37575665008e563569a9212ebe26fa43bf8b5bb46b55baa4",
+      "example_sha256": "e946b07eb9484c2577e7bcafe40c261be379726b5c51caf49100d99ecc231d4b",
+      "positive_paths": [
+        "sympy/core/tests/test_expand.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "36e94607e83b672e423e6b17ab978261831f4613",
+      "seed": "sympy/core/power.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "90604debc758f32af7126f59a68e8b848393330ce3e02d81f484d664435a5d06",
+      "commit": "8d955e7ef24b0322e4ae5e168c2b64a881c15f14",
+      "example_cache_key": "ab4f0ad6340681f6bd98f5ea2884f5320c00e400ba531a2d9b77f6f0d7cf3831",
+      "example_sha256": "3c7d0111d738bccee17e9201eb967f983cd56aa2baa03de1a8596dcf9084346b",
+      "positive_paths": [
+        "sympy/parsing/sympy_parser.py",
+        "sympy/parsing/tests/test_sympy_parser.py",
+        "sympy/printing/latex.py",
+        "sympy/printing/tests/test_latex.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "843a1239417135b32d926637d56111a454246fe7",
+      "seed": "sympy/core/tests/test_sympify.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "34115937487c0d6ab96351fdf7ff3439f85434214044ee7f9bcd3a9f1c6351fb",
+      "commit": "ccf7f5732b145de0da03db190d1f957aaefb8f9a",
+      "example_cache_key": "b9439bb80d64e1605afbef3de6a97bc9195d5e7b5d9c0d1cf4679d26b5ccb0bf",
+      "example_sha256": "333bdeb09a6bdaaee6d2a5d8117485aa69341787652c764258c64cccbb707c28",
+      "positive_paths": [
+        "sympy/core/exprtools.py",
+        "sympy/core/tests/test_exprtools.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "8d955e7ef24b0322e4ae5e168c2b64a881c15f14",
+      "seed": "sympy/core/add.py",
+      "unresolved_imports": 3102
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "0a419fdcdc47e7bbcb4aba036bba800aebaa05f35ab0125b538265fe8e76dc96",
+      "commit": "2f3e736e7766231cdeae0a775d0ce6779acab072",
+      "example_cache_key": "8cbccacf95cd5e08895750323cd0e420a7ef110488114b5fa447ab957fe87ff1",
+      "example_sha256": "7cf7ffa5ad4a6cb6d317912c7cc421ba388cdd5cb3500e673e6e2771e1864d62",
+      "positive_paths": [
+        "sympy/simplify/tests/test_simplify.py",
+        "sympy/simplify/tests/test_trigsimp.py",
+        "sympy/simplify/trigsimp.py",
+        "sympy/solvers/tests/test_solvers.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "ccf7f5732b145de0da03db190d1f957aaefb8f9a",
+      "seed": "sympy/simplify/simplify.py",
+      "unresolved_imports": 3102
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "34115937487c0d6ab96351fdf7ff3439f85434214044ee7f9bcd3a9f1c6351fb",
+      "commit": "3e95c3cc2f6d24e09ae59f6cafa1f6a1ad739a10",
+      "example_cache_key": "db8f656a0b1474031d0c12d2dbb79137f51eee3951b4f9639e291d5918aedf72",
+      "example_sha256": "18f0b8824551779722f7a0a5f32b4f7b745abf5d2f04da490b14d1d623702964",
+      "positive_paths": [
+        "sympy/core/tests/test_assumptions.py",
+        "sympy/core/tests/test_relational.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "2f3e736e7766231cdeae0a775d0ce6779acab072",
+      "seed": "sympy/core/add.py",
+      "unresolved_imports": 3102
+    },
+    {
+      "candidate_files": 1608,
+      "candidate_paths_sha256": "cea53813fc4547946fbd1e94207843997fc0b376c14327c80990b71716ac7c41",
+      "commit": "aef60570d1a5867092c455863f4fce2bdba44c5c",
+      "example_cache_key": "2d860ca76f5dfafa71c9565c2324936b1d65efcea694b14217b8ceea81f978b8",
+      "example_sha256": "7e814300fcffe6e76491062d0a2a7b84b6ce955639055957cd5d727d75b189f6",
+      "positive_paths": [
+        "sympy/integrals/tests/test_laplace.py"
+      ],
+      "repo": "sympy/sympy",
+      "revision": "843a1239417135b32d926637d56111a454246fe7",
+      "seed": "sympy/integrals/laplace.py",
+      "unresolved_imports": 3101
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "9e7ccfa734bfb06eca174832ca26d9349ec52e2e7b3a18aca91dbf2c940d3c39",
+      "commit": "102e5daf66759cf896beeee229d1bf7c80ab2ba4",
+      "example_cache_key": "46d0c561d8f0bfac3d0081a72d352a30d5d5fa2a91100a4fa29c018c03e599ec",
+      "example_sha256": "acad05cebe71182abf004d9d8a6fe77af5dadd1856c9f459cef4dc543f548cc7",
+      "positive_paths": [
+        "examples/calibration/plot_calibration_multiclass.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "737c0ac8787572aaf9e66b0c873ea6a7699fa69b",
+      "seed": "examples/applications/plot_face_recognition.py",
+      "unresolved_imports": 3932
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "17250871e157dccec610a2c71c0205f544f3a596fc2cbaefa4829fa0601df486",
+      "commit": "d7d471a0c6b08ea545598c30241f9be42f5d2092",
+      "example_cache_key": "12d48ad13942c8af87d2c279e73bc6b92a6879882ae58a3005bd834bbb9c9d35",
+      "example_sha256": "aa3a20e2735e7568228a6317cb94c23850742aaf84847222eb4e553e589eda9f",
+      "positive_paths": [
+        "examples/release_highlights/plot_release_highlights_1_8_0.py",
+        "sklearn/calibration.py",
+        "sklearn/metrics/_plot/tests/test_common_curve_display.py",
+        "sklearn/tests/test_calibration.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "e03bc6e0057a034652a43aff0b86265d1177538d",
+      "seed": "examples/calibration/plot_compare_calibration.py",
+      "unresolved_imports": 3932
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "a573d7f3f69c60331eeb38a8a4031213d9c38c3e92bb4c7ae13b8c4a6d481a62",
+      "commit": "782ce52d1ec3237fa99c9f991c5c0c6368a04f6e",
+      "example_cache_key": "6f00d765ec64a25e0ee47d253e9ffe24b7f3b7707c9541b979ad2042c8db7731",
+      "example_sha256": "792b738901d78cc0b7d5de09d841586c88b441a1acdabd0dd57bc081e1278889",
+      "positive_paths": [
+        "sklearn/utils/tests/test_class_weight.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "6a40976e045a750d6dbc6ff442c94d9efd36645e",
+      "seed": "sklearn/utils/class_weight.py",
+      "unresolved_imports": 3932
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "7c92781e61a037d6da889293f4cb35ee049db62c7297a63a57092c585bfbaf9e",
+      "commit": "1a6cfd9b5cf20d83724ab528004706ff1fb0fcf4",
+      "example_cache_key": "042eedd2553bed8f5650dc762cf85183b32f1c4f9da0b432cc31cea2b6b87505",
+      "example_sha256": "d2ee8e60b694f7b31ed71a9d025449bf4415681bfe44877c30a0622c45fdfca0",
+      "positive_paths": [
+        "sklearn/feature_selection/tests/test_rfe.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "bebaf70573b6fe756bc93aca5534f3191c18c4eb",
+      "seed": "sklearn/feature_selection/_rfe.py",
+      "unresolved_imports": 3932
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "d5e9af205e351784500622eb59ef5b0871b749f89608723f80f6e537c3f7c231",
+      "commit": "700e8a88eced2fe906a3b26afed72ce99f0dba42",
+      "example_cache_key": "d5c361e3dee2f744c9166a4e5ecb6d005d252cf08692a509b315aa24b0a46205",
+      "example_sha256": "82cc0aa14c355695b7f20e91113610c196b94ddbff3608fc25c82c6c389261c1",
+      "positive_paths": [
+        "sklearn/utils/_repr_html/tests/test_estimator.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "f9b84ece17a125aae51e6680aa8f4284d1c99c2e",
+      "seed": "sklearn/utils/_repr_html/estimator.py",
+      "unresolved_imports": 3932
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "591673a67376ef282e1a113ec2a8bafdbc349102dbd3a5e2ca5e90f72a7bea52",
+      "commit": "94305cc6a545ee4805cc76cad697a6ff1ae0dfb9",
+      "example_cache_key": "d689d3c3756840d031af56ffb14747ad18b59c7e2b3a671ab6a30493ab9fe780",
+      "example_sha256": "64a3d00c1a7f1632ad666f08bf64ee3c592b6d023e33e67c86bb61318408ac96",
+      "positive_paths": [
+        "sklearn/manifold/tests/test_t_sne.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "d1278c2706491eac6e67a21e4f52cbe9b3ea548e",
+      "seed": "sklearn/manifold/_t_sne.py",
+      "unresolved_imports": 3932
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "abbbcc37b35e8ea50a42577dbf4a2602793f127166e2e2841492c584f2a93e7d",
+      "commit": "0d4fe1463f83a341337628a2880d1d174a723bfa",
+      "example_cache_key": "bf592d675d5676728078e2f106addcf3d77eae189219a4b03e2ade8fa0c71d32",
+      "example_sha256": "292cb7606decc20eb3f31361e6f7756920bc4b092440adbf8851417b280ff01e",
+      "positive_paths": [
+        "sklearn/neural_network/tests/test_mlp.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "94305cc6a545ee4805cc76cad697a6ff1ae0dfb9",
+      "seed": "sklearn/neural_network/_multilayer_perceptron.py",
+      "unresolved_imports": 3933
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "761706d7594eb364169846e8c54de1e0770cde5aed510aa6a8efe3e79d40435b",
+      "commit": "9305ff81349452f4917e0e58b74574b7ce5399f8",
+      "example_cache_key": "3370d24977b0d8b6526503a91ff9e3bff21ab0b8c02fb6333cbe96b5a692e262",
+      "example_sha256": "2ac519c04a0dc2c1ac6f4035bb1e4c4f2df88ce2421bcb959371f1da60d0eb55",
+      "positive_paths": [
+        "sklearn/linear_model/_logistic.py",
+        "sklearn/linear_model/tests/test_logistic.py",
+        "sklearn/model_selection/tests/test_validation.py",
+        "sklearn/svm/tests/test_bounds.py",
+        "sklearn/utils/_test_common/instance_generator.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "0d4fe1463f83a341337628a2880d1d174a723bfa",
+      "seed": "examples/linear_model/plot_logistic_path.py",
+      "unresolved_imports": 3933
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "7245a80640232fe0a647bbfe0fb638c0e4f3a6be60418235ec5a6060635d38d0",
+      "commit": "d0e22aee7bbef7b310a2f08227c214ff6df9a526",
+      "example_cache_key": "b583b1368c5cb37a00610390c7cb4566081565db26bbe3df6a5df32b951ebf8e",
+      "example_sha256": "c88a4f4bfbbcbb1cbdea106b1bf334cdda0d5ef0c1731f47c56abba8092f1786",
+      "positive_paths": [
+        "sklearn/tests/test_pipeline.py",
+        "sklearn/utils/_metadata_requests.py",
+        "sklearn/utils/metadata_routing.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "9305ff81349452f4917e0e58b74574b7ce5399f8",
+      "seed": "sklearn/tests/test_base.py",
+      "unresolved_imports": 3933
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "1fb900c163a4714fbc7e5cba579eec2703dc30d8dedb2a31a44c4732a0b3df1d",
+      "commit": "85593ca7a07a9956ac891f6bfc3fedca53b74f72",
+      "example_cache_key": "000c3ed80ddb6ea3dcddc1c9e0ffc2dae9ceb278f4b0d8beec50fc8410a65430",
+      "example_sha256": "1de64b949f9670e0abb35e85b507e12702207d6f7ac9bc31f266a903c8d5c2a5",
+      "positive_paths": [
+        "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py",
+        "sklearn/ensemble/tests/test_forest.py",
+        "sklearn/tree/_classes.py",
+        "sklearn/utils/validation.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "d0e22aee7bbef7b310a2f08227c214ff6df9a526",
+      "seed": "sklearn/ensemble/_forest.py",
+      "unresolved_imports": 3933
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "52b1a1c55979bbf845e6f12cf79630ee389e352468b9642255879ac66a05a881",
+      "commit": "106573971c28d82a1b5579aea7a23eecd80355f0",
+      "example_cache_key": "ec4f71e138ffdb5ff08c8744e8fea8e0e622579b49a876f582836049b9329942",
+      "example_sha256": "3e34a115a9ef4880a0ff91ad909b8b903e314391b26b3e27ce51582370ea2d43",
+      "positive_paths": [
+        "sklearn/linear_model/_glm/tests/test_glm.py",
+        "sklearn/linear_model/_logistic.py",
+        "sklearn/linear_model/tests/test_logistic.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "274ac3498cb40bb9d7d670141d82a242d89daba8",
+      "seed": "sklearn/linear_model/_glm/glm.py",
+      "unresolved_imports": 3934
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "dd47272d1a3870b87fff9506bb9dfa1a688af03392a2ee6f58a87e4011a3ce3f",
+      "commit": "ffbf5196e423409f354d11544522d316b825188e",
+      "example_cache_key": "97fd34db1724b9bc1d815c8295a08654ca6658b56bd40e7ef0c994cafcd9897c",
+      "example_sha256": "c3ce573bde6add408528160834299082b92ec411d05a11bb894e0bbb13c168e8",
+      "positive_paths": [
+        "sklearn/preprocessing/tests/test_target_encoder.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "106573971c28d82a1b5579aea7a23eecd80355f0",
+      "seed": "sklearn/preprocessing/_target_encoder.py",
+      "unresolved_imports": 3934
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "dea74337d5674d62ca8d3450fe4b7723655c14759a4a8993da8fd477d872eeb3",
+      "commit": "9abf44fd282014bab46e9fcfdd18264df3e52f29",
+      "example_cache_key": "dd6796357678de6d7bad9bd94dd298efbc0ca9515794b4979b76d16f60459f6f",
+      "example_sha256": "10ed69ab06ec230ec74ccb5b25403656a66ffd2f640e073195846d82efb46873",
+      "positive_paths": [
+        "sklearn/ensemble/tests/test_bagging.py",
+        "sklearn/ensemble/tests/test_stacking.py",
+        "sklearn/ensemble/tests/test_weight_boosting.py",
+        "sklearn/feature_extraction/tests/test_text.py",
+        "sklearn/feature_selection/tests/test_feature_select.py",
+        "sklearn/inspection/_plot/tests/test_boundary_decision_display.py",
+        "sklearn/inspection/tests/test_partial_dependence.py",
+        "sklearn/linear_model/_glm/tests/test_glm.py",
+        "sklearn/linear_model/tests/test_logistic.py",
+        "sklearn/linear_model/tests/test_ridge.py",
+        "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py",
+        "sklearn/metrics/_plot/tests/test_precision_recall_display.py",
+        "sklearn/preprocessing/tests/test_common.py",
+        "sklearn/preprocessing/tests/test_data.py",
+        "sklearn/preprocessing/tests/test_label.py",
+        "sklearn/tests/test_calibration.py",
+        "sklearn/tests/test_common.py",
+        "sklearn/tests/test_metaestimators_metadata_routing.py",
+        "sklearn/tests/test_pipeline.py",
+        "sklearn/tree/tests/test_tree.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "d12fbca0844b7157cedc4ce05987198806fbb13a",
+      "seed": "sklearn/compose/tests/test_column_transformer.py",
+      "unresolved_imports": 3934
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "867c4a4d3759f82a11c273273f9463ea4bfd2111964dbf32ac08121b901ae063",
+      "commit": "daa63307330e752a3f35fe373123a84872ed5def",
+      "example_cache_key": "db196b93e89d4663dc6ffddd63b5963f7df00609fd8b8d3b567ba12140145c7b",
+      "example_sha256": "78cfd52a507b5fe75e801401ad945daeb8ace6da082a1639aabc06f7c3d7b23b",
+      "positive_paths": [
+        "examples/linear_model/plot_tweedie_regression_insurance_claims.py",
+        "examples/miscellaneous/plot_outlier_detection_bench.py",
+        "examples/model_selection/plot_successive_halving_iterations.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "606d607e56867acae52eb4579045a05becd6e8dd",
+      "seed": "benchmarks/bench_saga.py",
+      "unresolved_imports": 3934
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "7b52e1cecf89f48b760e2901492beb13d6b4e190e46d9bb80767c50d00534d70",
+      "commit": "aa87406398f8ec56095ce94d1473c2d6aedc453f",
+      "example_cache_key": "45cf8a33ee050c3786ceb5d74e388694eca94a3326d3cec5212b558ebfacedd5",
+      "example_sha256": "77489710c298477cb8f0c9a96b46dc40668af9260f626a4d9569d858703c0400",
+      "positive_paths": [
+        "sklearn/gaussian_process/tests/test_gpr.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "daa63307330e752a3f35fe373123a84872ed5def",
+      "seed": "sklearn/gaussian_process/_gpr.py",
+      "unresolved_imports": 3934
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "2a07d67546e91a135252647ae2748c6c2937f724be3869bc8232a1a949b64d75",
+      "commit": "67847b1d532f8c1360c8a9e92cc0ac0a70d6b0a0",
+      "example_cache_key": "81dd5a897478eaf88efcfaf14f2fa6c59416f0682e29d86419ad6e11569b3501",
+      "example_sha256": "8c4c24d7f06de65c4c17f206ffd830d774db7bca3d0f9406bb00bb1d61633795",
+      "positive_paths": [
+        "sklearn/metrics/tests/test_pairwise_distances_reduction.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "12e80081f5fd629fbac44223ba6ce7af8afae73a",
+      "seed": "sklearn/cluster/_kmeans.py",
+      "unresolved_imports": 3935
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "8706fc88be613bfa1af872f33dae58eb315dee832cb8a1931e27543a9ca2eff8",
+      "commit": "42981ef2fd9154420e96ca36d90bfddb6f4ff8af",
+      "example_cache_key": "c8f0b1413920e68af35532c787fbf9f4076ceb97b8d403018aed989240efbae9",
+      "example_sha256": "750e38501bcc1c355991916f19b926f4ae09cc69d7ccd31ef6234ac3fd535b64",
+      "positive_paths": [
+        "sklearn/model_selection/tests/test_search.py",
+        "sklearn/multiclass.py",
+        "sklearn/tests/metadata_routing_common.py",
+        "sklearn/tests/test_metaestimators_metadata_routing.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "67847b1d532f8c1360c8a9e92cc0ac0a70d6b0a0",
+      "seed": "sklearn/ensemble/_bagging.py",
+      "unresolved_imports": 3936
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "f962456bc657143db6b2603acfb4f130ec2055ca7d58bc82f0cb8338c0eba0b4",
+      "commit": "4d18ce17ffac7c6fceec0c1622eb4902be2201b1",
+      "example_cache_key": "9f6cb5c99d5bfeeaa4d33e4a8329a2353afa4db484cebb8f26db9085990faa9e",
+      "example_sha256": "2bf77d80d4d7544698aed460e95f81b540465b88ac84aa0f1a35d5e8270d3c28",
+      "positive_paths": [
+        "sklearn/metrics/tests/test_score_objects.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "42981ef2fd9154420e96ca36d90bfddb6f4ff8af",
+      "seed": "sklearn/metrics/_scorer.py",
+      "unresolved_imports": 3936
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "235a53651030ce9e88f6d293e48afbd89479eeed36dc8328fbbe74fdec6a4933",
+      "commit": "47148ee06b7c3d9f46d8f610b6f372b61153949d",
+      "example_cache_key": "bbd53b217817895c0654def222ac70777ab4e24078aa65d7adeea3afd8e2ae7e",
+      "example_sha256": "ca4ee60bfa3903c9c02c6acf6fe9537cdd2e8892a473587edb75841885102954",
+      "positive_paths": [
+        "sklearn/metrics/_regression.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "5ce1eeb6778a265d12d3c508bde1728cf4f3c6f4",
+      "seed": "sklearn/metrics/_classification.py",
+      "unresolved_imports": 3936
+    },
+    {
+      "candidate_files": 1037,
+      "candidate_paths_sha256": "0e80830ee2998cec7c8d6172322810b69f0ed868868f95d563d53653fbd3a43c",
+      "commit": "d685424bec8f8585d8017c1aab1db7535d3fa03d",
+      "example_cache_key": "cdd3a207cb1f03b4e793a0f76f13440d8eeb92cf0153c0c0d5920d009ee46532",
+      "example_sha256": "3be9fbf171ca289866d14438ed7db813f31a367c80402e26f3304988cfb9bc67",
+      "positive_paths": [
+        "sklearn/cluster/_kmeans.py",
+        "sklearn/cluster/tests/test_k_means.py"
+      ],
+      "repo": "scikit-learn/scikit-learn",
+      "revision": "47148ee06b7c3d9f46d8f610b6f372b61153949d",
+      "seed": "sklearn/cluster/_bisect_k_means.py",
+      "unresolved_imports": 3936
+    },
+    {
+      "candidate_files": 2932,
+      "candidate_paths_sha256": "74fd7ebdf82d464ca1e1468f22b08a8f2af51d69ea6109ad3c3060b0a2d1105c",
+      "commit": "2a7992385f9164f4d69f79013c82a9f62cad9934",
+      "example_cache_key": "5a8d14d6a383eb42f516b0b0ac886d706e32e8a73c97366331b341d97219d782",
+      "example_sha256": "4fec457d93325b6dbd7d85638a3db473418b1b4fdf053670bf8e86d26bc9bafe",
+      "positive_paths": [
+        "scripts/pr_quality/tests/test_check_pr.py"
+      ],
+      "repo": "django/django",
+      "revision": "c6ebf51871fa149e88f39ea44aaf700590366607",
+      "seed": "scripts/pr_quality/check_pr.py",
+      "unresolved_imports": 2938
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "f9bba649adb101f2f5faec99d473496ef8f6ac75ebe077ad665a4183160bc131",
+      "commit": "2fff3e9f493a9c85fb8a2294358c6751575ee4bf",
+      "example_cache_key": "4e2f171a0db19ea95c659a7f64da07ccca9c2004a28e5eddad374bcbff164048",
+      "example_sha256": "c405dec31c6fadd8841074ec173a9a996530330444f40a52a43e14f481e44c97",
+      "positive_paths": [
+        "tests/migrations/test_writer.py"
+      ],
+      "repo": "django/django",
+      "revision": "45ce894a3b333edb154abe660e40e76f1a35e141",
+      "seed": "django/db/migrations/serializer.py",
+      "unresolved_imports": 2954
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "12a526844ac59f877096cc8a2eca0169274452051adf0f42a2157c7423eadf2f",
+      "commit": "6de4b35a79b8131cffe433aab67c20cae7ad8e56",
+      "example_cache_key": "732b5f907b541a021f19b27aac0e19d1580e2b8bed2be7bbd7dbd89bace90441",
+      "example_sha256": "8445a1634666da6c9235b533492c6af20a497ad33116a252bdf8a8e3281045ed",
+      "positive_paths": [
+        "tests/model_fields/test_uuid.py"
+      ],
+      "repo": "django/django",
+      "revision": "2fff3e9f493a9c85fb8a2294358c6751575ee4bf",
+      "seed": "django/db/models/lookups.py",
+      "unresolved_imports": 2954
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "85f3c8d2258fa6dceda055c50b7e3d294727119003573551c618db0e11634a8e",
+      "commit": "4e7c04fdfa7651d0cda59fb4d8020fb644d1a401",
+      "example_cache_key": "b11b4c1d2058e9427eb11fbecb44d525e6b439579a0509fbff82b21bdce68812",
+      "example_sha256": "c6057ab8e7fed67fcc43149aa28f9c0f272d141ed4aae3441ac361f50a764665",
+      "positive_paths": [
+        "django/utils/csp.py"
+      ],
+      "repo": "django/django",
+      "revision": "6de4b35a79b8131cffe433aab67c20cae7ad8e56",
+      "seed": "django/core/checks/security/base.py",
+      "unresolved_imports": 2954
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "b19ab46f695a73654fe76986df98b5962a5250bffcba621eac9df5309acabcec",
+      "commit": "3d3d943b7442f1f5278ed876331a06047fa96ea8",
+      "example_cache_key": "7a527ca3e6853fda916ab7b8cae9286fb0296a5162671abc5afef10717256aa7",
+      "example_sha256": "b16cce1b7baee4572e29c655f26c3e2a11ddf68362b78410cdd3e0dc9662e408",
+      "positive_paths": [
+        "tests/middleware/test_csp.py"
+      ],
+      "repo": "django/django",
+      "revision": "4e7c04fdfa7651d0cda59fb4d8020fb644d1a401",
+      "seed": "django/middleware/csp.py",
+      "unresolved_imports": 2954
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "46aa437e19ce5b7c8e05e5a6c78c8946ea149320a9fce2ab981abac6e4359146",
+      "commit": "7d89d63c899ea323f91aa35783bf2d2da27406f9",
+      "example_cache_key": "6b88fbfba68851d2ca8461957f0abe72e76c0526e5a6668cd541c7616f966ce7",
+      "example_sha256": "cc724b0fb9dffe18f4bd5ce94fdf5cc12d6992aed91c8e80952630142c3033e7",
+      "positive_paths": [
+        "django/utils/text.py",
+        "django/views/debug.py",
+        "tests/gis_tests/geoapp/tests.py",
+        "tests/utils_tests/test_text.py",
+        "tests/view_tests/tests/test_debug.py"
+      ],
+      "repo": "django/django",
+      "revision": "79502d08405dbf24efa39e8731320f31035b9e9c",
+      "seed": "django/contrib/gis/gdal/raster/source.py",
+      "unresolved_imports": 2956
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "ade15ff01f431618e8339d5d3a2041c0a1df88e205b60ec6e770a0e11a9a10db",
+      "commit": "5190bbc3b70ae6c359a7604b7bc55e1fe3440841",
+      "example_cache_key": "3b3413d7221bc6a825f8a4382e23917396270efe276dd734cdffadb80dc31e95",
+      "example_sha256": "b1c584f53d51b581242d056544b94ba6099aa25c71e1e7eff7d0a00d028627ba",
+      "positive_paths": [
+        "tests/queries/test_q.py"
+      ],
+      "repo": "django/django",
+      "revision": "7d89d63c899ea323f91aa35783bf2d2da27406f9",
+      "seed": "django/db/models/query_utils.py",
+      "unresolved_imports": 2956
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "ded8543916e796ec8d91db4dbeaf515870a4710461e841bc058c99a64ff40e22",
+      "commit": "4b09d8c2c84b41931ca17e460edaa2f849e03170",
+      "example_cache_key": "752ad5a5d9891cc790543f98ec558f69740301727f4fbb973372b88ace090190",
+      "example_sha256": "71675b1834cff28294dd99b864def08b118a5696c2d7b524a04e0180fc2cbe25",
+      "positive_paths": [
+        "tests/file_storage/tests.py",
+        "tests/staticfiles_tests/test_storage.py",
+        "tests/utils_tests/test_os_utils.py"
+      ],
+      "repo": "django/django",
+      "revision": "210c7ca0c10136c67067696588ec3f6bed74159d",
+      "seed": "django/utils/_os.py",
+      "unresolved_imports": 2958
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "e4046a40d62e48e59f7599ef5786919bcbc5f06cc65980f2c5ba1e8f1fab6421",
+      "commit": "549605de8c7834a0e62c42ad651d9285382c9d4a",
+      "example_cache_key": "98a272ae33e4f1c01929f1624adf288968c103306fa92d5958b8b4e75d57aeb5",
+      "example_sha256": "0e58759e6e2ee1862ffb0133b8865ef9e66836edee3d8e0ba39b9b389ddd7859",
+      "positive_paths": [
+        "tests/middleware/test_csp.py",
+        "tests/utils_tests/test_csp.py"
+      ],
+      "repo": "django/django",
+      "revision": "4b09d8c2c84b41931ca17e460edaa2f849e03170",
+      "seed": "django/utils/csp.py",
+      "unresolved_imports": 2958
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "4ef01f1f0e15134e3e995991fe6b927a36015703f6d748afe61ea52f2cf29ba2",
+      "commit": "a26ceb0903189bb534394db62e031403b2b9fa93",
+      "example_cache_key": "4d0f7cd10baf8726132158a096fe922cd7c095317d469aacac71589702fe7783",
+      "example_sha256": "a4c9d26f783d646d834a871be8f8593d1f8e9c0945e0636af078e83528d1daf3",
+      "positive_paths": [
+        "tests/gis_tests/geoapp/test_functions.py"
+      ],
+      "repo": "django/django",
+      "revision": "8e4e95da9b5b751923cd80989d9ece4b6c6fb1a3",
+      "seed": "django/contrib/gis/db/backends/mysql/features.py",
+      "unresolved_imports": 2959
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "c4b05ce7e8f7a143a6ff9d4f6244e5ee28d2209f571e8badbc1bfd5af72810b3",
+      "commit": "512b92a493f8006e149bb924957561acc6714e52",
+      "example_cache_key": "1001fc9bee32ac28fd65127b3c9c94032b2689eb01e71ffd97332c14975b6c24",
+      "example_sha256": "bc738d969b0b3020ab5cce688380326064e6607a467087ba5ab0327c824d110e",
+      "positive_paths": [
+        "tests/admin_docs/models.py",
+        "tests/prefetch_related/models.py",
+        "tests/sphinx_tests/test_github_links.py",
+        "tests/sphinx_tests/testdata/package/module.py",
+        "tests/utils_tests/test_functional.py"
+      ],
+      "repo": "django/django",
+      "revision": "816ea69cb8d24df97611935384d380a752c14e0f",
+      "seed": "django/utils/functional.py",
+      "unresolved_imports": 3031
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "d9270b652df1938fa28481e53148392926dba100bcbbd978ea75586b2c9ec8de",
+      "commit": "a2a0b4f2764f7b192bff4bb75ed56ce017931a71",
+      "example_cache_key": "f505308fd42114fe2e92e32804f88e215bcfbc262d97de73566d82997dac3ca5",
+      "example_sha256": "409c3a3ae48ff3f9d072d6040507487c635e98a22cb0234da95b6443f63a5cae",
+      "positive_paths": [
+        "tests/multiple_database/tests.py"
+      ],
+      "repo": "django/django",
+      "revision": "36920bb4766679f5b32445797dcc5d32b8ff5ad2",
+      "seed": "django/contrib/contenttypes/fields.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "1eba75e27cc084086b57e0074ddc632de5287ab8cdbcf1d3b6e6de8eaaf146a6",
+      "commit": "45fe4636d8d147b87040170a6cee4ab036ed2324",
+      "example_cache_key": "a2102bb5ade67c9595453ed948f55e26bf0ad130a50281172b5ee0cbb98fbfef",
+      "example_sha256": "b433f0327110fc61a5642f1513c61fc0ded0a7bc83381ec7716005abfd806466",
+      "positive_paths": [
+        "tests/template_tests/syntax_tests/test_comment.py",
+        "tests/template_tests/syntax_tests/test_verbatim.py"
+      ],
+      "repo": "django/django",
+      "revision": "a2a0b4f2764f7b192bff4bb75ed56ce017931a71",
+      "seed": "django/template/base.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "d9d373b1e1138852999683555f15e2d82b6ab5f5dc94bb610665c87c599c8d96",
+      "commit": "5c13b5a19864807cae7266339554c14e151e5961",
+      "example_cache_key": "688a6e5ae92401e9df133f85600a16d1d258cf22169647add9c9a26a26ea42dc",
+      "example_sha256": "8f778e8edb664dd70be3303e6f1b706952bc1621031bf41239f792c46410f626",
+      "positive_paths": [
+        "django/contrib/auth/admin.py",
+        "django/middleware/common.py",
+        "django/middleware/csrf.py",
+        "django/middleware/http.py",
+        "django/test/client.py",
+        "django/utils/cache.py",
+        "django/views/decorators/http.py",
+        "django/views/generic/base.py",
+        "tests/admin_views/tests.py",
+        "tests/conditional_processing/tests.py",
+        "tests/csrf_tests/tests.py",
+        "tests/decorators/test_http.py",
+        "tests/generic_views/test_base.py",
+        "tests/middleware/tests.py",
+        "tests/test_client/tests.py",
+        "tests/test_client/urls.py",
+        "tests/test_client/views.py"
+      ],
+      "repo": "django/django",
+      "revision": "45fe4636d8d147b87040170a6cee4ab036ed2324",
+      "seed": "django/contrib/admin/options.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "f8891eaa2cbd058599792669bbd30c8ef7eb761bc44d0653620a30b5595d9969",
+      "commit": "77eea99b455396145188305c31284720751df6f5",
+      "example_cache_key": "0591c8a1efc251092e599d9569cede9cb9146543ca13581056f3d046495ce62b",
+      "example_sha256": "977c1a199357c80344813cc8356238264ca539467f5430c1b4d4e84089f8fc80",
+      "positive_paths": [
+        "tests/queries/tests.py"
+      ],
+      "repo": "django/django",
+      "revision": "e9414948e9660ee4c167eebb187710ee3031d9d8",
+      "seed": "django/db/models/sql/query.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "6dd6e8b3f15bbca8d9272f8d69083a295e1c7d18101db5b22638cc7b10968bd8",
+      "commit": "360ccd4bd89d8c2404d5d29bdc71a4a465c7e740",
+      "example_cache_key": "96586c97074b9906d0bb6c33b82688c3dda5cf60dacdda74e5fd1539e6e7e141",
+      "example_sha256": "7c75083eccf374e669c93d710df34b33bf49742e6b6949c194ee6a07413064f2",
+      "positive_paths": [
+        "tests/queries/test_qs_combinators.py"
+      ],
+      "repo": "django/django",
+      "revision": "77eea99b455396145188305c31284720751df6f5",
+      "seed": "django/db/models/query.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "1eba75e27cc084086b57e0074ddc632de5287ab8cdbcf1d3b6e6de8eaaf146a6",
+      "commit": "0804aed32017f835eb8aa7cf053a935f5bea7c7f",
+      "example_cache_key": "7c5271103b0d3c2bda56a41da0f1666dd5908238c6b30115158f70a3e1602beb",
+      "example_sha256": "d08eeffb9c45f306a8eaa89e40fba86269ad5c95d62eeff088d5b9b3a66166de",
+      "positive_paths": [
+        "django/template/defaulttags.py",
+        "django/template/loader_tags.py",
+        "tests/template_tests/syntax_tests/test_basic.py",
+        "tests/template_tests/syntax_tests/test_comment.py",
+        "tests/template_tests/syntax_tests/test_named_endblock.py",
+        "tests/template_tests/syntax_tests/test_partials.py",
+        "tests/template_tests/syntax_tests/test_verbatim.py",
+        "tests/template_tests/test_base.py"
+      ],
+      "repo": "django/django",
+      "revision": "a6304ac10554b97ea2458d27144e02db6dd95230",
+      "seed": "django/template/base.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "1eba75e27cc084086b57e0074ddc632de5287ab8cdbcf1d3b6e6de8eaaf146a6",
+      "commit": "e74c8a808ea232480674ec0ca73bac83ba8594aa",
+      "example_cache_key": "d5d6e74a8568a2e82684bca444435c688349316e6dfbb8157bbcc9cd915ad594",
+      "example_sha256": "2bcb5dc208159c6f6865ab69e445b4e09565b488132fde14a577a9150b00b2f3",
+      "positive_paths": [
+        "django/template/engine.py",
+        "tests/template_tests/syntax_tests/test_basic.py",
+        "tests/template_tests/syntax_tests/test_verbatim.py",
+        "tests/template_tests/test_engine.py"
+      ],
+      "repo": "django/django",
+      "revision": "0804aed32017f835eb8aa7cf053a935f5bea7c7f",
+      "seed": "django/template/base.py",
+      "unresolved_imports": 3032
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "79f3cc4441864d38181db8d109af493158243066c6fd25a445be5acdd8735e05",
+      "commit": "2d9d619676e2047a8477c086dda161e4d510c316",
+      "example_cache_key": "90599289a1c9c5a9a3e27dbcb0beff57955febc776bb7928ccffef95ba2c7e5f",
+      "example_sha256": "1b1bb18a98d8e17f03a3608e9f7f75e095b1a55b74510715138ddc2a379558df",
+      "positive_paths": [
+        "tests/aggregation_regress/tests.py",
+        "tests/defer/tests.py",
+        "tests/gis_tests/relatedapp/tests.py",
+        "tests/mail/__init__.py",
+        "tests/mail/test_backends.py",
+        "tests/mail/test_deprecated.py",
+        "tests/mail/tests.py",
+        "tests/model_fields/test_booleanfield.py",
+        "tests/model_inheritance_regress/tests.py",
+        "tests/modeladmin/tests.py",
+        "tests/queries/tests.py",
+        "tests/select_related/tests.py",
+        "tests/select_related_onetoone/tests.py",
+        "tests/test_utils/tests.py"
+      ],
+      "repo": "django/django",
+      "revision": "8aab4fa1ab4503019dbbbbd326d95a6e6833e230",
+      "seed": "django/test/utils.py",
+      "unresolved_imports": 3033
+    },
+    {
+      "candidate_files": 2936,
+      "candidate_paths_sha256": "1b3be0d9de16d02fc024bb7101ed8636e23cdd6b6d3ae17a8382d9e2a7fbe0c5",
+      "commit": "817df1c4d6d38f416460d7d9354d7deab9d35139",
+      "example_cache_key": "acd6a7abb7a0aedc14b7b7342a5521ca64cdd197c6f3aea6801b8487f843c3df",
+      "example_sha256": "d5518f0293fecc859c30fdf20b56dd5d392a2416e82db4cdaf977986cdd5d167",
+      "positive_paths": [
+        "tests/forms_tests/tests/test_forms.py"
+      ],
+      "repo": "django/django",
+      "revision": "c61620099cfa1874c12771a4637e405f59c287a8",
+      "seed": "django/forms/boundfield.py",
+      "unresolved_imports": 3032
+    }
+  ],
+  "status": "verified against frozen source and completed held-out result"
+}

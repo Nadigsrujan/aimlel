@@ -1,0 +1,99 @@
+{
+  "dataset": {
+    "dataset": "princeton-nlp/SWE-bench_Verified",
+    "files": [
+      "data/test-00000-of-00001.parquet"
+    ],
+    "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a"
+  },
+  "excluded_instances": 410,
+  "excluded_projects": [
+    "django/django",
+    "encode/httpx",
+    "fastapi/fastapi",
+    "pallets/flask",
+    "pallets/werkzeug",
+    "psf/requests",
+    "pydantic/pydantic",
+    "pytest-dev/pytest",
+    "scikit-learn/scikit-learn",
+    "sphinx-doc/sphinx",
+    "sqlalchemy/sqlalchemy",
+    "sympy/sympy"
+  ],
+  "files": [
+    {
+      "name": "data/test-00000-of-00001.parquet",
+      "sha256": "a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd"
+    }
+  ],
+  "instances": 500,
+  "limitations": [
+    "One external project and a bounded sample",
+    "Oracle changed-file seed; not issue localization or patch generation",
+    "Gold source-file patches are a different label source from commit co-change",
+    "No benchmark repository code or tests are executed"
+  ],
+  "repository_counts": {
+    "astropy/astropy": 22,
+    "django/django": 231,
+    "matplotlib/matplotlib": 34,
+    "mwaskom/seaborn": 2,
+    "pallets/flask": 1,
+    "psf/requests": 8,
+    "pydata/xarray": 22,
+    "pylint-dev/pylint": 10,
+    "pytest-dev/pytest": 19,
+    "scikit-learn/scikit-learn": 32,
+    "sphinx-doc/sphinx": 44,
+    "sympy/sympy": 75
+  },
+  "selected": [
+    {
+      "base_commit": "1757dffac2fa493d7b9a074b84cf8c830a706688",
+      "instance_id": "pydata__xarray-3095",
+      "modified_paths": [
+        "xarray/core/indexing.py",
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray"
+    },
+    {
+      "base_commit": "69c7e01e5167a3137c285cb50d1978252bb8bcbf",
+      "instance_id": "pydata__xarray-3305",
+      "modified_paths": [
+        "xarray/core/dataset.py",
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray"
+    },
+    {
+      "base_commit": "8cc34cb412ba89ebca12fc84f76a9e452628f1bc",
+      "instance_id": "pydata__xarray-3993",
+      "modified_paths": [
+        "xarray/core/dataarray.py",
+        "xarray/core/dataset.py"
+      ],
+      "repo": "pydata/xarray"
+    },
+    {
+      "base_commit": "c4e40d991c28be51de9ac560ce895ac7f9b14924",
+      "instance_id": "pydata__xarray-6938",
+      "modified_paths": [
+        "xarray/core/dataset.py",
+        "xarray/core/variable.py"
+      ],
+      "repo": "pydata/xarray"
+    },
+    {
+      "base_commit": "45c0a114e2b7b27b83c9618bc05b36afac82183c",
+      "instance_id": "pydata__xarray-6992",
+      "modified_paths": [
+        "xarray/core/dataset.py",
+        "xarray/core/indexes.py"
+      ],
+      "repo": "pydata/xarray"
+    }
+  ],
+  "selection_policy": "first five instance IDs in pydata/xarray with at least two modified Python paths; no study-project overlap"
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "edges": 60858,
+    "nodes": 47030,
+    "repo": "django/django",
+    "resolution": {
+      "calls": 190840,
+      "resolved_calls": 3118,
+      "syntax_unavailable": 1
+    },
+    "revision": "3bdcd29a61be034b9c9a1cea744371c12339c48e"
+  },
+  {
+    "edges": 1857,
+    "nodes": 1301,
+    "repo": "encode/httpx",
+    "resolution": {
+      "calls": 4189,
+      "resolved_calls": 215,
+      "syntax_unavailable": 0
+    },
+    "revision": "b5addb64f0161ff6bfe94c124ef76f6a1fba5254"
+  },
+  {
+    "edges": 12261,
+    "nodes": 8314,
+    "repo": "fastapi/fastapi",
+    "resolution": {
+      "calls": 23111,
+      "resolved_calls": 913,
+      "syntax_unavailable": 0
+    },
+    "revision": "79cab5bed28b24d92c185d236feb33f5783dfeb3"
+  },
+  {
+    "edges": 3110,
+    "nodes": 2169,
+    "repo": "pallets/click",
+    "resolution": {
+      "calls": 7084,
+      "resolved_calls": 288,
+      "syntax_unavailable": 0
+    },
+    "revision": "2247b35ea1c47c727d7a06e51fa280e12a863ff6"
+  },
+  {
+    "edges": 2381,
+    "nodes": 1705,
+    "repo": "pallets/flask",
+    "resolution": {
+      "calls": 3961,
+      "resolved_calls": 70,
+      "syntax_unavailable": 0
+    },
+    "revision": "d086db856be187255b8ec61ef409357393020f32"
+  },
+  {
+    "edges": 290,
+    "nodes": 159,
+    "repo": "pallets/itsdangerous",
+    "resolution": {
+      "calls": 378,
+      "resolved_calls": 7,
+      "syntax_unavailable": 0
+    },
+    "revision": "672971d66a2ef9f85151e53283113f33d642dabd"
+  },
+  {
+    "edges": 193,
+    "nodes": 128,
+    "repo": "pallets/markupsafe",
+    "resolution": {
+      "calls": 352,
+      "resolved_calls": 24,
+      "syntax_unavailable": 0
+    },
+    "revision": "4e111271b1494995708a9e878a10829b5e10c7ba"
+  },
+  {
+    "edges": 4590,
+    "nodes": 2635,
+    "repo": "pallets/werkzeug",
+    "resolution": {
+      "calls": 8638,
+      "resolved_calls": 471,
+      "syntax_unavailable": 0
+    },
+    "revision": "b73dce5a2ce14f7c7fd645699d1d878de48d2948"
+  },
+  {
+    "edges": 4804,
+    "nodes": 3786,
+    "repo": "psf/black",
+    "resolution": {
+      "calls": 9802,
+      "resolved_calls": 682,
+      "syntax_unavailable": 15
+    },
+    "revision": "e49fc44cef105c8a948873982fc566dc4df8d549"
+  },
+  {
+    "edges": 1228,
+    "nodes": 844,
+    "repo": "psf/requests",
+    "resolution": {
+      "calls": 2687,
+      "resolved_calls": 64,
+      "syntax_unavailable": 0
+    },
+    "revision": "3c7baaa05ab4aa49cc819ce3a819d260de19c157"
+  },
+  {
+    "edges": 20415,
+    "nodes": 14887,
+    "repo": "pydantic/pydantic",
+    "resolution": {
+      "calls": 48973,
+      "resolved_calls": 2004,
+      "syntax_unavailable": 0
+    },
+    "revision": "dd0c36a4be235522e34659ba372c59b43b55f33e"
+  },
+  {
+    "edges": 17022,
+    "nodes": 10163,
+    "repo": "pydata/xarray",
+    "resolution": {
+      "calls": 62386,
+      "resolved_calls": 3406,
+      "syntax_unavailable": 0
+    },
+    "revision": "2846938bbb820c5108bec6e9c80c785c0c8bf2b1"
+  },
+  {
+    "edges": 11894,
+    "nodes": 7663,
+    "repo": "pytest-dev/pytest",
+    "resolution": {
+      "calls": 27987,
+      "resolved_calls": 1184,
+      "syntax_unavailable": 0
+    },
+    "revision": "a7b2446ee41a7298d3a0bc22c52f3b8bacae1566"
+  },
+  {
+    "edges": 26286,
+    "nodes": 14059,
+    "repo": "scikit-learn/scikit-learn",
+    "resolution": {
+      "calls": 115575,
+      "resolved_calls": 3857,
+      "syntax_unavailable": 0
+    },
+    "revision": "583b8c40912b9b57f59fd4ab2f63d961e6dafe57"
+  },
+  {
+    "edges": 15856,
+    "nodes": 9331,
+    "repo": "sphinx-doc/sphinx",
+    "resolution": {
+      "calls": 33809,
+      "resolved_calls": 2125,
+      "syntax_unavailable": 0
+    },
+    "revision": "035a07c32c3241fd3356f4d827800c1f88525272"
+  },
+  {
+    "edges": 63502,
+    "nodes": 41740,
+    "repo": "sqlalchemy/sqlalchemy",
+    "resolution": {
+      "calls": 191091,
+      "resolved_calls": 2634,
+      "syntax_unavailable": 2
+    },
+    "revision": "2d8e64920e61872d40ccf8430d289ab1cb4688b5"
+  },
+  {
+    "edges": 77485,
+    "nodes": 42402,
+    "repo": "sympy/sympy",
+    "resolution": {
+      "calls": 388832,
+      "resolved_calls": 15865,
+      "syntax_unavailable": 0
+    },
+    "revision": "692117a3cdabedf3d453714b42b0e10376bd87e8"
+  }
+]

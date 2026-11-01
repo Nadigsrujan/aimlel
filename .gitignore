@@ -5,7 +5,11 @@ __pycache__/
 
 # Virtual environments & local configuration
 .venv/
+.venv-*/
+*.egg-info/
 .env
+.env.*
+!.env.example
 
 # OS metadata
 .DS_Store
@@ -17,6 +21,7 @@ data/raw/**
 data/interim/**
 data/processed/**
 data/deleted/**
+data/external/**
 
 # Artifacts, models & encoder caches
 artifacts/models/**
@@ -29,3 +34,21 @@ frontend/dist/
 
 # Preserve directory structure via .gitkeep
 !**/.gitkeep
+
+# Local Python runtime and tool cache
+.runtime/
+frontend/.npm-cache/
+artifacts/reports/*-server*.log
+artifacts/reports/local-server.pid
+artifacts/reports/*.tmp
+
+# Local user scenarios, observations, and uploaded source snapshots
+artifacts/observatory.sqlite3*
+artifacts/archive-snapshots/
+
+# Excluded architecture page and WhatsApp images
+architecture-page-*.jpg
+architecture-page-*.jpeg
+architecture-page-*.png
+*[Ww]hats[Aa]pp*
+

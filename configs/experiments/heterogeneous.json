@@ -1,13 +1,24 @@
 {
-  "version": "typed-structural-history-v1",
+  "version": "typed-static-history-codebert-lexical-v3",
   "seed": 17,
-  "commits_per_training_repo": 5,
-  "commits_per_validation_repo": 4,
+  "commits_per_training_repo": 20,
+  "commits_per_validation_repo": 20,
   "epochs": 20,
   "patience": 5,
   "learning_rate": 0.003,
   "negative_limit": 128,
   "candidate_policy": "all-eligible-files-excluding-seed-v1",
   "selection_metric": "macro_recall_at_5",
-  "limitations": ["Bounded development sample", "Pretrained embeddings not yet included in learned inputs", "File-level labels only"]
+  "limitations": [
+    "Bounded development sample",
+    "File-level co-change proxy labels",
+    "File embeddings shared by contained symbols"
+  ],
+  "use_semantics": true,
+  "ablations": [
+    "static",
+    "history",
+    "semantic"
+  ],
+  "training_threads": 2
 }

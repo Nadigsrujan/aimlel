@@ -1,0 +1,8 @@
+{
+  "comparison_excludes": "wall-clock latency, which is measured afresh",
+  "epochs": 12,
+  "input_fingerprint": "6810a4d6b5fad78defab5c7cbd09b7acd6c43969a9666236e69fd94028a497e1",
+  "status": "exact checkpoint, history and validation metric reproduction passed",
+  "training_queries": 140,
+  "validation_selection_queries": 20
+}

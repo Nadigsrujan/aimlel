@@ -1,3 +1,5 @@
+> Current checkpoint (2026-11-01): the three new master briefs are implemented through the additive observatory layer. See [exact coverage and remaining limitations](../docs/observatory-implementation.md). The historical checklist below is retained as an audit trail and may describe work now completed. Final held-out publication is tracked separately in artifacts/reports/finalization-progress.json.
+
 # Neural Cartographer task checklist
 
 Status: implementation in progress following approval. Checked tasks reflect ingestion deliverables only. Each numbered task is a focused implementation slice. Complete acceptance and verification before checking a task.
@@ -15,7 +17,7 @@ Current partial work: package implementation now lives under `backend/src/neural
 - [x] **T03 — Repository fetch and commit filter (deps: T01; M).** Full default-branch history for all 12 repositories is pinned under `data/raw/`; non-merge events, generated/vendor exclusions, whitespace handling and bulk-event rules are audited in processed outputs.
 - [x] **T04 — File graph at revision (deps: T02,T03; M).** Current pinned snapshots contain file/class/function/test nodes plus containment and import evidence. Stdlib AST uses a Tree-sitter fallback for modern syntax; seven focused tests pass.
 - [x] **T05 — Pre-commit labels and simple ranker (deps: T03,T04; M).** Historical queries reconstruct parent graphs, rank eligible files excluding the seed, and join labels only in evaluation. Parent identity and seed exclusion are tested; 25 Flask queries evaluated without failures. Historical snapshots use one streaming Git blob reader.
-- [ ] **T06 — Minimal impact API and UI slice (deps: T05; M).** Serve one pinned query with ranked file candidates and display it in a selectable graph view. Verify seed selection → Top-K → evidence path in a browser.
+- [x] **T06 — Minimal impact API and UI slice (deps: T05; M).** Serve one pinned query with ranked file candidates and display it in a selectable graph view. Verify seed selection → Top-K → evidence path in a browser.
 - [ ] **Checkpoint B.** A real historical commit is reproducible end to end; no features use its outcome during scoring.
 
 ## Phase 2 — data quality and baselines

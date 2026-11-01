@@ -1,0 +1,32 @@
+[
+  {
+    "bulk_events": 89,
+    "commits": 31133,
+    "eligible_events": 9433,
+    "queries": 33689,
+    "repo": "scikit-learn/scikit-learn",
+    "reused": true,
+    "status": "processed",
+    "summary": "C:\\Users\\raddo\\Documents\\aiml el 5th sem\\data\\processed\\scikit-learn__scikit-learn\\583b8c40912b9b57f59fd4ab2f63d961e6dafe57\\summary.json"
+  },
+  {
+    "bulk_events": 123,
+    "commits": 50898,
+    "eligible_events": 18723,
+    "queries": 62846,
+    "repo": "sympy/sympy",
+    "reused": true,
+    "status": "processed",
+    "summary": "C:\\Users\\raddo\\Documents\\aiml el 5th sem\\data\\processed\\sympy__sympy\\692117a3cdabedf3d453714b42b0e10376bd87e8\\summary.json"
+  },
+  {
+    "bulk_events": 131,
+    "commits": 34484,
+    "eligible_events": 12805,
+    "queries": 46857,
+    "repo": "django/django",
+    "reused": true,
+    "status": "processed",
+    "summary": "C:\\Users\\raddo\\Documents\\aiml el 5th sem\\data\\processed\\django__django\\3bdcd29a61be034b9c9a1cea744371c12339c48e\\summary.json"
+  }
+]

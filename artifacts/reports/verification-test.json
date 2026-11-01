@@ -1,0 +1,29 @@
+[
+  {
+    "repo": "sympy/sympy",
+    "split": "test",
+    "status": "verified",
+    "queries": 62846,
+    "nodes": 42402,
+    "parse_failures": 0,
+    "commits": 50898
+  },
+  {
+    "repo": "scikit-learn/scikit-learn",
+    "split": "test",
+    "status": "verified",
+    "queries": 33689,
+    "nodes": 14059,
+    "parse_failures": 0,
+    "commits": 31133
+  },
+  {
+    "repo": "django/django",
+    "split": "test",
+    "status": "verified",
+    "queries": 46857,
+    "nodes": 47030,
+    "parse_failures": 1,
+    "commits": 34484
+  }
+]

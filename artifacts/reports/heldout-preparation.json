@@ -1,0 +1,12 @@
+[
+  {
+    "examples": 20,
+    "metrics_computed": false,
+    "repo": "scikit-learn/scikit-learn"
+  },
+  {
+    "examples": 20,
+    "metrics_computed": false,
+    "repo": "django/django"
+  }
+]

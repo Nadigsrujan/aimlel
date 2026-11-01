@@ -1,0 +1,1244 @@
+{
+  "cases": [
+    {
+      "commit": "ae1b9f66238f75ced3ced5e4485408435de10768",
+      "coverage": {
+        "changed_files": 2,
+        "fallback_files": 2,
+        "symbol_mapped": 0
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              52,
+              0
+            ]
+          ],
+          "new_path": "httpx/__init__.py",
+          "old_path": "httpx/__init__.py",
+          "parent_entities": [
+            "httpx/__init__.py"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              19,
+              1
+            ]
+          ],
+          "new_path": "httpx/_auth.py",
+          "old_path": "httpx/_auth.py",
+          "parent_entities": [
+            "httpx/_auth.py"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "ca097c96f97d8d2a5da09b8ca736c7e78a2467f6",
+      "parse_failures": [],
+      "repo": "encode/httpx",
+      "schema_version": 1
+    },
+    {
+      "commit": "f02ef4900bacc28942a051b95b9719c5002a7858",
+      "coverage": {
+        "changed_files": 10,
+        "fallback_files": 5,
+        "symbol_mapped": 5
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              0,
+              0
+            ]
+          ],
+          "new_path": "docs_src/request_forms/tutorial002_an_py310.py",
+          "old_path": "docs_src/request_forms/tutorial002_an_py310.py",
+          "parent_entities": [],
+          "status": "A"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              0,
+              0
+            ]
+          ],
+          "new_path": "docs_src/request_forms/tutorial002_py310.py",
+          "old_path": "docs_src/request_forms/tutorial002_py310.py",
+          "parent_entities": [],
+          "status": "A"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              1074,
+              15
+            ],
+            [
+              1090,
+              4
+            ],
+            [
+              1144,
+              1
+            ]
+          ],
+          "new_path": "fastapi/dependencies/utils.py",
+          "old_path": "fastapi/dependencies/utils.py",
+          "parent_entities": [
+            "fastapi/dependencies/utils.py::_extract_form_items@1067",
+            "fastapi/dependencies/utils.py::_is_form_model_supplied@1140"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              235,
+              1
+            ],
+            [
+              277,
+              1
+            ],
+            [
+              279,
+              1
+            ]
+          ],
+          "new_path": "tests/test_forms_multiple_models.py",
+          "old_path": "tests/test_forms_multiple_models.py",
+          "parent_entities": [
+            "tests/test_forms_multiple_models.py::test_model_defaults_checkboxes_and_validators_are_independent@235"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              21,
+              1
+            ],
+            [
+              707,
+              1
+            ]
+          ],
+          "new_path": "tests/test_forms_multiple_unions.py",
+          "old_path": "tests/test_forms_multiple_unions.py",
+          "parent_entities": [
+            "tests/test_forms_multiple_unions.py::Person@17",
+            "tests/test_forms_multiple_unions.py::test_json_and_original_model_schemas_are_unchanged@701"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              25,
+              1
+            ],
+            [
+              117,
+              1
+            ],
+            [
+              179,
+              1
+            ],
+            [
+              227,
+              1
+            ],
+            [
+              279,
+              1
+            ],
+            [
+              461,
+              1
+            ]
+          ],
+          "new_path": "tests/test_forms_optional_models.py",
+          "old_path": "tests/test_forms_optional_models.py",
+          "parent_entities": [
+            "tests/test_forms_optional_models.py::test_defaults_factories_and_validators@403",
+            "tests/test_forms_optional_models.py::test_optional_form_model@18",
+            "tests/test_forms_optional_models.py::test_optional_form_model@18::Profile@21",
+            "tests/test_forms_optional_models.py::test_optional_form_model_multipart@110",
+            "tests/test_forms_optional_models.py::test_optional_form_model_multipart@110::Profile@113",
+            "tests/test_forms_optional_models.py::test_optional_form_model_schema@171",
+            "tests/test_forms_optional_models.py::test_optional_form_model_schema@171::Profile@174",
+            "tests/test_forms_optional_models.py::test_optional_form_model_with_other_form_field_schema@219",
+            "tests/test_forms_optional_models.py::test_optional_form_model_with_other_form_field_schema@219::Profile@222",
+            "tests/test_forms_optional_models.py::test_unknown_fields_and_sibling_models@273",
+            "tests/test_forms_optional_models.py::test_unknown_fields_and_sibling_models@273::Profile@276"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              22,
+              1
+            ],
+            [
+              375,
+              1
+            ]
+          ],
+          "new_path": "tests/test_forms_optional_unions.py",
+          "old_path": "tests/test_forms_optional_unions.py",
+          "parent_entities": [
+            "tests/test_forms_optional_unions.py::TextForm@19",
+            "tests/test_forms_optional_unions.py::test_defaults_factories_and_validators@320"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              724,
+              9
+            ],
+            [
+              737,
+              1
+            ],
+            [
+              740,
+              1
+            ],
+            [
+              745,
+              12
+            ],
+            [
+              772,
+              1
+            ],
+            [
+              787,
+              1
+            ],
+            [
+              796,
+              8
+            ],
+            [
+              807,
+              1
+            ],
+            [
+              810,
+              1
+            ],
+            [
+              818,
+              1
+            ],
+            [
+              820,
+              1
+            ],
+            [
+              828,
+              1
+            ],
+            [
+              843,
+              1
+            ],
+            [
+              854,
+              0
+            ],
+            [
+              858,
+              1
+            ],
+            [
+              866,
+              0
+            ],
+            [
+              874,
+              1
+            ],
+            [
+              888,
+              1
+            ],
+            [
+              894,
+              1
+            ],
+            [
+              900,
+              1
+            ],
+            [
+              932,
+              1
+            ],
+            [
+              936,
+              1
+            ],
+            [
+              963,
+              1
+            ],
+            [
+              970,
+              1
+            ],
+            [
+              976,
+              1
+            ],
+            [
+              997,
+              1
+            ],
+            [
+              1011,
+              1
+            ],
+            [
+              1016,
+              1
+            ],
+            [
+              1073,
+              1
+            ],
+            [
+              1110,
+              1
+            ],
+            [
+              1114,
+              1
+            ],
+            [
+              1120,
+              1
+            ],
+            [
+              1134,
+              1
+            ],
+            [
+              1136,
+              1
+            ],
+            [
+              1147,
+              1
+            ],
+            [
+              1153,
+              1
+            ],
+            [
+              1166,
+              6
+            ],
+            [
+              1172,
+              0
+            ],
+            [
+              1217,
+              2
+            ]
+          ],
+          "new_path": "tests/test_request_params/test_form/test_nullable_and_defaults.py",
+          "old_path": "tests/test_request_params/test_form/test_nullable_and_defaults.py",
+          "parent_entities": [
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_alias_path_is_unchanged@1073",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_in_multipart_form@1105",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_in_multipart_form@1105::Model@1108",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_in_multipart_form@1105::read_model@1119",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_in_multipart_form@1105::read_parameter@1113",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_model_accepts_field_name@925",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_model_accepts_field_name@925::Model@928",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_model_accepts_field_name@925::read_model@935",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_uses_alias@882",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_uses_alias@882::Model@885",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_uses_alias@882::read_model@899",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_uses_alias@882::read_parameter@891",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_alias_choices@955",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_alias_choices@955::Model@958",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_alias_choices@955::read_model@975",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_alias_choices@955::read_parameter@966",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_false_default_is_explicitly_set@858",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_true_default@775",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_checkbox_with_true_default@775::read_model@786",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_form_does_not_change_required_model_fields@1197",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_nullable_checkbox_with_none_default@831",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_nullable_checkbox_with_none_default@831::read_model@842",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_required_nullable_checkbox@803",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_required_nullable_checkbox@803::Model@806",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_required_nullable_checkbox@803::read_parameter@810",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733::Model@736",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733::ModelWithDefault@747",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733::read_model@744",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733::read_model_default@755",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733::read_parameter@740",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_false@733::read_parameter_default@751",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_validated_without_calling_default_factory@1134",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_validated_without_calling_default_factory@1134::Model@1143",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_is_validated_without_calling_default_factory@1134::read_parameter@1151",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_with_alias_choices_overrides_defaults@997",
+            "tests/test_request_params/test_form/test_nullable_and_defaults.py::test_unchecked_checkbox_with_alias_choices_overrides_defaults@997::read_model@1010"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              0,
+              0
+            ]
+          ],
+          "new_path": "tests/test_tutorial/test_request_forms/test_tutorial002.py",
+          "old_path": "tests/test_tutorial/test_request_forms/test_tutorial002.py",
+          "parent_entities": [],
+          "status": "A"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              54,
+              0
+            ],
+            [
+              108,
+              1
+            ],
+            [
+              111,
+              1
+            ],
+            [
+              156,
+              1
+            ],
+            [
+              175,
+              1
+            ],
+            [
+              177,
+              1
+            ],
+            [
+              252,
+              1
+            ],
+            [
+              478,
+              1
+            ],
+            [
+              506,
+              1
+            ]
+          ],
+          "new_path": "tests/test_union_form_normalization.py",
+          "old_path": "tests/test_union_form_normalization.py",
+          "parent_entities": [
+            "tests/test_union_form_normalization.py",
+            "tests/test_union_form_normalization.py::test_alias_choices_and_forbidden_extras@232",
+            "tests/test_union_form_normalization.py::test_before_validator_can_rename_form_fields@457",
+            "tests/test_union_form_normalization.py::test_missing_fields_use_model_defaults@149",
+            "tests/test_union_form_normalization.py::test_missing_fields_use_model_defaults@149::DefaultsForm@152",
+            "tests/test_union_form_normalization.py::test_omitted_boolean_is_explicit_false@108",
+            "tests/test_union_form_normalization.py::test_union_before_validator_can_copy_form_data@482"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "69ddc2badf9da1123bba4d360225ae6b085985f6",
+      "parse_failures": [],
+      "repo": "fastapi/fastapi",
+      "schema_version": 1
+    },
+    {
+      "commit": "329c32b916938d33fec41f40eb7ed854bf0b3e2b",
+      "coverage": {
+        "changed_files": 2,
+        "fallback_files": 1,
+        "symbol_mapped": 1
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              19,
+              1
+            ],
+            [
+              207,
+              33
+            ]
+          ],
+          "new_path": "src/flask/app.py",
+          "old_path": "src/flask/app.py",
+          "parent_entities": [
+            "src/flask/app.py",
+            "src/flask/app.py::Flask@110"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              46,
+              1
+            ],
+            [
+              61,
+              1
+            ]
+          ],
+          "new_path": "tests/test_testing.py",
+          "old_path": "tests/test_testing.py",
+          "parent_entities": [
+            "tests/test_testing.py::test_environ_base_default@42",
+            "tests/test_testing.py::test_environ_base_default@42::index@44",
+            "tests/test_testing.py::test_environ_base_modified@57",
+            "tests/test_testing.py::test_environ_base_modified@57::index@59"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "41cb747cd5a9b43da43bf809ad974722542603db",
+      "parse_failures": [],
+      "repo": "pallets/flask",
+      "schema_version": 1
+    },
+    {
+      "commit": "c2bc20f67343e8997c6582c57a0cc6c5f4f45556",
+      "coverage": {
+        "changed_files": 5,
+        "fallback_files": 4,
+        "symbol_mapped": 1
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              444,
+              1
+            ]
+          ],
+          "new_path": "src/werkzeug/debug/__init__.py",
+          "old_path": "src/werkzeug/debug/__init__.py",
+          "parent_entities": [
+            "src/werkzeug/debug/__init__.py::DebuggedApplication@224",
+            "src/werkzeug/debug/__init__.py::DebuggedApplication@224::check_pin_trust@431"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              1142,
+              1
+            ],
+            [
+              1265,
+              0
+            ],
+            [
+              1267,
+              1
+            ],
+            [
+              1269,
+              1
+            ],
+            [
+              1271,
+              2
+            ],
+            [
+              1277,
+              0
+            ],
+            [
+              1288,
+              2
+            ],
+            [
+              1291,
+              1
+            ],
+            [
+              1293,
+              0
+            ],
+            [
+              1296,
+              2
+            ],
+            [
+              1307,
+              1
+            ],
+            [
+              1309,
+              1
+            ],
+            [
+              1335,
+              1
+            ],
+            [
+              1337,
+              8
+            ],
+            [
+              1347,
+              23
+            ],
+            [
+              1373,
+              4
+            ],
+            [
+              1396,
+              1
+            ],
+            [
+              1438,
+              2
+            ],
+            [
+              1506,
+              1
+            ]
+          ],
+          "new_path": "src/werkzeug/http.py",
+          "old_path": "src/werkzeug/http.py",
+          "parent_entities": [
+            "src/werkzeug/http.py",
+            "src/werkzeug/http.py::_is_resource_modified@1117",
+            "src/werkzeug/http.py::dump_cookie@1321",
+            "src/werkzeug/http.py::parse_cookie@1266"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              3,
+              1
+            ],
+            [
+              94,
+              28
+            ],
+            [
+              128,
+              0
+            ],
+            [
+              138,
+              41
+            ],
+            [
+              180,
+              1
+            ]
+          ],
+          "new_path": "src/werkzeug/sansio/http.py",
+          "old_path": "src/werkzeug/sansio/http.py",
+          "parent_entities": [
+            "src/werkzeug/sansio/http.py",
+            "src/werkzeug/sansio/http.py::_cookie_unslash_replace@113",
+            "src/werkzeug/sansio/http.py::parse_cookie@122"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              20,
+              0
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              266,
+              1
+            ],
+            [
+              280,
+              1
+            ]
+          ],
+          "new_path": "src/werkzeug/sansio/request.py",
+          "old_path": "src/werkzeug/sansio/request.py",
+          "parent_entities": [
+            "src/werkzeug/sansio/request.py",
+            "src/werkzeug/sansio/request.py::Request@34",
+            "src/werkzeug/sansio/request.py::Request@34::cookies@263"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              13,
+              1
+            ],
+            [
+              457,
+              11
+            ]
+          ],
+          "new_path": "tests/test_http.py",
+          "old_path": "tests/test_http.py",
+          "parent_entities": [
+            "tests/test_http.py",
+            "tests/test_http.py::TestHTTPUtility@28",
+            "tests/test_http.py::TestHTTPUtility@28::test_cookie_unicode_keys@457",
+            "tests/test_http.py::TestHTTPUtility@28::test_cookie_unicode_parsing@464"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "242a7380abcc325c7f0bc8f44eaf51377d6b5d8f",
+      "parse_failures": [],
+      "repo": "pallets/werkzeug",
+      "schema_version": 1
+    },
+    {
+      "commit": "6f66281a1d6326b1b9c4ac09ca30de0fc4e6ef43",
+      "coverage": {
+        "changed_files": 3,
+        "fallback_files": 3,
+        "symbol_mapped": 0
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              31,
+              0
+            ]
+          ],
+          "new_path": "src/requests/_types.py",
+          "old_path": "src/requests/_types.py",
+          "parent_entities": [
+            "src/requests/_types.py"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              37,
+              0
+            ],
+            [
+              39,
+              1
+            ],
+            [
+              90,
+              1
+            ],
+            [
+              164,
+              1
+            ],
+            [
+              239,
+              3
+            ],
+            [
+              644,
+              1
+            ]
+          ],
+          "new_path": "src/requests/models.py",
+          "old_path": "src/requests/models.py",
+          "parent_entities": [
+            "src/requests/models.py",
+            "src/requests/models.py::PreparedRequest@381",
+            "src/requests/models.py::PreparedRequest@381::prepare_body@579",
+            "src/requests/models.py::RequestEncodingMixin@109",
+            "src/requests/models.py::RequestEncodingMixin@109::_encode_files@184",
+            "src/requests/models.py::RequestEncodingMixin@109::_encode_params@152"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              1100,
+              0
+            ]
+          ],
+          "new_path": "tests/test_requests.py",
+          "old_path": "tests/test_requests.py",
+          "parent_entities": [
+            "tests/test_requests.py"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+      "parse_failures": [],
+      "repo": "psf/requests",
+      "schema_version": 1
+    },
+    {
+      "commit": "27caa1e4dea73c6cd50e48cbbba315d817c1cf0a",
+      "coverage": {
+        "changed_files": 2,
+        "fallback_files": 2,
+        "symbol_mapped": 0
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              518,
+              1
+            ],
+            [
+              522,
+              1
+            ],
+            [
+              3275,
+              0
+            ]
+          ],
+          "new_path": "pydantic/json_schema.py",
+          "old_path": "pydantic/json_schema.py",
+          "parent_entities": [
+            "pydantic/json_schema.py",
+            "pydantic/json_schema.py::GenerateJsonSchema@223",
+            "pydantic/json_schema.py::GenerateJsonSchema@223::_generate_inner@468",
+            "pydantic/json_schema.py::GenerateJsonSchema@223::_generate_inner@468::handler_func@496"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              32,
+              1
+            ],
+            [
+              7090,
+              0
+            ]
+          ],
+          "new_path": "tests/test_json_schema.py",
+          "old_path": "tests/test_json_schema.py",
+          "parent_entities": [
+            "tests/test_json_schema.py"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "1672be5360805c06307c4ba91b73a65860da4834",
+      "parse_failures": [],
+      "repo": "pydantic/pydantic",
+      "schema_version": 1
+    },
+    {
+      "commit": "9a84fda2ab8710a3d34bca145464c4c70b40768d",
+      "coverage": {
+        "changed_files": 2,
+        "fallback_files": 0,
+        "symbol_mapped": 2
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              130,
+              1
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              142,
+              1
+            ],
+            [
+              146,
+              1
+            ],
+            [
+              149,
+              3
+            ],
+            [
+              157,
+              7
+            ],
+            [
+              331,
+              3
+            ]
+          ],
+          "new_path": "src/_pytest/tmpdir.py",
+          "old_path": "src/_pytest/tmpdir.py",
+          "parent_entities": [
+            "src/_pytest/tmpdir.py::TempPathFactory@47",
+            "src/_pytest/tmpdir.py::TempPathFactory@47::_make_counted_dir@146",
+            "src/_pytest/tmpdir.py::TempPathFactory@47::mktemp@122",
+            "src/_pytest/tmpdir.py::_mk_tmp@326"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              74,
+              1
+            ],
+            [
+              77,
+              1
+            ],
+            [
+              80,
+              1
+            ],
+            [
+              90,
+              3
+            ],
+            [
+              101,
+              1
+            ],
+            [
+              109,
+              4
+            ],
+            [
+              132,
+              4
+            ],
+            [
+              144,
+              1
+            ],
+            [
+              164,
+              1
+            ],
+            [
+              182,
+              1
+            ],
+            [
+              189,
+              1
+            ]
+          ],
+          "new_path": "testing/test_tmpdir.py",
+          "old_path": "testing/test_tmpdir.py",
+          "parent_entities": [
+            "testing/test_tmpdir.py::TestTmpPathHandler@62",
+            "testing/test_tmpdir.py::TestTmpPathHandler@62::test_counted_dir_gives_up@150",
+            "testing/test_tmpdir.py::TestTmpPathHandler@62::test_counted_dir_jumps_past_long_run@116",
+            "testing/test_tmpdir.py::TestTmpPathHandler@62::test_counted_dir_overlapping_prefixes@139",
+            "testing/test_tmpdir.py::TestTmpPathHandler@62::test_counted_dir_retries_other_errors@166",
+            "testing/test_tmpdir.py::TestTmpPathHandler@62::test_counted_dir_skips_unexpected_entries@95",
+            "testing/test_tmpdir.py::TestTmpPathHandler@62::test_mktemp_lists_basetemp_once_per_prefix@74"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "bd10be732c8496218d30f9ef4c4c42e2bb2e734c",
+      "parse_failures": [],
+      "repo": "pytest-dev/pytest",
+      "schema_version": 1
+    },
+    {
+      "commit": "035a07c32c3241fd3356f4d827800c1f88525272",
+      "coverage": {
+        "changed_files": 2,
+        "fallback_files": 1,
+        "symbol_mapped": 1
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": false,
+          "hunks": [
+            [
+              205,
+              1
+            ],
+            [
+              224,
+              1
+            ],
+            [
+              250,
+              1
+            ],
+            [
+              269,
+              1
+            ]
+          ],
+          "new_path": "sphinx/roles.py",
+          "old_path": "sphinx/roles.py",
+          "parent_entities": [
+            "sphinx/roles.py::CVE@197",
+            "sphinx/roles.py::CVE@197::run@200",
+            "sphinx/roles.py::CWE@242",
+            "sphinx/roles.py::CWE@242::run@245"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              128,
+              1
+            ],
+            [
+              133,
+              1
+            ],
+            [
+              135,
+              1
+            ],
+            [
+              144,
+              1
+            ],
+            [
+              149,
+              1
+            ],
+            [
+              151,
+              1
+            ],
+            [
+              160,
+              1
+            ],
+            [
+              165,
+              1
+            ],
+            [
+              167,
+              1
+            ],
+            [
+              176,
+              1
+            ],
+            [
+              181,
+              1
+            ],
+            [
+              183,
+              1
+            ]
+          ],
+          "new_path": "tests/test_markup/test_markup.py",
+          "old_path": "tests/test_markup/test_markup.py",
+          "parent_entities": [
+            "tests/test_markup/test_markup.py"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "1ddf1981c4aac4ff72bfb4a97e05909d55c3a149",
+      "parse_failures": [],
+      "repo": "sphinx-doc/sphinx",
+      "schema_version": 1
+    },
+    {
+      "commit": "bbf3c354ea3eb1b7c1c7539fdd81b9498de115a5",
+      "coverage": {
+        "changed_files": 2,
+        "fallback_files": 2,
+        "symbol_mapped": 0
+      },
+      "files": [
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              2807,
+              0
+            ],
+            [
+              2819,
+              2
+            ]
+          ],
+          "new_path": "lib/sqlalchemy/sql/operators.py",
+          "old_path": "lib/sqlalchemy/sql/operators.py",
+          "parent_entities": [
+            "lib/sqlalchemy/sql/operators.py"
+          ],
+          "status": "M"
+        },
+        {
+          "alias": null,
+          "file_fallback": true,
+          "hunks": [
+            [
+              1029,
+              0
+            ]
+          ],
+          "new_path": "test/sql/test_operators.py",
+          "old_path": "test/sql/test_operators.py",
+          "parent_entities": [
+            "test/sql/test_operators.py"
+          ],
+          "status": "M"
+        }
+      ],
+      "parent": "7663f5c48a2b2bbad70d3d79a86ae098605bb315",
+      "parse_failures": [
+        {
+          "error": "tree-sitter syntax errors: invalid syntax (<unknown>, line 34)",
+          "path": "test/orm/test_tstring_py314.py"
+        },
+        {
+          "error": "tree-sitter syntax errors: invalid syntax (<unknown>, line 43)",
+          "path": "test/sql/test_tstrings_py314.py"
+        }
+      ],
+      "repo": "sqlalchemy/sqlalchemy",
+      "schema_version": 1
+    }
+  ],
+  "commits_per_repository": 1,
+  "coverage": {
+    "changed_files": 30,
+    "fallback_files": 20,
+    "symbol_mapped": 10
+  },
+  "limitations": [
+    "A span overlap is a mapping aid, not a function-level impact label",
+    "Added and ambiguous spans retain file fallback",
+    "Bounded sample does not establish corpus-wide mapping accuracy"
+  ],
+  "parser_version": "5",
+  "sampling": "last eligible development commits; bounded audit",
+  "manual_spot_checks": [
+    {
+      "repo": "pallets/flask",
+      "revision": "41cb747cd5a9b43da43bf809ad974722542603db",
+      "path": "tests/test_testing.py",
+      "lines": [
+        46,
+        61
+      ],
+      "result": "Changed spans lie inside the recorded test functions and their nested index functions"
+    },
+    {
+      "repo": "pallets/werkzeug",
+      "revision": "242a7380abcc325c7f0bc8f44eaf51377d6b5d8f",
+      "path": "src/werkzeug/debug/__init__.py",
+      "lines": [
+        444
+      ],
+      "result": "Changed line lies inside DebuggedApplication.check_pin_trust"
+    },
+    {
+      "repo": "sphinx-doc/sphinx",
+      "revision": "1ddf1981c4aac4ff72bfb4a97e05909d55c3a149",
+      "path": "sphinx/roles.py",
+      "lines": [
+        205,
+        224
+      ],
+      "result": "Changed lines lie inside CVE.run"
+    }
+  ]
+}
