@@ -1,0 +1,1112 @@
+{
+  "comparisons": {
+    "ndcg_at_10": {
+      "cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.11979318599256748,
+          "seed": 17,
+          "upper": 0.005346657551763228
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.19523671196791423,
+          "seed": 17,
+          "upper": 0.07400646856369447
+        },
+        "difference": -0.054865311332782746,
+        "holm_p": 0.5894410558944105,
+        "losses": 17,
+        "paired_sd": 0.2718650167394722,
+        "per_repository": {
+          "django/django": -0.19948979879327233,
+          "scikit-learn/scikit-learn": 0.06290696456309805,
+          "sympy/sympy": -0.02801309976817396
+        },
+        "queries": 60,
+        "sign_flip_p": 0.11788821117888211,
+        "ties": 28,
+        "wilcoxon": {
+          "nonzero_pairs": 32,
+          "p_value": 0.10561164428715776
+        },
+        "wins": 15
+      },
+      "combined-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.008448267186423471,
+          "seed": 17,
+          "upper": 0.15163073850232803
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.034317238443160474,
+          "seed": 17,
+          "upper": 0.1913909828655288
+        },
+        "difference": 0.07931809538611105,
+        "holm_p": 0.2651734826517348,
+        "losses": 11,
+        "paired_sd": 0.29755024132003205,
+        "per_repository": {
+          "django/django": -0.017433020820831254,
+          "scikit-learn/scikit-learn": 0.17785940499988587,
+          "sympy/sympy": 0.07752790197927856
+        },
+        "queries": 60,
+        "sign_flip_p": 0.044195580441955803,
+        "ties": 26,
+        "wilcoxon": {
+          "nonzero_pairs": 34,
+          "p_value": 0.04544505337504436
+        },
+        "wins": 23
+      },
+      "history-only": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.013737741433497437,
+          "seed": 17,
+          "upper": 0.09370467429682033
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.07972349664617442,
+          "seed": 17,
+          "upper": 0.14770310373001774
+        },
+        "difference": 0.040414675532236606,
+        "holm_p": 0.7267273272672733,
+        "losses": 14,
+        "paired_sd": 0.23094056009852093,
+        "per_repository": {
+          "django/django": -0.08825956448308313,
+          "scikit-learn/scikit-learn": 0.12247756380293816,
+          "sympy/sympy": 0.0870260272768548
+        },
+        "queries": 60,
+        "sign_flip_p": 0.18168183181681832,
+        "ties": 26,
+        "wilcoxon": {
+          "nonzero_pairs": 34,
+          "p_value": 0.21793791663703932
+        },
+        "wins": 20
+      },
+      "history-only vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.16540323759655787,
+          "seed": 17,
+          "upper": -0.02657947867142879
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.1659310567573572,
+          "seed": 17,
+          "upper": -0.015430256948630412
+        },
+        "difference": -0.09527998686501936,
+        "holm_p": 0.051794820517948204,
+        "losses": 23,
+        "paired_sd": 0.27195973945256413,
+        "per_repository": {
+          "django/django": -0.1112302343101892,
+          "scikit-learn/scikit-learn": -0.05957059923984012,
+          "sympy/sympy": -0.11503912704502875
+        },
+        "queries": 60,
+        "sign_flip_p": 0.007399260073992601,
+        "ties": 27,
+        "wilcoxon": {
+          "nonzero_pairs": 33,
+          "p_value": 0.007939209581746674
+        },
+        "wins": 10
+      },
+      "imports-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.24632023130558187,
+          "seed": 17,
+          "upper": 0.424564227905728
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.13052351413078253,
+          "seed": 17,
+          "upper": 0.5271054766446365
+        },
+        "difference": 0.3354389128595945,
+        "holm_p": 0.0014998500149985003,
+        "losses": 3,
+        "paired_sd": 0.3889347349047001,
+        "per_repository": {
+          "django/django": 0.12228412267885526,
+          "scikit-learn/scikit-learn": 0.3757955111449625,
+          "sympy/sympy": 0.5082371047549656
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 21,
+        "wilcoxon": {
+          "nonzero_pairs": 39,
+          "p_value": 3.5752232284373793e-07
+        },
+        "wins": 36
+      },
+      "path-distance-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2850456274825622,
+          "seed": 17,
+          "upper": 0.473795489798134
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15097667344191057,
+          "seed": 17,
+          "upper": 0.585420940085372
+        },
+        "difference": 0.37897541994589107,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.41408771446314696,
+        "per_repository": {
+          "django/django": 0.14105850191152136,
+          "scikit-learn/scikit-learn": 0.43827380613721234,
+          "sympy/sympy": 0.5575939517889396
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 21,
+        "wilcoxon": {
+          "nonzero_pairs": 39,
+          "p_value": 1.652232846838732e-07
+        },
+        "wins": 38
+      },
+      "popularity-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.28019968696893127,
+          "seed": 17,
+          "upper": 0.47120208523096035
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.17350119607217943,
+          "seed": 17,
+          "upper": 0.5661016972514603
+        },
+        "difference": 0.3758012463462416,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.40962337623673695,
+        "per_repository": {
+          "django/django": 0.16358592446788017,
+          "scikit-learn/scikit-learn": 0.438069193846642,
+          "sympy/sympy": 0.5257486207242027
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 21,
+        "wilcoxon": {
+          "nonzero_pairs": 39,
+          "p_value": 1.165399046825068e-07
+        },
+        "wins": 38
+      },
+      "random-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.3092778037501244,
+          "seed": 17,
+          "upper": 0.49423867885118505
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.17981810106757518,
+          "seed": 17,
+          "upper": 0.6063734671180909
+        },
+        "difference": 0.4022030582377737,
+        "holm_p": 0.0014998500149985003,
+        "losses": 0,
+        "paired_sd": 0.40445765415958734,
+        "per_repository": {
+          "django/django": 0.1678430803499612,
+          "scikit-learn/scikit-learn": 0.4618295022126931,
+          "sympy/sympy": 0.5769365921506667
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 22,
+        "wilcoxon": {
+          "nonzero_pairs": 38,
+          "p_value": 6.443933217237573e-08
+        },
+        "wins": 38
+      },
+      "semantic-only": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.29369028173637424,
+          "seed": 17,
+          "upper": 0.4822736812769851
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15286717875046124,
+          "seed": 17,
+          "upper": 0.6047968226486854
+        },
+        "difference": 0.38872809406780673,
+        "holm_p": 0.0014998500149985003,
+        "losses": 2,
+        "paired_sd": 0.4177303521700247,
+        "per_repository": {
+          "django/django": 0.140392661985988,
+          "scikit-learn/scikit-learn": 0.44885502806676547,
+          "sympy/sympy": 0.5769365921506667
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 21,
+        "wilcoxon": {
+          "nonzero_pairs": 39,
+          "p_value": 1.41926715877482e-07
+        },
+        "wins": 37
+      },
+      "semantic-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2602112206894821,
+          "seed": 17,
+          "upper": 0.4605815705943189
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.1698155549304521,
+          "seed": 17,
+          "upper": 0.5483142085729641
+        },
+        "difference": 0.35993548228421934,
+        "holm_p": 0.0014998500149985003,
+        "losses": 2,
+        "paired_sd": 0.42424906096206055,
+        "per_repository": {
+          "django/django": 0.1678430803499612,
+          "scikit-learn/scikit-learn": 0.39274918298026473,
+          "sympy/sympy": 0.5192141835224321
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 20,
+        "wilcoxon": {
+          "nonzero_pairs": 40,
+          "p_value": 3.8923073415447966e-07
+        },
+        "wins": 38
+      },
+      "static-only": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.3012337266616562,
+          "seed": 17,
+          "upper": 0.48762608366838445
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.1664295497619588,
+          "seed": 17,
+          "upper": 0.5954598777161643
+        },
+        "difference": 0.3946185911955268,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.4092683053415296,
+        "per_repository": {
+          "django/django": 0.15539951970681293,
+          "scikit-learn/scikit-learn": 0.4693300210845019,
+          "sympy/sympy": 0.5591262327952655
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 22,
+        "wilcoxon": {
+          "nonzero_pairs": 38,
+          "p_value": 8.909917352029673e-08
+        },
+        "wins": 37
+      },
+      "without-history": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.28946950499479396,
+          "seed": 17,
+          "upper": 0.4753763472560638
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15121298379456014,
+          "seed": 17,
+          "upper": 0.5792351381440157
+        },
+        "difference": 0.3824353663244548,
+        "holm_p": 0.0014998500149985003,
+        "losses": 2,
+        "paired_sd": 0.4065747919102706,
+        "per_repository": {
+          "django/django": 0.13972719495630062,
+          "scikit-learn/scikit-learn": 0.4768810019958922,
+          "sympy/sympy": 0.5306979020211716
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 21,
+        "wilcoxon": {
+          "nonzero_pairs": 39,
+          "p_value": 7.917543803838828e-08
+        },
+        "wins": 37
+      },
+      "without-semantic": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.0269652477830528,
+          "seed": 17,
+          "upper": 0.11257445042575684
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.09088585146212283,
+          "seed": 17,
+          "upper": 0.16545237247733133
+        },
+        "difference": 0.044346817625419505,
+        "holm_p": 0.758924107589241,
+        "losses": 9,
+        "paired_sd": 0.29224929694781987,
+        "per_repository": {
+          "django/django": -0.08156310598323108,
+          "scikit-learn/scikit-learn": 0.15889413702920427,
+          "sympy/sympy": 0.05570942183028533
+        },
+        "queries": 60,
+        "sign_flip_p": 0.252974702529747,
+        "ties": 29,
+        "wilcoxon": {
+          "nonzero_pairs": 31,
+          "p_value": 0.13624798203937674
+        },
+        "wins": 22
+      },
+      "without-static": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.027395832113345012,
+          "seed": 17,
+          "upper": 0.12076060858655487
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.08639984170951207,
+          "seed": 17,
+          "upper": 0.21809612153809205
+        },
+        "difference": 0.04563394256417965,
+        "holm_p": 0.758924107589241,
+        "losses": 14,
+        "paired_sd": 0.32140559566876137,
+        "per_repository": {
+          "django/django": -0.07954987027601727,
+          "scikit-learn/scikit-learn": -0.00393252672616576,
+          "sympy/sympy": 0.220384224694722
+        },
+        "queries": 60,
+        "sign_flip_p": 0.2860713928607139,
+        "ties": 30,
+        "wilcoxon": {
+          "nonzero_pairs": 30,
+          "p_value": 0.4526271866740815
+        },
+        "wins": 16
+      },
+      "xgboost": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.03728459816239235,
+          "seed": 17,
+          "upper": 0.13666964124510997
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.19042925010075584,
+          "seed": 17,
+          "upper": 0.24588588000565004
+        },
+        "difference": 0.050238115373661484,
+        "holm_p": 0.758924107589241,
+        "losses": 17,
+        "paired_sd": 0.39423705847483187,
+        "per_repository": {
+          "django/django": -0.21142290645446588,
+          "scikit-learn/scikit-learn": 0.18939907817634916,
+          "sympy/sympy": 0.17273817439910116
+        },
+        "queries": 60,
+        "sign_flip_p": 0.3291670832916708,
+        "ties": 24,
+        "wilcoxon": {
+          "nonzero_pairs": 36,
+          "p_value": 0.31820896961714484
+        },
+        "wins": 19
+      }
+    },
+    "recall_at_5": {
+      "cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.13833333333333334,
+          "seed": 17,
+          "upper": 0.008333333333333331
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.175,
+          "seed": 17,
+          "upper": 0.036944444444444446
+        },
+        "difference": -0.060833333333333336,
+        "holm_p": 0.7547245275472452,
+        "losses": 9,
+        "paired_sd": 0.29908562788276266,
+        "per_repository": {
+          "django/django": -0.15166666666666667,
+          "scikit-learn/scikit-learn": -0.043333333333333335,
+          "sympy/sympy": 0.0125
+        },
+        "queries": 60,
+        "sign_flip_p": 0.1257874212578742,
+        "ties": 44,
+        "wilcoxon": {
+          "nonzero_pairs": 16,
+          "p_value": 0.17691727961465775
+        },
+        "wins": 7
+      },
+      "combined-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.00013071895424837318,
+          "seed": 17,
+          "upper": 0.16722222222222222
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.02652777777777778,
+          "seed": 17,
+          "upper": 0.21083333333333332
+        },
+        "difference": 0.08147642390289449,
+        "holm_p": 0.4955504449555045,
+        "losses": 5,
+        "paired_sd": 0.34288694887060717,
+        "per_repository": {
+          "django/django": 0.00859593837535014,
+          "scikit-learn/scikit-learn": 0.050833333333333335,
+          "sympy/sympy": 0.185
+        },
+        "queries": 60,
+        "sign_flip_p": 0.07079292070792921,
+        "ties": 40,
+        "wilcoxon": {
+          "nonzero_pairs": 20,
+          "p_value": 0.06909869451106697
+        },
+        "wins": 15
+      },
+      "history-only": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.09638888888888889,
+          "seed": 17,
+          "upper": 0.03166666666666666
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.1388888888888889,
+          "seed": 17,
+          "upper": 0.08222222222222222
+        },
+        "difference": -0.030833333333333334,
+        "holm_p": 1.0,
+        "losses": 9,
+        "paired_sd": 0.2678438881125472,
+        "per_repository": {
+          "django/django": -0.12,
+          "scikit-learn/scikit-learn": -0.045000000000000005,
+          "sympy/sympy": 0.0725
+        },
+        "queries": 60,
+        "sign_flip_p": 0.40015998400159986,
+        "ties": 45,
+        "wilcoxon": {
+          "nonzero_pairs": 15,
+          "p_value": 0.33271241075826863
+        },
+        "wins": 6
+      },
+      "history-only vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.12055555555555555,
+          "seed": 17,
+          "upper": 0.05722222222222223
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.11833333333333333,
+          "seed": 17,
+          "upper": 0.0688888888888889
+        },
+        "difference": -0.029999999999999995,
+        "holm_p": 1.0,
+        "losses": 8,
+        "paired_sd": 0.350125078538326,
+        "per_repository": {
+          "django/django": -0.03166666666666666,
+          "scikit-learn/scikit-learn": 0.0016666666666666718,
+          "sympy/sympy": -0.06
+        },
+        "queries": 60,
+        "sign_flip_p": 0.5353464653534646,
+        "ties": 46,
+        "wilcoxon": {
+          "nonzero_pairs": 14,
+          "p_value": 0.48541349972356074
+        },
+        "wins": 6
+      },
+      "imports-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.19014705882352942,
+          "seed": 17,
+          "upper": 0.4072222222222222
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.0886904761904762,
+          "seed": 17,
+          "upper": 0.5241666666666667
+        },
+        "difference": 0.2988375350140056,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.46706594939533763,
+        "per_repository": {
+          "django/django": 0.1065126050420168,
+          "scikit-learn/scikit-learn": 0.2675,
+          "sympy/sympy": 0.5225
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 33,
+        "wilcoxon": {
+          "nonzero_pairs": 27,
+          "p_value": 2.549357900829908e-05
+        },
+        "wins": 26
+      },
+      "path-distance-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.248718487394958,
+          "seed": 17,
+          "upper": 0.4773295985060691
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.16186157796451914,
+          "seed": 17,
+          "upper": 0.5716666666666667
+        },
+        "difference": 0.36342086834733894,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.47848204810141753,
+        "per_repository": {
+          "django/django": 0.1752626050420168,
+          "scikit-learn/scikit-learn": 0.3675,
+          "sympy/sympy": 0.5475
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 26,
+        "wilcoxon": {
+          "nonzero_pairs": 34,
+          "p_value": 1.7000228121721406e-06
+        },
+        "wins": 33
+      },
+      "popularity-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2724404761904762,
+          "seed": 17,
+          "upper": 0.4928571428571429
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.17142857142857143,
+          "seed": 17,
+          "upper": 0.5983333333333334
+        },
+        "difference": 0.3824404761904762,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.46628971002149733,
+        "per_repository": {
+          "django/django": 0.17232142857142857,
+          "scikit-learn/scikit-learn": 0.4025,
+          "sympy/sympy": 0.5725
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 27,
+        "wilcoxon": {
+          "nonzero_pairs": 33,
+          "p_value": 7.442944539439883e-07
+        },
+        "wins": 32
+      },
+      "random-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2923015873015873,
+          "seed": 17,
+          "upper": 0.5027976190476191
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.17762371615312791,
+          "seed": 17,
+          "upper": 0.6191666666666666
+        },
+        "difference": 0.39675420168067227,
+        "holm_p": 0.0014998500149985003,
+        "losses": 0,
+        "paired_sd": 0.45075095553276395,
+        "per_repository": {
+          "django/django": 0.1752626050420168,
+          "scikit-learn/scikit-learn": 0.4175,
+          "sympy/sympy": 0.5975
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 26,
+        "wilcoxon": {
+          "nonzero_pairs": 34,
+          "p_value": 1.831366789797645e-07
+        },
+        "wins": 34
+      },
+      "semantic-only": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2618218954248366,
+          "seed": 17,
+          "upper": 0.4896708683473389
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15625,
+          "seed": 17,
+          "upper": 0.6102777777777778
+        },
+        "difference": 0.37592086834733895,
+        "holm_p": 0.0014998500149985003,
+        "losses": 2,
+        "paired_sd": 0.48678733825509435,
+        "per_repository": {
+          "django/django": 0.1652626050420168,
+          "scikit-learn/scikit-learn": 0.365,
+          "sympy/sympy": 0.5975
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 24,
+        "wilcoxon": {
+          "nonzero_pairs": 36,
+          "p_value": 1.2561322636994662e-06
+        },
+        "wins": 34
+      },
+      "semantic-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.21910714285714286,
+          "seed": 17,
+          "upper": 0.45717086834733894
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15484943977591037,
+          "seed": 17,
+          "upper": 0.5377777777777777
+        },
+        "difference": 0.3389764239028945,
+        "holm_p": 0.0014998500149985003,
+        "losses": 2,
+        "paired_sd": 0.4896123925577305,
+        "per_repository": {
+          "django/django": 0.1752626050420168,
+          "scikit-learn/scikit-learn": 0.33166666666666667,
+          "sympy/sympy": 0.51
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 26,
+        "wilcoxon": {
+          "nonzero_pairs": 34,
+          "p_value": 5.355515948371173e-06
+        },
+        "wins": 32
+      },
+      "static-only": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2805718954248366,
+          "seed": 17,
+          "upper": 0.4936904761904762
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15707282913165266,
+          "seed": 17,
+          "upper": 0.6158333333333333
+        },
+        "difference": 0.3863375350140056,
+        "holm_p": 0.0014998500149985003,
+        "losses": 1,
+        "paired_sd": 0.4595726892643522,
+        "per_repository": {
+          "django/django": 0.1565126050420168,
+          "scikit-learn/scikit-learn": 0.40499999999999997,
+          "sympy/sympy": 0.5975
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 27,
+        "wilcoxon": {
+          "nonzero_pairs": 33,
+          "p_value": 5.330169741274777e-07
+        },
+        "wins": 32
+      },
+      "without-history": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.2682936507936508,
+          "seed": 17,
+          "upper": 0.48063492063492064
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.15791316526610644,
+          "seed": 17,
+          "upper": 0.5791666666666667
+        },
+        "difference": 0.3738375350140056,
+        "holm_p": 0.0014998500149985003,
+        "losses": 0,
+        "paired_sd": 0.45040184786144905,
+        "per_repository": {
+          "django/django": 0.1565126050420168,
+          "scikit-learn/scikit-learn": 0.4175,
+          "sympy/sympy": 0.5475
+        },
+        "queries": 60,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 29,
+        "wilcoxon": {
+          "nonzero_pairs": 31,
+          "p_value": 5.750882356452298e-07
+        },
+        "wins": 31
+      },
+      "without-semantic": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.08779761904761904,
+          "seed": 17,
+          "upper": 0.06624999999999999
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.12479341736694677,
+          "seed": 17,
+          "upper": 0.07972222222222222
+        },
+        "difference": -0.009237861811391222,
+        "holm_p": 1.0,
+        "losses": 7,
+        "paired_sd": 0.31177942208460246,
+        "per_repository": {
+          "django/django": -0.09188025210084033,
+          "scikit-learn/scikit-learn": 0.014166666666666664,
+          "sympy/sympy": 0.05
+        },
+        "queries": 60,
+        "sign_flip_p": 0.8317168283171683,
+        "ties": 46,
+        "wilcoxon": {
+          "nonzero_pairs": 14,
+          "p_value": 0.9496839047591041
+        },
+        "wins": 7
+      },
+      "without-static": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.05166666666666667,
+          "seed": 17,
+          "upper": 0.11027777777777778
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.11944444444444444,
+          "seed": 17,
+          "upper": 0.22416666666666668
+        },
+        "difference": 0.029999999999999995,
+        "holm_p": 1.0,
+        "losses": 8,
+        "paired_sd": 0.35206948038805586,
+        "per_repository": {
+          "django/django": -0.0875,
+          "scikit-learn/scikit-learn": -0.0575,
+          "sympy/sympy": 0.235
+        },
+        "queries": 60,
+        "sign_flip_p": 0.5271472852714728,
+        "ties": 41,
+        "wilcoxon": {
+          "nonzero_pairs": 19,
+          "p_value": 0.584654240539987
+        },
+        "wins": 11
+      },
+      "xgboost": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.053492063492063494,
+          "seed": 17,
+          "upper": 0.1527777777777778
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.14674603174603174,
+          "seed": 17,
+          "upper": 0.22
+        },
+        "difference": 0.04825396825396825,
+        "holm_p": 1.0,
+        "losses": 9,
+        "paired_sd": 0.4323185811402437,
+        "per_repository": {
+          "django/django": -0.14023809523809525,
+          "scikit-learn/scikit-learn": 0.0975,
+          "sympy/sympy": 0.1875
+        },
+        "queries": 60,
+        "sign_flip_p": 0.390960903909609,
+        "ties": 40,
+        "wilcoxon": {
+          "nonzero_pairs": 20,
+          "p_value": 0.38335324937843585
+        },
+        "wins": 11
+      }
+    }
+  },
+  "difference_convention": "first minus second; positive favours first",
+  "pre_registered_comparison": "heterogeneous vs cochange-v1",
+  "sample_size": {
+    "ndcg_at_10": {
+      "alpha": 0.05,
+      "assumption": "independent queries, equal queries per repository",
+      "detectable_difference": 0.05,
+      "observed_paired_sd": 0.2718650167394722,
+      "per_repository_if_5_projects": 47,
+      "power": 0.8,
+      "total_paired_queries": 233,
+      "v1_queries": 60,
+      "v1_repositories": 3
+    },
+    "recall_at_5": {
+      "alpha": 0.05,
+      "assumption": "independent queries, equal queries per repository",
+      "detectable_difference": 0.05,
+      "observed_paired_sd": 0.29908562788276266,
+      "per_repository_if_5_projects": 57,
+      "power": 0.8,
+      "total_paired_queries": 281,
+      "v1_queries": 60,
+      "v1_repositories": 3
+    }
+  },
+  "slices": {
+    "ndcg_at_10": {
+      "candidate_pool": {
+        "501-2000": {
+          "first_mean": 0.5269087970732794,
+          "losses": 7,
+          "queries": 40,
+          "second_mean": 0.5094618646758173,
+          "wins": 13
+        },
+        ">2000": {
+          "first_mean": 0.1678430803499612,
+          "losses": 10,
+          "queries": 20,
+          "second_mean": 0.36733287914323354,
+          "wins": 2
+        }
+      },
+      "changed_files": {
+        "1": {
+          "first_mean": 0.5147196405818741,
+          "losses": 10,
+          "queries": 35,
+          "second_mean": 0.6188023526652328,
+          "wins": 3
+        },
+        "2-3": {
+          "first_mean": 0.2638648962636434,
+          "losses": 3,
+          "queries": 11,
+          "second_mean": 0.28412316762420065,
+          "wins": 5
+        },
+        "4+": {
+          "first_mean": 0.2511080150474807,
+          "losses": 4,
+          "queries": 14,
+          "second_mean": 0.21012107019628673,
+          "wins": 7
+        }
+      },
+      "repository": {
+        "django/django": {
+          "first_mean": 0.1678430803499612,
+          "losses": 10,
+          "queries": 20,
+          "second_mean": 0.36733287914323354,
+          "wins": 2
+        },
+        "scikit-learn/scikit-learn": {
+          "first_mean": 0.4768810019958922,
+          "losses": 3,
+          "queries": 20,
+          "second_mean": 0.4139740374327941,
+          "wins": 10
+        },
+        "sympy/sympy": {
+          "first_mean": 0.5769365921506667,
+          "losses": 4,
+          "queries": 20,
+          "second_mean": 0.6049496919188406,
+          "wins": 3
+        }
+      }
+    },
+    "recall_at_5": {
+      "candidate_pool": {
+        "501-2000": {
+          "first_mean": 0.5075,
+          "losses": 4,
+          "queries": 40,
+          "second_mean": 0.5229166666666667,
+          "wins": 7
+        },
+        ">2000": {
+          "first_mean": 0.1752626050420168,
+          "losses": 5,
+          "queries": 20,
+          "second_mean": 0.32692927170868347,
+          "wins": 0
+        }
+      },
+      "changed_files": {
+        "1": {
+          "first_mean": 0.5428571428571428,
+          "losses": 4,
+          "queries": 35,
+          "second_mean": 0.6571428571428571,
+          "wins": 0
+        },
+        "2-3": {
+          "first_mean": 0.22727272727272727,
+          "losses": 3,
+          "queries": 11,
+          "second_mean": 0.22727272727272727,
+          "wins": 3
+        },
+        "4+": {
+          "first_mean": 0.1646608643457383,
+          "losses": 2,
+          "queries": 14,
+          "second_mean": 0.1396608643457383,
+          "wins": 4
+        }
+      },
+      "repository": {
+        "django/django": {
+          "first_mean": 0.1752626050420168,
+          "losses": 5,
+          "queries": 20,
+          "second_mean": 0.32692927170868347,
+          "wins": 0
+        },
+        "scikit-learn/scikit-learn": {
+          "first_mean": 0.4175,
+          "losses": 3,
+          "queries": 20,
+          "second_mean": 0.4608333333333333,
+          "wins": 5
+        },
+        "sympy/sympy": {
+          "first_mean": 0.5975,
+          "losses": 1,
+          "queries": 20,
+          "second_mean": 0.585,
+          "wins": 2
+        }
+      }
+    }
+  },
+  "status": "post-hoc paired analysis of frozen v1 results; no model choice changed",
+  "systems": [
+    "cochange-v1",
+    "combined-v1",
+    "heterogeneous",
+    "history-only",
+    "imports-v1",
+    "path-distance-v1",
+    "popularity-v1",
+    "random-v1",
+    "semantic-only",
+    "semantic-v1",
+    "static-only",
+    "without-history",
+    "without-semantic",
+    "without-static",
+    "xgboost"
+  ]
+}

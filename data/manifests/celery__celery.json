@@ -1,0 +1,6 @@
+{
+  "repo": "celery/celery",
+  "revision": "a2d470f198444db889608537a5792216b447429e",
+  "split": "test-v2",
+  "url": "https://github.com/celery/celery.git"
+}

@@ -1,0 +1,6 @@
+{
+  "repo": "pypa/pip",
+  "revision": "4b71f36fb4dfbc87ce65ac4710eeccf81d379f55",
+  "split": "test-v2",
+  "url": "https://github.com/pypa/pip.git"
+}

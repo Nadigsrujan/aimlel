@@ -1,0 +1,77 @@
+{
+  "repositories": {
+    "encode/httpx": {
+      "mean_candidates": 54.85,
+      "mean_graph_seconds": 2.2024499999999536,
+      "mean_history_seconds": 0.22569999999832363,
+      "mean_semantic_seconds": 16.958666666663095,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "fastapi/fastapi": {
+      "mean_candidates": 1000.2,
+      "mean_graph_seconds": 7.0015500000008615,
+      "mean_history_seconds": 0.26794999999983704,
+      "mean_semantic_seconds": 191.12999999999496,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "pallets/flask": {
+      "mean_candidates": 65,
+      "mean_graph_seconds": 3.1421500000011293,
+      "mean_history_seconds": 0.28724999999831197,
+      "mean_semantic_seconds": 18.973666666657664,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "pallets/werkzeug": {
+      "mean_candidates": 112,
+      "mean_graph_seconds": 3.3320000000021537,
+      "mean_history_seconds": 0.2945500000016182,
+      "mean_semantic_seconds": 43.28633333334195,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "psf/requests": {
+      "mean_candidates": 56.05,
+      "mean_graph_seconds": 3.535950000003504,
+      "mean_history_seconds": 0.27014999999519207,
+      "mean_semantic_seconds": 32.859666666665966,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "pydantic/pydantic": {
+      "mean_candidates": 192.25,
+      "mean_graph_seconds": 6.5835999999952035,
+      "mean_history_seconds": 0.2554500000012922,
+      "mean_semantic_seconds": 91.89566666666845,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "pytest-dev/pytest": {
+      "mean_candidates": 182.25,
+      "mean_graph_seconds": 8.93980000000156,
+      "mean_history_seconds": 0.6071500000005472,
+      "mean_semantic_seconds": 93.73433333333621,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "sphinx-doc/sphinx": {
+      "mean_candidates": 446.3,
+      "mean_graph_seconds": 9.22729999999865,
+      "mean_history_seconds": 0.6272999999971944,
+      "mean_semantic_seconds": 156.81233333333512,
+      "queries": 20,
+      "semantic_samples": 3
+    },
+    "sqlalchemy/sqlalchemy": {
+      "mean_candidates": 335.8,
+      "mean_graph_seconds": 18.13815000000177,
+      "mean_history_seconds": 0.5046500000011293,
+      "mean_semantic_seconds": 156.73933333334085,
+      "queries": 20,
+      "semantic_samples": 3
+    }
+  },
+  "status": "development cost pilot"
+}

@@ -1,0 +1,405 @@
+{
+  "comparisons": {
+    "ndcg_at_10": {
+      "full-gnn vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.05708244181943898,
+          "seed": 17,
+          "upper": 0.10347727302265351
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.027466583952181926,
+          "seed": 17,
+          "upper": 0.13505682928745308
+        },
+        "difference": 0.08020189909091906,
+        "holm_p": 0.0005999400059994001,
+        "losses": 103,
+        "paired_sd": 0.26670384593042445,
+        "per_repository": {
+          "Textualize/rich": 0.10787841291700112,
+          "aio-libs/aiohttp": -0.0026953248485467947,
+          "celery/celery": 0.03921831470556996,
+          "marshmallow-code/marshmallow": 0.09802060814077361,
+          "pypa/pip": 0.15858748453979737
+        },
+        "queries": 500,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 177,
+        "wilcoxon": {
+          "nonzero_pairs": 323,
+          "p_value": 8.348152484615021e-11
+        },
+        "wins": 220
+      },
+      "full-gnn vs rose-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.016936493415759982,
+          "seed": 17,
+          "upper": 0.0659138117250782
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.010453846325362405,
+          "seed": 17,
+          "upper": 0.07712066107895307
+        },
+        "difference": 0.041271303631742494,
+        "holm_p": 0.0026997300269973002,
+        "losses": 138,
+        "paired_sd": 0.28142405973948764,
+        "per_repository": {
+          "Textualize/rich": 0.04507556208334032,
+          "aio-libs/aiohttp": 0.014190608062111424,
+          "celery/celery": 0.02354663158329816,
+          "marshmallow-code/marshmallow": 0.036367658341321094,
+          "pypa/pip": 0.08717605808864148
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0008999100089991,
+        "ties": 173,
+        "wilcoxon": {
+          "nonzero_pairs": 327,
+          "p_value": 0.0017680555993144558
+        },
+        "wins": 189
+      },
+      "history-gnn vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.04339995757333465,
+          "seed": 17,
+          "upper": 0.09095766192632995
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.007980523726613863,
+          "seed": 17,
+          "upper": 0.13384001088852718
+        },
+        "difference": 0.06688361070749489,
+        "holm_p": 0.0005999400059994001,
+        "losses": 117,
+        "paired_sd": 0.2832121779668161,
+        "per_repository": {
+          "Textualize/rich": 0.12336476720389235,
+          "aio-libs/aiohttp": -0.0701977069916608,
+          "celery/celery": 0.03563430393047883,
+          "marshmallow-code/marshmallow": 0.0996307243962215,
+          "pypa/pip": 0.14598596499854255
+        },
+        "queries": 500,
+        "sign_flip_p": 9.999000099990002e-05,
+        "ties": 163,
+        "wilcoxon": {
+          "nonzero_pairs": 337,
+          "p_value": 5.96233175618653e-08
+        },
+        "wins": 220
+      },
+      "history-gnn vs rose-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.010635973552342332,
+          "seed": 17,
+          "upper": 0.04623056960910711
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.017192319326546256,
+          "seed": 17,
+          "upper": 0.06794582569155305
+        },
+        "difference": 0.02795301524831833,
+        "holm_p": 0.0026997300269973002,
+        "losses": 125,
+        "paired_sd": 0.20592818413971628,
+        "per_repository": {
+          "Textualize/rich": 0.06056191637023155,
+          "aio-libs/aiohttp": -0.05331177408100257,
+          "celery/celery": 0.01996262080820703,
+          "marshmallow-code/marshmallow": 0.03797777459676899,
+          "pypa/pip": 0.07457453854738666
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0022997700229977,
+        "ties": 218,
+        "wilcoxon": {
+          "nonzero_pairs": 282,
+          "p_value": 0.007528505079644853
+        },
+        "wins": 157
+      },
+      "rose-v1 vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.0193919004213138,
+          "seed": 17,
+          "upper": 0.058629155829965
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.0023638032515202107,
+          "seed": 17,
+          "upper": 0.07282495171259855
+        },
+        "difference": 0.038930595459176556,
+        "holm_p": 0.0007999200079992001,
+        "losses": 100,
+        "paired_sd": 0.22605640028108867,
+        "per_repository": {
+          "Textualize/rich": 0.0628028508336608,
+          "aio-libs/aiohttp": -0.016885932910658222,
+          "celery/celery": 0.0156716831222718,
+          "marshmallow-code/marshmallow": 0.06165294979945252,
+          "pypa/pip": 0.0714114264511559
+        },
+        "queries": 500,
+        "sign_flip_p": 0.00019998000199980003,
+        "ties": 240,
+        "wilcoxon": {
+          "nonzero_pairs": 260,
+          "p_value": 0.00012626558160734955
+        },
+        "wins": 160
+      },
+      "xgboost vs rose-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.014740863259064964,
+          "seed": 17,
+          "upper": 0.06449866648750473
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.004267347530770569,
+          "seed": 17,
+          "upper": 0.07585101893894472
+        },
+        "difference": 0.03990573657192065,
+        "holm_p": 0.0026997300269973002,
+        "losses": 133,
+        "paired_sd": 0.28363347338690076,
+        "per_repository": {
+          "Textualize/rich": 0.07062415296143507,
+          "aio-libs/aiohttp": -0.009324410168515287,
+          "celery/celery": 0.027920454816973042,
+          "marshmallow-code/marshmallow": 0.03890287166495203,
+          "pypa/pip": 0.07140561358475839
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0008999100089991,
+        "ties": 176,
+        "wilcoxon": {
+          "nonzero_pairs": 324,
+          "p_value": 0.001147637765154374
+        },
+        "wins": 191
+      }
+    },
+    "recall_at_5": {
+      "full-gnn vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.025953514550066274,
+          "seed": 17,
+          "upper": 0.08382883227883228
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": 0.0004294667919414356,
+          "seed": 17,
+          "upper": 0.10570239785067372
+        },
+        "difference": 0.05441250126960066,
+        "holm_p": 0.0029997000299970002,
+        "losses": 49,
+        "paired_sd": 0.3343963238257145,
+        "per_repository": {
+          "Textualize/rich": 0.0907567155067155,
+          "aio-libs/aiohttp": -0.03240100585688821,
+          "celery/celery": 0.026484574475953784,
+          "marshmallow-code/marshmallow": 0.08319047619047619,
+          "pypa/pip": 0.10403174603174603
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0004999500049995,
+        "ties": 345,
+        "wilcoxon": {
+          "nonzero_pairs": 155,
+          "p_value": 9.496007496606589e-05
+        },
+        "wins": 106
+      },
+      "full-gnn vs rose-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.00023189910689910544,
+          "seed": 17,
+          "upper": 0.057290020865020864
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.003891528732705203,
+          "seed": 17,
+          "upper": 0.06161445731445732
+        },
+        "difference": 0.028298203532027062,
+        "holm_p": 0.12868713128687131,
+        "losses": 64,
+        "paired_sd": 0.32703752000326625,
+        "per_repository": {
+          "Textualize/rich": 0.02578968253968254,
+          "aio-libs/aiohttp": -0.005439966895849247,
+          "celery/celery": 0.04161749249249249,
+          "marshmallow-code/marshmallow": 0.04438095238095238,
+          "pypa/pip": 0.03514285714285714
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0524947505249475,
+        "ties": 358,
+        "wilcoxon": {
+          "nonzero_pairs": 142,
+          "p_value": 0.049410706090743335
+        },
+        "wins": 78
+      },
+      "history-gnn vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.01328499488499488,
+          "seed": 17,
+          "upper": 0.07362108732108733
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.030141847041847043,
+          "seed": 17,
+          "upper": 0.10781746031746033
+        },
+        "difference": 0.043084563132838996,
+        "holm_p": 0.025597440255974404,
+        "losses": 46,
+        "paired_sd": 0.3516656524624361,
+        "per_repository": {
+          "Textualize/rich": 0.10055433455433455,
+          "aio-libs/aiohttp": -0.08360064935064936,
+          "celery/celery": 0.010199289190668499,
+          "marshmallow-code/marshmallow": 0.0756904761904762,
+          "pypa/pip": 0.11257936507936508
+        },
+        "queries": 500,
+        "sign_flip_p": 0.006399360063993601,
+        "ties": 347,
+        "wilcoxon": {
+          "nonzero_pairs": 153,
+          "p_value": 0.0012833845493442954
+        },
+        "wins": 107
+      },
+      "history-gnn vs rose-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": -0.004003300378300381,
+          "seed": 17,
+          "upper": 0.03859318181818182
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.024582972582972585,
+          "seed": 17,
+          "upper": 0.05211224796224796
+        },
+        "difference": 0.016970265395265395,
+        "holm_p": 0.12868713128687131,
+        "losses": 31,
+        "paired_sd": 0.2453139317994988,
+        "per_repository": {
+          "Textualize/rich": 0.035587301587301584,
+          "aio-libs/aiohttp": -0.05663961038961039,
+          "celery/celery": 0.025332207207207205,
+          "marshmallow-code/marshmallow": 0.03688095238095238,
+          "pypa/pip": 0.04369047619047619
+        },
+        "queries": 500,
+        "sign_flip_p": 0.11728827117288271,
+        "ties": 414,
+        "wilcoxon": {
+          "nonzero_pairs": 86,
+          "p_value": 0.06158774479959426
+        },
+        "wins": 55
+      },
+      "rose-v1 vs cochange-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.001271672068223791,
+          "seed": 17,
+          "upper": 0.051045707070707075
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.01682769615959271,
+          "seed": 17,
+          "upper": 0.06784126984126984
+        },
+        "difference": 0.026114297737573598,
+        "holm_p": 0.12868713128687131,
+        "losses": 33,
+        "paired_sd": 0.2852085016718321,
+        "per_repository": {
+          "Textualize/rich": 0.06496703296703296,
+          "aio-libs/aiohttp": -0.02696103896103896,
+          "celery/celery": -0.015132918016538707,
+          "marshmallow-code/marshmallow": 0.03880952380952381,
+          "pypa/pip": 0.06888888888888889
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0428957104289571,
+        "ties": 390,
+        "wilcoxon": {
+          "nonzero_pairs": 110,
+          "p_value": 0.008471652773217719
+        },
+        "wins": 77
+      },
+      "xgboost vs rose-v1": {
+        "ci_fixed_repositories": {
+          "iterations": 10000,
+          "lower": 0.01241325086325086,
+          "seed": 17,
+          "upper": 0.07265389225926751
+        },
+        "ci_resampled_repositories": {
+          "iterations": 10000,
+          "lower": -0.0008659674228639738,
+          "seed": 17,
+          "upper": 0.0816975357975358
+        },
+        "difference": 0.04277942228479754,
+        "holm_p": 0.022997700229977002,
+        "losses": 68,
+        "paired_sd": 0.344869705258688,
+        "per_repository": {
+          "Textualize/rich": 0.0619526862026862,
+          "aio-libs/aiohttp": -0.024133689839572193,
+          "celery/celery": 0.05537970236246098,
+          "marshmallow-code/marshmallow": 0.06176190476190476,
+          "pypa/pip": 0.05893650793650793
+        },
+        "queries": 500,
+        "sign_flip_p": 0.0045995400459954,
+        "ties": 341,
+        "wilcoxon": {
+          "nonzero_pairs": 159,
+          "p_value": 0.0038940535139137004
+        },
+        "wins": 91
+      }
+    }
+  },
+  "status": "exploratory; not pre-registered; Holm-corrected within this family"
+}

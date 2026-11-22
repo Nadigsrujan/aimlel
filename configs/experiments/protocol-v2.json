@@ -1,0 +1,97 @@
+{
+  "version": "research-protocol-v2",
+  "question": "Under leakage-controlled, project-disjoint evaluation, does graph learning beat co-change history for file-level change impact?",
+  "status": "final before development training (2026-11-22); frozen by research_v2 freeze",
+  "seed": 17,
+  "train_repositories": [
+    "pallets/flask",
+    "psf/requests",
+    "pytest-dev/pytest",
+    "sphinx-doc/sphinx",
+    "pydantic/pydantic",
+    "encode/httpx",
+    "pallets/werkzeug"
+  ],
+  "validation_repositories": [
+    "fastapi/fastapi",
+    "sqlalchemy/sqlalchemy"
+  ],
+  "test_repositories": [
+    "aio-libs/aiohttp",
+    "Textualize/rich",
+    "pypa/pip",
+    "celery/celery",
+    "marshmallow-code/marshmallow"
+  ],
+  "test_split_name": "test-v2",
+  "test_selection_note": "Chosen 2026-11-21 before any were cloned. None appear in SWE-bench Verified, BugsInPy or the v1 manifests.",
+  "query_sampling": "one seed per eligible commit, chosen by the smallest sha256(commit + NUL + seed path); commits sampled uniformly without replacement by random.Random(sha256(seed:repo:stream)); streams train, validation, test",
+  "queries": {
+    "train_per_repository": 100,
+    "selection_per_repository": 50,
+    "calibration_per_repository": 50,
+    "test_per_repository": 100
+  },
+  "sample_size_basis": "v1 paired SD 0.299: 281 paired queries detect a 0.05 macro Recall@5 difference at alpha 0.05, power 0.8; 500 test queries detect about 0.037",
+  "use_semantics": false,
+  "use_semantics_decision": "Cost rule: keep CodeBERT only if it is at most 40% of preparation time. The pilot (artifacts/reports/v2-pilot.json, 20 queries per development project) measured 85-96% in every project, so it is excluded.",
+  "preparation_workers": 6,
+  "model_search": {
+    "losses": ["bce", "bpr"],
+    "hidden": [32, 64],
+    "parallel_fits": 8,
+    "rule": "each GNN arm keeps the variant with the highest selection macro recall_at_5 (ties: ndcg_at_10, smaller hidden size, then losses order)",
+    "note": "bce is v1's weighted pointwise loss; bpr is a pairwise Bayesian Personalized Ranking loss over sampled positive/negative pairs"
+  },
+  "candidate_policy": "all-eligible-files-excluding-seed-v1",
+  "training": {
+    "epochs": 20,
+    "patience": 5,
+    "learning_rate": 0.003,
+    "negative_limit": 128,
+    "training_threads": 2
+  },
+  "baseline_systems": [
+    "cochange-v1",
+    "rose-v1",
+    "combined-v1",
+    "imports-v1",
+    "path-distance-v1",
+    "popularity-v1",
+    "random-v1"
+  ],
+  "learned_systems": [
+    "full-gnn",
+    "history-gnn",
+    "hybrid",
+    "xgboost",
+    "xgboost-ltr"
+  ],
+  "learned_system_notes": {
+    "xgboost": "binary classifier on the seven pair features",
+    "xgboost-ltr": "LambdaMART ranker (objective rank:ndcg) on the same features, one group per query"
+  },
+  "hybrid": {
+    "form": "weighted reciprocal-rank fusion of cochange-v1 with one GNN",
+    "k": 60,
+    "weights": [0.25, 0.5, 0.75, 1.0],
+    "gnn_choices": ["full-gnn", "history-gnn"],
+    "tie_break": "smaller GNN weight, then gnn_choices order"
+  },
+  "selection_rule": "primary = learned system with the highest selection macro recall_at_5 (ties: ndcg_at_10, then name); baseline = non-learned system chosen the same way; both on validation selection queries only",
+  "primary_metric": "recall_at_5",
+  "secondary_metrics": ["ndcg_at_10"],
+  "statistics": "paired per-query differences; repository-macro mean; 95% bootstrap CI with projects fixed and with projects resampled; two-sided paired sign-flip test (10,000 draws, seed 17); Holm correction across all comparisons with the primary; pooled Wilcoxon as a secondary check",
+  "success_gate": "primary minus baseline macro recall_at_5 is positive with two-sided sign-flip p < 0.05",
+  "secondary_analyses": [
+    "primary vs baseline by candidate-pool size: <=500, 501-2000, >2000 files",
+    "primary vs baseline by number of changed files: 1, 2-3, 4+",
+    "per-repository differences"
+  ],
+  "never": [
+    "edit a v1-frozen file",
+    "clone or ingest a test repository before the v2 freeze",
+    "re-run the v2 evaluation after results exist",
+    "execute target-repository code"
+  ]
+}

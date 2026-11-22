@@ -1,32 +1,87 @@
 [
   {
-    "bulk_events": 89,
-    "commits": 31133,
-    "eligible_events": 9433,
-    "queries": 33689,
-    "repo": "scikit-learn/scikit-learn",
+    "bulk_events": 5,
+    "commits": 3829,
+    "eligible_events": 747,
+    "queries": 2454,
+    "repo": "pallets/flask",
     "reused": true,
     "status": "processed",
-    "summary": "C:\\Users\\raddo\\Documents\\aiml el 5th sem\\data\\processed\\scikit-learn__scikit-learn\\583b8c40912b9b57f59fd4ab2f63d961e6dafe57\\summary.json"
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\pallets__flask\\d086db856be187255b8ec61ef409357393020f32\\summary.json"
   },
   {
-    "bulk_events": 123,
-    "commits": 50898,
-    "eligible_events": 18723,
-    "queries": 62846,
-    "repo": "sympy/sympy",
+    "bulk_events": 4,
+    "commits": 4884,
+    "eligible_events": 639,
+    "queries": 1893,
+    "repo": "psf/requests",
     "reused": true,
     "status": "processed",
-    "summary": "C:\\Users\\raddo\\Documents\\aiml el 5th sem\\data\\processed\\sympy__sympy\\692117a3cdabedf3d453714b42b0e10376bd87e8\\summary.json"
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\psf__requests\\3c7baaa05ab4aa49cc819ce3a819d260de19c157\\summary.json"
   },
   {
-    "bulk_events": 131,
-    "commits": 34484,
-    "eligible_events": 12805,
-    "queries": 46857,
-    "repo": "django/django",
+    "bulk_events": 38,
+    "commits": 13255,
+    "eligible_events": 4247,
+    "queries": 15317,
+    "repo": "pytest-dev/pytest",
     "reused": true,
     "status": "processed",
-    "summary": "C:\\Users\\raddo\\Documents\\aiml el 5th sem\\data\\processed\\django__django\\3bdcd29a61be034b9c9a1cea744371c12339c48e\\summary.json"
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\pytest-dev__pytest\\a7b2446ee41a7298d3a0bc22c52f3b8bacae1566\\summary.json"
+  },
+  {
+    "bulk_events": 69,
+    "commits": 16626,
+    "eligible_events": 4223,
+    "queries": 16842,
+    "repo": "sphinx-doc/sphinx",
+    "reused": true,
+    "status": "processed",
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\sphinx-doc__sphinx\\035a07c32c3241fd3356f4d827800c1f88525272\\summary.json"
+  },
+  {
+    "bulk_events": 3,
+    "commits": 1482,
+    "eligible_events": 580,
+    "queries": 2563,
+    "repo": "encode/httpx",
+    "status": "processed",
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\encode__httpx\\b5addb64f0161ff6bfe94c124ef76f6a1fba5254\\summary.json"
+  },
+  {
+    "bulk_events": 38,
+    "commits": 7940,
+    "eligible_events": 422,
+    "queries": 1967,
+    "repo": "fastapi/fastapi",
+    "status": "processed",
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\fastapi__fastapi\\79cab5bed28b24d92c185d236feb33f5783dfeb3\\summary.json"
+  },
+  {
+    "bulk_events": 13,
+    "commits": 4539,
+    "eligible_events": 1448,
+    "queries": 5183,
+    "repo": "pallets/werkzeug",
+    "status": "processed",
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\pallets__werkzeug\\b73dce5a2ce14f7c7fd645699d1d878de48d2948\\summary.json"
+  },
+  {
+    "bulk_events": 16,
+    "commits": 5848,
+    "eligible_events": 2305,
+    "queries": 9581,
+    "repo": "pydantic/pydantic",
+    "status": "processed",
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\pydantic__pydantic\\dd0c36a4be235522e34659ba372c59b43b55f33e\\summary.json"
+  },
+  {
+    "bulk_events": 91,
+    "commits": 15591,
+    "eligible_events": 7627,
+    "queries": 33682,
+    "repo": "sqlalchemy/sqlalchemy",
+    "status": "processed",
+    "summary": "C:\\Users\\nadig\\Downloads\\aimlel\\data\\processed\\sqlalchemy__sqlalchemy\\2d8e64920e61872d40ccf8430d289ab1cb4688b5\\summary.json"
   }
 ]
