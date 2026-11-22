@@ -38,3 +38,8 @@ Use `.venv\Scripts\python.exe scripts/start.py` and open http://127.0.0.1:8080. 
 ## Master-brief observatory extension
 
 The three new master Markdown briefs have been reviewed. The source-grounded 3D Command Deck, Code Metropolis, multi-seed scenario persistence, synchronized comparison twins/rank flow, Git corridor/DNA, module terrain, Code MRI, test constellation, citation-bound Groq adapter, safe ZIP/static baseline, SSE flight recorder and research instrument are implemented additively. Exact DONE/PARTIAL boundaries and commands are recorded in [observatory implementation](observatory-implementation.md). The final model card, audited query list, frontend study summary and matching release archive have been published.
+
+
+## User handoff — 2 November 2026
+
+The interaction cleanup adds selected-file forecasting, explicit per-seed inspection/explanations, full historical source maps, repository-switch cleanup, automatic WebGL/table recovery, and regression protection for initial/stale graph state. The final suite passed 81 backend tests and 6 graph/state tests. The new launcher was checked against an existing server and on a fresh temporary port. In-app printable help pages explain each view, the complete method, the actual negative held-out result, a five-minute evaluator walkthrough, and daily start/stop instructions. See RUN_SERVER.md and EVALUATOR_GUIDE_ELI5.md. Current task lists replace the archived historical checklists.

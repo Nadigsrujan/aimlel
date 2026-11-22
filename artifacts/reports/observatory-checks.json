@@ -2,9 +2,9 @@
   "status": "passed",
   "backend_unittest": {
     "tests": 81,
-    "seconds": 13.774
+    "seconds": 14.481
   },
-  "graph_view_tests": 2,
+  "graph_view_tests": 6,
   "production_build": "passed",
   "npm_audit_vulnerabilities": 0,
   "frozen_hashes_verified": 606,
@@ -33,5 +33,41 @@
     "SSE Last-Event-ID replay (1 to 2)"
   ],
   "live_provider_call": "not configured; fallback and mocked invalid-citation rejection verified",
-  "heldout_gate_met": false
+  "heldout_gate_met": false,
+  "final_pass_date": "2026-11-02",
+  "fresh_launcher": {
+    "port": 8091,
+    "health": "passed",
+    "guide_http": "passed",
+    "existing_server_reuse": "passed"
+  },
+  "help_pages": {
+    "evaluator_guide": "rendered and reviewed",
+    "server_guide": "rendered and reviewed; copy control passed",
+    "navigation_anchors": "passed"
+  },
+  "interaction_checks": [
+    "selected-file action replaces previous scenario seed",
+    "per-seed inspection and seeded explanations",
+    "full historical source map at exact SHA",
+    "repository-switch comparison cleanup",
+    "initial/null/stale/cross-repository graph guards",
+    "WebGL fallback to table"
+  ],
+  "mobile": {
+    "website": {
+      "viewport": 390,
+      "document_width": 375
+    },
+    "server_guide": {
+      "viewport": 390,
+      "document_width": 375
+    }
+  },
+  "final_browser_console_errors": 0,
+  "final_desktop_layout": {
+    "viewport": 1366,
+    "document_width": 1351
+  },
+  "final_screenshot": "Browser capture API unavailable for viewport and full-page capture; live DOM interactions and guide rendering verified. Earlier screenshots are retained as historical artifacts."
 }

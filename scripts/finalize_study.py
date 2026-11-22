@@ -54,11 +54,15 @@ def main():
             [sys.executable, "scripts/remaining_ablations.py", "evaluate"],
         )
     if not (ROOT / "artifacts/reports/frozen-comparators-heldout.json").is_file():
-        run("all-frozen-comparators", [sys.executable, "scripts/evaluate_frozen_comparators.py"])
+        run(
+            "all-frozen-comparators",
+            [sys.executable, "scripts/evaluate_frozen_comparators.py"],
+        )
     run("publish-complete-report", [sys.executable, "scripts/publish_study_report.py"])
     npm = shutil.which("npm.cmd" if os.name == "nt" else "npm")
     if not npm:
         raise RuntimeError("npm is required to publish the frontend report")
+    run("build-help-pages", [sys.executable, "scripts/build_guides.py"])
     run("build-final-interface", [npm, "run", "build", "--prefix", "frontend"])
     run("package-matching-deliverables", [sys.executable, "scripts/package_demo.py"])
     record("publication-and-package", "complete")

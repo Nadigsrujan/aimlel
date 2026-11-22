@@ -4,7 +4,22 @@ A local Python repository explorer for change-impact ranking, revision-specific 
 
 The learned system uses typed GraphSAGE, CodeBERT file vectors, and seed/candidate features. Learned checkpoints are exposed only after training; heuristic and semantic scores are uncalibrated ranking values. Final research results are not implied by a successful UI demonstration. See `docs/implementation-status.md` for the verified completion boundary.
 
-## Run on Windows
+## Daily start (already installed in this folder)
+
+Double-click **START_NEURAL_CARTOGRAPHER.cmd**, or run from PowerShell:
+
+```powershell
+Set-Location -LiteralPath 'C:\Users\raddo\Documents\aiml el 5th sem'
+.\.venv\Scripts\python.exe .\scripts\run_local.py --open
+```
+
+Keep the terminal open; press **Ctrl+C** to stop. The launcher reuses an existing healthy server and does not reinstall, re-ingest or retrain. Open http://127.0.0.1:8080.
+
+- [Step-by-step start/stop/troubleshooting](docs/RUN_SERVER.md)
+- [ELI5 evaluator guide and demonstration script](docs/EVALUATOR_GUIDE_ELI5.md)
+- In the website, the **Evaluator guide** and **Run the server** links open printable offline help pages.
+
+## First-time environment setup on Windows
 
 Use Python 3.12 and Node.js. From the project root in PowerShell:
 
@@ -24,7 +39,7 @@ Clones, processed datasets, encoder weights, model checkpoints and frontend buil
 
 ## Restore development data
 
-The approved split is seven training, two validation, and three held-out projects. Development catalog routes keep the held-out projects sealed.
+The approved split is seven training, two validation, and three held-out projects. Catalog routes keep held-out projects sealed until the frozen final evaluation is recorded. The completed local study is now published.
 
 ```powershell
 .venv\Scripts\python.exe scripts/ingest.py --clone --reuse --split train --split validation --workers 2
