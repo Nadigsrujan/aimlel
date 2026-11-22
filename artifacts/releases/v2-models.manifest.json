@@ -1,0 +1,99 @@
+{
+  "source": "artifacts/models/v2",
+  "freeze_sha256": "49b683c323f4ae66c06b3a5e862862bc8326e953a314394ab7b02c6a95bd7328",
+  "zip_sha256": "d53f71165e15f71f9a083e24016794575605b6377f10ed6758418161d29a7451",
+  "files": {
+    "calibration.json": {
+      "sha256": "827fff864eb681b344a8a142787bc0aadd60a60d2672d1925eafd7eb617faa1b",
+      "bytes": 144
+    },
+    "candidates/full-gnn-bce-32.pt": {
+      "sha256": "71d6c79408994cabd9931ef92077f37dd140a5d39ab79d030433bc74153aad11",
+      "bytes": 130897
+    },
+    "candidates/full-gnn-bce-64.pt": {
+      "sha256": "30549a13d76fcb7d1b8e384939d6623e347ba6044c571280c1bdb14827e3bee0",
+      "bytes": 468689
+    },
+    "candidates/full-gnn-bpr-32.pt": {
+      "sha256": "738aca2e704bedbcc361371ee4cf80093b6390f6e9a01fbf10fe50caadc31a5b",
+      "bytes": 130897
+    },
+    "candidates/full-gnn-bpr-64.pt": {
+      "sha256": "3f139a5e285a85a8d5548d14b04dfa7645f88a5453dd88350c981fe7a78e88ae",
+      "bytes": 468689
+    },
+    "candidates/history-gnn-bce-32.pt": {
+      "sha256": "c86b939271e99163f9a139817b3f18360f09e5d4a8ec1b210906f8e8a8cb3741",
+      "bytes": 131029
+    },
+    "candidates/history-gnn-bce-64.pt": {
+      "sha256": "e418dcb8a36f2d6c68b1fdef908bf13dc4d605373736355eee7dd979e894e8ad",
+      "bytes": 468821
+    },
+    "candidates/history-gnn-bpr-32.pt": {
+      "sha256": "e2fe43f392662a9b485a1e16aa91e750b3e4335958f43cf1996d3733edfe1cf4",
+      "bytes": 131029
+    },
+    "candidates/history-gnn-bpr-64.pt": {
+      "sha256": "abfd50421bf4f5666649672ad281a1fb75dff813a4fc3f9e40fb39cd06cd7ea0",
+      "bytes": 468821
+    },
+    "freeze.json": {
+      "sha256": "49b683c323f4ae66c06b3a5e862862bc8326e953a314394ab7b02c6a95bd7328",
+      "bytes": 14729
+    },
+    "full.pt": {
+      "sha256": "0e9286540a5a72100ef7b975db0807f335608c1b93198ca5b406d1a806821b3c",
+      "bytes": 127981
+    },
+    "history.pt": {
+      "sha256": "312c97a1f2ebde360f41afd64c3102cc2deabc18530fe4579d3439b50ecd5175",
+      "bytes": 129905
+    },
+    "progress/full-gnn-bce-32-780cda458d8a9306330be94a9ef6b53857fcc186a36277f8f434fb8ccb182a3a.pt": {
+      "sha256": "5977157a51b7507f0b5e88db16cdba01bf1664bbc3c8e2b734cfd858038abfe8",
+      "bytes": 535230
+    },
+    "progress/full-gnn-bce-64-17ec233421e902686b551ca26043313492c7ad98b3bdc07a03c503a17b50be4d.pt": {
+      "sha256": "0513123afbed05a566aed73f39fc036b1c6d95a2e01a1f0992b7fb7ca4856b77",
+      "bytes": 1886206
+    },
+    "progress/full-gnn-bpr-32-d16fff396967d16b820eea509b45763e5825971d7fa4670d50ec8014c1f5fa73.pt": {
+      "sha256": "3429359c67caf811f7842a4034d849fb91d5b3bc9fb7c52e271592354c8bba81",
+      "bytes": 535166
+    },
+    "progress/full-gnn-bpr-64-fb0139650b34424e14ddc4abd878d224394bf960e652d7d03ca555e393b6dee6.pt": {
+      "sha256": "eb53a8cb3fc82cc23139043c5a6260b52bd31177cffb5932dcfbb50ed26afa1a",
+      "bytes": 1886206
+    },
+    "progress/history-gnn-bce-32-e24b0a02a0d66b91ae9317b01eb74dc879ebdd6af3f88b59e4f2a9ed6bc786b3.pt": {
+      "sha256": "e9096c0e98276a35750e95da407016321c77587261bb4689dad8dee0462e3b1e",
+      "bytes": 353626
+    },
+    "progress/history-gnn-bce-64-154b954c797d17280e79d7aa139354191f3f9beeda2c829aa414f2f8072154b4.pt": {
+      "sha256": "2f4e2658bbe2e39e23d313a08b2f6ed88d841ad5df643c5f5a91f3620a017c95",
+      "bytes": 1213338
+    },
+    "progress/history-gnn-bpr-32-daa510e85e075ae315ff4b224ebb7749ea72a8892f52cb90a113885c4e5f8c67.pt": {
+      "sha256": "60be5b1a2495e5560d0309512b37eeeacac3894aafb99b1729b0a4681c9d86b8",
+      "bytes": 353562
+    },
+    "progress/history-gnn-bpr-64-7eeb18da7161458793c26a22f1623297071163ef59ca9743861ca1ce51161af5.pt": {
+      "sha256": "03f3da7d234a06f2d3944007683af572db36dc82e15eadc7a4cbd9bff60b0cd3",
+      "bytes": 1213338
+    },
+    "selection.json": {
+      "sha256": "0c24c4ec7d27e4fdc03f0abf590e1ff5fc79f7e660f7bff63b0ebbd9b5a0a456",
+      "bytes": 513
+    },
+    "xgboost-ltr.json": {
+      "sha256": "ab804e9f23166f4b1f6b6072f13edce53f3b4a2822bed1ff2a7400c8008612e7",
+      "bytes": 123524
+    },
+    "xgboost.json": {
+      "sha256": "29ec02e22eb3a62b97943c48998558d2e214a74920f068372fa9f5ec34f57dee",
+      "bytes": 123943
+    }
+  }
+}

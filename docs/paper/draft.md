@@ -1,6 +1,6 @@
 # Does graph learning beat co-change history for change-impact prediction? A leakage-controlled, project-disjoint study
 
-*Working draft. All numbers come from saved reports: `docs/paper/tables.md` (rebuilt by `scripts/build_tables.py`) and `artifacts/reports/v2-exploratory.json` (from `scripts/v2_exploratory.py`). Related work is still pending.*
+*Working draft. All numbers come from saved reports: `docs/paper/tables.md` (rebuilt by `scripts/build_tables.py`) and `artifacts/reports/v2-exploratory.json` (from `scripts/v2_exploratory.py`). Related work and references are in Section 9.*
 
 ## Abstract
 
@@ -159,7 +159,52 @@ The study cannot attribute the change to any one of them.
 
 ## 9. Related work
 
-**Pending:** a short review of history mining (ROSE and its successors), learned change-impact and co-change prediction, GNNs over code, and evaluation leakage in software-engineering machine learning. The literature surveys in the repository root are the starting point.
+**History mining.** Using version history to predict co-change goes back to logical coupling [Gall98]. Ying et al. [Ying04] and Zimmermann et al. [Zimm04, Zimm05] mined frequently co-changed files and association rules from history. ROSE, the second of these, put a correct location in its top three suggestions in more than 70% of cases. TARMAQ [Rolf16] generalised rule mining to queries with several seeds and beat ROSE on six systems. Our queries have exactly one seed file, so TARMAQ reduces to ROSE-style rules and we use ROSE as the baseline. Kagdi et al. [Kagd13] showed that adding textual (conceptual) coupling to history improves impact analysis. IMPER [Zhou24] improves TARMAQ by adding twelve kinds of change relationship, including structural dependencies and clones. Both support our design choice to fuse history with structure. Neither tests whether a learned model beats the history baseline on unseen projects with paired statistics.
+
+**Learned co-change and impact prediction.** Several recent systems learn this task:
+- CoChangeFinder [Hong24] uses a GNN over function-level co-change to recommend functions a reviewer missed, and reports beating TARMAQ.
+- Germanos et al. [Germ24] model co-change as a temporal graph and predict change propagation with a temporal GNN.
+- Kumar et al. [Kuma24] predict co-changes never seen in history by link prediction.
+- FCP2Vec [Ahme23] learns file embeddings from changelogs.
+- Jia et al. [Jia24] are closest to our primary model: a learning-to-rank model over code and history features that ranks co-changed methods at the pull-request level.
+- Caprese [Tava26] combines history mining with runtime dependencies for JavaScript. It finds that the two signals are complementary.
+
+Our result agrees with this line of work: a ranker over history and structure features beats rules mined from history alone. What our study adds is the protocol: parent-snapshot graphs, ancestor-only history, project-disjoint splits, a pre-registered gate checked once on frozen models, and confidence intervals over projects.
+
+**Graph learning over code.** We use GraphSAGE-style inductive aggregation [Hami17] with relation-specific weights in the spirit of R-GCN [Schl18]. Allamanis et al. [Alla18] established typed program graphs for learning, and CodeBERT [Feng20] supplies the optional semantic features, which our cost pilot dropped. Repository-level code graphs now also guide LLM software-engineering agents [Ouya25] evaluated on SWE-bench [Jime24]. That work uses the graph as navigation context for issue repair, not as a predictor of co-change.
+
+**Ranking objectives.** The GNN variants are trained with weighted binary cross-entropy or the pairwise BPR loss [Rend09]. The primary system is LambdaMART [Burg10], trained with the XGBoost ranking objective [Chen16].
+
+**Leakage and label noise.** Kapoor and Narayanan [Kapo23] document leakage across hundreds of machine-learning studies. Train/test overlap and use of future information are among the failure modes they list, and our protocol is built to rule both out for software history. Tangled commits [Herz13] make unrelated files look coupled. They are a known source of label noise for every co-change method here, baselines included (Section 8).
+
+### References
+
+- [Ahme23] H. A. Ahmed and J. Lee. FCP2Vec: Deep learning-based approach to software change prediction by learning co-changing patterns from changelogs. *Applied Sciences* 13(11):6453, 2023. doi:10.3390/app13116453
+- [Alla18] M. Allamanis, M. Brockschmidt and M. Khademi. Learning to represent programs with graphs. *ICLR*, 2018.
+- [Burg10] C. J. C. Burges. From RankNet to LambdaRank to LambdaMART: An overview. Microsoft Research, MSR-TR-2010-82, 2010.
+- [Chen16] T. Chen and C. Guestrin. XGBoost: A scalable tree boosting system. *KDD*, 2016. doi:10.1145/2939672.2939785
+- [Feng20] Z. Feng et al. CodeBERT: A pre-trained model for programming and natural languages. *Findings of EMNLP*, 2020.
+- [Gall98] H. Gall, K. Hajek and M. Jazayeri. Detection of logical coupling based on product release history. *ICSM*, 1998.
+- [Germ24] M. Germanos, D. Azar and E. M. Hanna. To change or not to change? Modeling software system interactions using temporal graphs and graph neural networks: A focus on change propagation. *Information and Software Technology* 166:107368, 2024. doi:10.1016/j.infsof.2023.107368
+- [Hami17] W. L. Hamilton, R. Ying and J. Leskovec. Inductive representation learning on large graphs. *NeurIPS*, 2017.
+- [Herz13] K. Herzig and A. Zeller. The impact of tangled code changes. *MSR*, pp. 121–130, 2013.
+- [Hong24] Y. Hong, C. Tantithamthavorn, P. Thongtanunam and A. Aleti. Don't forget to change these functions! Recommending co-changed functions in modern code review. *Information and Software Technology* 176:107547, 2024. doi:10.1016/j.infsof.2024.107547
+- [Jia24] Y. Jia, S. Hassan and Y. Zou. Enhancing software maintenance: A learning to rank approach for co-changed method identification. arXiv:2411.19099, 2024.
+- [Jime24] C. E. Jimenez et al. SWE-bench: Can language models resolve real-world GitHub issues? *ICLR*, 2024.
+- [Kagd13] H. Kagdi, M. Gethers and D. Poshyvanyk. Integrating conceptual and logical couplings for change impact analysis in software. *Empirical Software Engineering* 18(5):933–969, 2013.
+- [Kapo23] S. Kapoor and A. Narayanan. Leakage and the reproducibility crisis in machine-learning-based science. *Patterns* 4:100804, 2023. doi:10.1016/j.patter.2023.100804
+- [Kuma24] A. Kumar, E. Hrishikesh, Y. Desai and S. Agarwal. Prevalence and prediction of unseen co-changes: A graph-based approach. *IEEE COMPSAC*, pp. 1157–1167, 2024. doi:10.1109/COMPSAC61105.2024.00155
+- [Ouya25] S. Ouyang et al. RepoGraph: Enhancing AI software engineering with repository-level code graph. *ICLR*, 2025. arXiv:2410.14684
+- [Rend09] S. Rendle, C. Freudenthaler, Z. Gantner and L. Schmidt-Thieme. BPR: Bayesian personalized ranking from implicit feedback. *UAI*, 2009.
+- [Rolf16] T. Rolfsnes, S. Di Alesio, R. Behjati, L. Moonen and D. W. Binkley. Generalizing the analysis of evolutionary coupling for software change impact analysis. *SANER*, pp. 201–212, 2016. doi:10.1109/SANER.2016.101
+- [Schl18] M. Schlichtkrull, T. N. Kipf, P. Bloem, R. van den Berg, I. Titov and M. Welling. Modeling relational data with graph convolutional networks. *ESWC*, 2018.
+- [Tava26] S. Tavakoli and S. Alimadadi. Change impact recommendation for JavaScript: Lessons from history and runtime analysis. arXiv:2606.21187, 2026.
+- [Ying04] A. T. T. Ying, G. C. Murphy, R. Ng and M. C. Chu-Carroll. Predicting source code changes by mining change history. *IEEE TSE* 30(9):574–586, 2004. doi:10.1109/TSE.2004.52
+- [Zhou24] D. Zhou, J. Zhang, P. Yu and W. Guo. Enhancing change impact prediction by integrating evolutionary coupling with software change relationships. *ESEM*, pp. 49–60, 2024. doi:10.1145/3674805.3686668
+- [Zimm04] T. Zimmermann, P. Weißgerber, S. Diehl and A. Zeller. Mining version histories to guide software changes. *ICSE*, pp. 563–572, 2004.
+- [Zimm05] T. Zimmermann, P. Weißgerber, S. Diehl and A. Zeller. Mining version histories to guide software changes. *IEEE TSE* 31(6):429–445, 2005. doi:10.1109/TSE.2005.72
+
+*Citation check (2026-11-22): every entry from 2004 onward was matched against DBLP, the publisher, or arXiv. Gall98, Alla18, Feng20, Hami17, Rend09, Schl18, Chen16 and Jime24 are standard references cited from their known venues. Jia24 and Tava26 are arXiv preprints, and their venues should be rechecked before submission.*
 
 ## 10. Replication
 

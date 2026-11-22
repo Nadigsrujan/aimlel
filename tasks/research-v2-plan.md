@@ -116,8 +116,11 @@ What this means:
 
 ### Phase 6: Paper and replication package
 
-- [ ] **6.1 Replication package.** Every stage, the table builder and the exploratory script are reproducible from saved reports. **Remaining:** a GitHub CI run, which needs the branch pushed.
-- [ ] **6.2 Paper draft.** `docs/paper/draft.md` has the abstract, methods, v1 pilot, v2 results, threats and replication sections. **Remaining:** related work, which needs real citations taken from the literature surveys in the repository root.
+- [ ] **6.1 Replication package.** Every stage, the table builder and the exploratory script are reproducible from saved reports.
+  - The frozen v2 models are packaged as `artifacts/releases/v2-models.zip`, which is tracked. Its checksums are in `v2-models.manifest.json`. `scripts/package_v2_models.py --check` verifies the zip and the live models.
+  - A clean-clone run of the CI steps passes: 95 backend tests run and 2 are skipped because they need the local Flask corpus. The frontend tests, build and audit also pass. The skip guard in `test_snapshots.py` was fixed, since it had checked only the tracked manifest.
+  - **Remaining:** the first GitHub Actions run, which needs the branch pushed.
+- [x] **6.2 Paper draft.** `docs/paper/draft.md` has every section. Related work (Section 9) has 24 references, checked online on 2026-11-22. It cites the closest prior work: CoChangeFinder, IMPER, Jia et al.'s learning-to-rank for co-changed methods, and Caprese.
 
 ### Housekeeping (any time; never touches frozen files)
 
@@ -144,4 +147,4 @@ What this means:
 | 3 Pre-registration | done; protocol final, freeze code tested |
 | 4 Scaled training | done; LambdaMART selected as primary, ROSE as baseline |
 | 5 Fresh test | done; gate met, +0.058 Recall@5 over ROSE |
-| 6 Paper | draft written; related work and a CI run remain |
+| 6 Paper | draft complete with related work; models packaged; CI passes on a clean clone, but the GitHub run needs a push |
